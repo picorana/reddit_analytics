@@ -1,0 +1,215 @@
+<!doctype html>
+<html>
+<head>
+	<title>Graph</title>
+	<meta charset="utf-8">
+	<link rel="stylesheet" href="style.css" type="text/css" media="screen" />
+	<script type="text/javascript" src="canvas.js"></script>
+	<script type="text/javascript" src="graph.js"></script>
+</head>
+<body>
+	<div id="graph" style="width:700px; height:500px;">
+		<script type="text/canvas">
+			function setup(canvas) {
+				canvas.size(700, 500);
+				canvas.fps = 30;
+				g = new Graph(canvas.element, 10.0);
+				var n = {
+					"major": {fill:"rgba(0,127,255,0.09)"},
+					"own": {fill:"rgba(0,127,255,0.27)"},
+					"simple": {fill:"rgba(0,127,255,0.18)"},
+					"all": {},
+					"down": {fill:"rgba(0,127,255,0.20)"},
+					"inactive": {fill:"rgba(0,127,255,0.09)"},
+					"religious": {fill:"rgba(0,127,255,0.36)"},
+					"21st": {fill:"rgba(0,127,255,0.09)"},
+					"failed": {fill:"rgba(0,127,255,0.09)"},
+					"positive": {fill:"rgba(0,127,255,0.09)"},
+					"literal": {fill:"rgba(0,127,255,0.30)"},
+					"long": {fill:"rgba(0,127,255,0.18)"},
+					"their": {},
+					"few": {fill:"rgba(0,127,255,0.09)"},
+					"only": {fill:"rgba(0,127,255,0.18)"},
+					"black": {fill:"rgba(0,127,255,0.18)"},
+					"pretty": {},
+					"main": {},
+					"real": {fill:"rgba(0,127,255,0.18)"},
+					"head": {},
+					"good": {fill:"rgba(0,127,255,0.27)"},
+					"holy": {},
+					"big": {},
+					"preferred": {},
+					"dramatic": {},
+					"every": {},
+					"facial": {fill:"rgba(0,127,255,0.75)"},
+					"particular": {},
+					"not": {},
+					"a deeply": {},
+					"true": {},
+					"halfass": {},
+					"this": {},
+					"official": {fill:"rgba(0,127,255,0.09)"},
+					"us": {},
+					"naked": {fill:"rgba(0,127,255,0.09)"},
+					"similar": {fill:"rgba(0,127,255,0.09)"},
+					"right": {},
+					"old": {},
+					"certain": {},
+					"modern": {},
+					"some": {},
+					"single": {fill:"rgba(0,127,255,0.18)"},
+					"something": {},
+					"our": {},
+					"any": {},
+					"special": {},
+					"really": {},
+					"huge": {fill:"rgba(0,127,255,0.09)"},
+					"different": {fill:"rgba(0,127,255,0.18)"},
+					"hooded": {fill:"rgba(0,127,255,0.09)"},
+					"same": {fill:"rgba(0,127,255,0.09)"},
+					"current": {},
+					"other": {fill:"rgba(0,127,255,0.18)"},
+					"them their": {},
+					"new": {fill:"rgba(0,127,255,0.09)"},
+					"full": {fill:"rgba(0,127,255,0.18)"},
+					"traditional": {fill:"rgba(0,127,255,0.09)"},
+					"rude": {fill:"rgba(0,127,255,0.09)"},
+					"muslim": {fill:"rgba(0,127,255,0.27)"},
+					"important": {fill:"rgba(0,127,255,0.09)"},
+					"headscarf": {fill:"rgba(0,127,255,0.09)"},
+					"this swiss guy": {},
+					"a": {},
+					"last": {fill:"rgba(0,127,255,0.09)"},
+					"anything": {},
+					"my": {},
+					"clear": {fill:"rgba(0,127,255,0.09)"},
+					"practical": {fill:"rgba(0,127,255,0.09)"},
+					"your extremely extremely": {},
+					"social": {fill:"rgba(0,127,255,0.18)"},
+					"swiss": {fill:"rgba(0,127,255,0.18)"},
+					"the": {},
+					"democratic": {fill:"rgba(0,127,255,0.09)"},
+					"whole": {fill:"rgba(0,127,255,0.09)"}
+				};
+				var e = [
+					["a", "single", {stroke:"rgba(0,0,0,0.75)"}],
+					["not", "different", {stroke:"rgba(0,0,0,0.75)"}],
+					["the", "same", {stroke:"rgba(0,0,0,0.75)"}],
+					["a", "big", {stroke:"rgba(0,0,0,0.75)"}],
+					["a", "few", {stroke:"rgba(0,0,0,0.75)"}],
+					["the", "old", {stroke:"rgba(0,0,0,0.75)"}],
+					["a", "social", {stroke:"rgba(0,0,0,0.75)"}],
+					["the", "only", {stroke:"rgba(0,0,0,0.75)"}],
+					["a", "new", {stroke:"rgba(0,0,0,0.75)"}],
+					["your extremely extremely", "simple", {stroke:"rgba(0,0,0,0.75)"}],
+					["every", "official", {stroke:"rgba(0,0,0,0.75)"}],
+					["a", "holy", {stroke:"rgba(0,0,0,0.75)"}],
+					["the", "real", {stroke:"rgba(0,0,0,0.75)"}],
+					["a deeply", "religious", {stroke:"rgba(0,0,0,0.75)"}],
+					["anything", "important", {stroke:"rgba(0,0,0,0.75)"}],
+					["any", "good", {stroke:"rgba(0,0,0,0.75)"}],
+					["current", "facial", {stroke:"rgba(0,0,0,0.75)"}],
+					["some", "other", {stroke:"rgba(0,0,0,0.75)"}],
+					["their", "own", {stroke:"rgba(0,0,0,0.75)"}],
+					["a", "head", {stroke:"rgba(0,0,0,0.75)"}],
+					["the", "religious", {stroke:"rgba(0,0,0,0.75)"}],
+					["their", "true", {stroke:"rgba(0,0,0,0.75)"}],
+					["a", "failed", {stroke:"rgba(0,0,0,0.75)"}],
+					["certain", "muslim", {stroke:"rgba(0,0,0,0.75)"}],
+					["a", "special", {stroke:"rgba(0,0,0,0.75)"}],
+					["some", "inactive", {stroke:"rgba(0,0,0,0.75)"}],
+					["every", "single", {stroke:"rgba(0,0,0,0.75)"}],
+					["the", "right", {stroke:"rgba(0,0,0,0.75)"}],
+					["a", "particular", {stroke:"rgba(0,0,0,0.75)"}],
+					["us", "muslim", {stroke:"rgba(0,0,0,0.75)"}],
+					["my", "social", {stroke:"rgba(0,0,0,0.75)"}],
+					["head", "down", {stroke:"rgba(0,0,0,0.75)"}],
+					["any", "religious", {stroke:"rgba(0,0,0,0.75)"}],
+					["a", "simple", {stroke:"rgba(0,0,0,0.75)"}],
+					["the", "last", {stroke:"rgba(0,0,0,0.75)"}],
+					["halfass", "facial", {stroke:"rgba(0,0,0,0.75)"}],
+					["something", "good", {stroke:"rgba(0,0,0,0.75)"}],
+					["the", "other", {stroke:"rgba(0,0,0,0.75)"}],
+					["really", "only", {stroke:"rgba(0,0,0,0.75)"}],
+					["similar", "facial", {stroke:"rgba(0,0,0,0.75)"}],
+					["a", "long", {stroke:"rgba(0,0,0,0.75)"}],
+					["them their", "own", {stroke:"rgba(0,0,0,0.75)"}],
+					["our", "own", {stroke:"rgba(0,0,0,0.75)"}],
+					["the", "democratic", {stroke:"rgba(0,0,0,0.75)"}],
+					["the", "modern", {stroke:"rgba(0,0,0,0.75)"}],
+					["only", "literal", {stroke:"rgba(0,0,0,0.75)"}],
+					["the", "naked", {stroke:"rgba(0,0,0,0.75)"}],
+					["a", "positive", {stroke:"rgba(0,0,0,0.75)"}],
+					["a", "pretty", {stroke:"rgba(0,0,0,0.75)"}],
+					["my", "preferred", {stroke:"rgba(0,0,0,0.75)"}],
+					["important", "facial", {stroke:"rgba(0,0,0,0.75)"}],
+					["a", "clear", {stroke:"rgba(0,0,0,0.75)"}],
+					["the", "main", {stroke:"rgba(0,0,0,0.75)"}],
+					["my", "long", {stroke:"rgba(0,0,0,0.75)"}],
+					["their", "real", {stroke:"rgba(0,0,0,0.75)"}],
+					["this", "swiss", {stroke:"rgba(0,0,0,0.75)"}],
+					["this swiss guy", "facial", {stroke:"rgba(0,0,0,0.75)"}],
+					["my", "whole", {stroke:"rgba(0,0,0,0.75)"}],
+					["all", "black", {stroke:"rgba(0,0,0,0.75)"}],
+					["a", "religious", {stroke:"rgba(0,0,0,0.75)"}],
+					["a", "hooded", {stroke:"rgba(0,0,0,0.75)"}],
+					["the", "full", {stroke:"rgba(0,0,0,0.75)"}],
+					["a", "muslim", {stroke:"rgba(0,0,0,0.75)"}],
+					["anything", "rude", {stroke:"rgba(0,0,0,0.75)"}],
+					["a", "headscarf", {stroke:"rgba(0,0,0,0.75)"}],
+					["a", "swiss", {stroke:"rgba(0,0,0,0.75)"}],
+					["a", "good", {stroke:"rgba(0,0,0,0.75)"}],
+					["a", "full", {stroke:"rgba(0,0,0,0.75)"}],
+					["any", "facial", {stroke:"rgba(0,0,0,0.75)"}],
+					["the", "21st", {stroke:"rgba(0,0,0,0.75)"}],
+					["a", "different", {stroke:"rgba(0,0,0,0.75)"}],
+					["my", "traditional", {stroke:"rgba(0,0,0,0.75)"}],
+					["a", "black", {stroke:"rgba(0,0,0,0.75)"}],
+					["a", "similar", {stroke:"rgba(0,0,0,0.75)"}],
+					["a", "major", {stroke:"rgba(0,0,0,0.75)"}],
+					["a", "dramatic", {stroke:"rgba(0,0,0,0.75)"}],
+					["a", "practical", {stroke:"rgba(0,0,0,0.75)"}],
+					["a", "huge", {stroke:"rgba(0,0,0,0.75)"}]
+				];
+				for (var id in n) {
+					g.addNode(id, n[id]);
+				}
+				for (var i=0; i < e.length; i++) {
+					var n1 = g.nodeset[e[i][0]];
+					var n2 = g.nodeset[e[i][1]];
+					g.addEdge(n1, n2, e[i][2]);
+				}
+				g.layout.k = 4.0; // Force constant (= edge length).
+				g.layout.force = 0.01; // Repulsive strength.
+				g.layout.repulsion = 50; // Repulsive radius.
+				g.eigenvectorCentrality();
+				g.betweennessCentrality();
+				g.degreeCentrality();
+				// Apply Node.weight to Node.radius.
+				for (var i=0; i < g.nodes.length; i++) {
+					var n = g.nodes[i];
+					n.radius = n.radius + n.radius * n.weight;
+				}
+				// Apply Edge.length (leaves get shorter edges).
+				for (var i=0; i < g.nodes.length; i++) {
+					var e = g.nodes[i].edges();
+					if (e.length == 1) {
+						e[0].length *= 0.2;
+					}
+				}
+			}
+			function draw(canvas) {
+				if (g.layout.iterations <= 500) {
+					canvas.clear();
+					//shadow();
+					stroke(0);
+					fill(0,0);
+					g.update(2);
+					g.draw(0.6, true);
+				}
+				g.drag(canvas.mouse);
+			}
+		</script>
+	</div>
+</body>
+</html>
