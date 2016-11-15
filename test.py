@@ -1,46 +1,62 @@
 import praw
 import pprint
-from pattern.en     import parsetree
-from pattern.search import search
-from pattern.graph  import Graph
-from pattern.web    import plaintext
+from sets import Set
 
-r = praw.Reddit('tralala')
-g = Graph()
+# Initialize PRAW
+user_agent = ("uiii")
+r = praw.Reddit(user_agent=user_agent)
 
-#r.login()
+# Initialize used dictionaries:
+# users_dict:		users      --> 	subreddits of interest
+# subreddits_dict:	subreddits --> 	subscribed users
+# users_checked and subreddits_checked are used to not check the same user/subreddit twice
+users_dict = {}
+users_checked = Set()
+users_not_checked = Set()
+subreddits_dict = {}
+subreddits_checked = Set()
+subreddits_not_checked = Set()
 
-subreddit = r.get_subreddit('worldnews')
+# open files that store data
+users_file = open("./partial/users.txt", "r+")
+subreddits_file = open("./partial/subreddits.txt", "r+")
 
-for submission in subreddit.get_hot(limit=1):
-#	pprint.pprint(vars(submission))
+# read previous results from files
+for line in users_file:
+	line = line.strip().split('\t')
+	sub_set = Set()
+	for subreddit in line[1].split(' '):
+		sub_set.add(subreddit)
+	users_dict[line[0]] = sub_set
+	# users_checked.add(line[0])
 
-	flat_comments = praw.helpers.flatten_tree(submission.comments)
-	numcomments = 0
-	for comment in flat_comments:
-		#pprint.pprint(vars(comment))
-		if hasattr(comment, 'body'): 
-			print comment.body
-			s = comment.body.lower().encode('ascii', 'ignore')
-			s = plaintext(s)
-        	s = parsetree(str(s))
-        	p = '{NP} {JJ}'
-        	for m in search(p, s):
-	            x = m.group(1).string # NP left
-	            y = m.group(2).string # NP right
-	            if x not in g:
-	                g.add_node(x)
-	            if y not in g:
-	                g.add_node(y)
-	            g.add_edge(g[x], g[y], stroke=(0,0,0,0.75))
-		
-		numcomments+=1
+for line in subreddits_file:
+	line = line.strip().split('\t')
+	users_set = Set()
+	for user in line[1].split(' '):
+		users_set.add(subreddit)
+	subreddits_dict[line[0]] = users_set
+	# subreddits_checked.add(line[0])
 
-	print "analyzed comments: " + str(numcomments)
+def retrieve_subreddits_from_username (username):
+	if username in users_dict: return
+	user = r.get_redditor(username)
+	this_user_subreddits = Set()
+	count = 0
+	print "adding user: " + username + " ",
+	for thing in user.get_overview(limit=None):
+		s = str(thing.subreddit)
+		this_user_subreddits.add(s)
+		count+=1
+		if count%100==0:
+			print str(count) + " ",
+	print ""
+	users_dict[username] = this_user_subreddits
+	towrite = ""
+	for subreddit in this_user_subreddits:
+		towrite+=subreddit + " "
+	towrite = towrite[:-1]
+	users_file.write(user_name + "\t" + towrite + "\n")
 
-g = g.split()[0] # Largest subgraph.
-
-for n in g.sorted()[:40]: # Sort by Node.weight.
-    n.fill = (0, 0.5, 1, 0.75 * n.weight)
- 
-g.export('test', directed=True, weighted=0.6)
+print users_dict['Balkan4']
+print users_dict['mother-of-one']
