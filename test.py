@@ -31,8 +31,9 @@ subreddits_queue_file = open("./partial/subreddits_queue.txt", "r+")
 for line in users_file:
 	line = line.strip().split('\t')
 	sub_set = defaultdict(int)
+	if len(line)==1: continue
 	for subreddit in line[1].split(' '):
-		sub_set[subreddit.split(':')[0]] = int(subreddit.split(':')[1])
+		sub_set[subreddit.split('::')[0]] = int(subreddit.split('::')[1])
 	users_dict[line[0]] = sub_set
 
 for line in users_queue_file:
@@ -79,7 +80,7 @@ def print_user_to_user_file (username):
 	
 	towrite = ""
 	for subreddit in users_dict[username]:
-		towrite+=subreddit +":"+str(users_dict[username][subreddit])+ " "
+		towrite+=subreddit +"::"+str(users_dict[username][subreddit])+ " "
 	towrite = towrite[:-1]
 	users_file.write(username + "\t" + towrite + "\n")
 
@@ -97,8 +98,9 @@ def retrieve_usernames_from_subreddit (subreddit):
 		user = str(submission.author)
 		this_subreddit_users.add(user)
 		for comment in flatten_tree(submission.comments):
-			user = str(comment.author)
-			this_subreddit_users.add(user)
+			if (hasattr(comment, 'author')): 
+				user = str(comment.author)
+				this_subreddit_users.add(user)
 			count += 1
 			if count%10==0: print "#",
 		count2+=1
@@ -148,5 +150,6 @@ def print_current_stats():
 users_queue2 = users_queue.copy()
 for user in users_queue2:
 	retrieve_subreddits_from_username(user)
+#retrieve_usernames_from_subreddit('unixporn')
 print_queues_to_file()
 print_current_stats()
