@@ -17,7 +17,7 @@ for line in users_file:
 subcount = 0
 for sub in subs_dict:
 	if sub in defaults_list: continue
-	if len(subs_dict[sub])>=20: subcount+=1
+	if len(subs_dict[sub])>=100: subcount+=1
 
 X = np.empty((subcount, len(users)))
 subs_array_dict = {}
@@ -25,14 +25,19 @@ subs_array_dict = {}
 count = 0
 for sub in subs_dict:
 	if sub in defaults_list: continue
-	if len(subs_dict[sub])<20: continue
+	if len(subs_dict[sub])<100: continue
 
+	user_count = 0
 	array = []
 	for user in users:
 		if user in subs_dict[sub]:
 			array.append(1)
+			user_count+=1
 		else:
 			array.append(0)
+
+	for i in range(len(array)):
+		array[i] = float(array[i])/float(user_count)
 
 	X[count] = array
 	subs_array_dict[sub] = array
@@ -40,13 +45,13 @@ for sub in subs_dict:
 	count +=1
 	print count
 
-kmeans = KMeans(n_clusters=20).fit(X)
+kmeans = KMeans(n_clusters=10).fit(X)
 
 clusters = defaultdict(set)
 
-for item in kmeans.cluster_centers_:
-	for sub in subs_array_dict:
-		clusters[kmeans.predict(subs_array_dict[sub])[0]].add(sub)
+
+for sub in subs_array_dict:
+	clusters[kmeans.predict(subs_array_dict[sub])[0]].add(sub)
 
 index = 0
 for cluster in clusters:
@@ -55,18 +60,6 @@ for cluster in clusters:
 	json.dump(cluster_list, f, indent=4)
 	print "**** CLUSTER " + str(index) + " ****"
 	for item in clusters[cluster]:
-		print item + " ",
+		print item,
 	print "\n****\n"
 	index+=1
-
-
-
-
-#X = np.array([[1, 2], [1, 4], [1, 0], [4, 2], [4, 4], [4, 0]])
-#kmeans = KMeans(n_clusters=2, random_state=0).fit(X)
-
-#print kmeans.labels_
-
-#print kmeans.predict([[0, 0], [4, 4]])
-
-#print kmeans.cluster_centers_
