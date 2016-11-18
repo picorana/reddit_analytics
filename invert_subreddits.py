@@ -20,6 +20,7 @@ for line in users_file:
 	for subreddit_line in list_of_subreddits:
 		subreddit1 = subreddit_line.split('::')[0]
 		sub_dict[subreddit1] += 1
+		if len(subreddit_line.split('::'))==1: continue
 		if int(subreddit_line.split('::')[1]) >=50:
 			for subreddit_line2 in list_of_subreddits:
 				if int(subreddit_line2.split('::')[1]) >=50:
@@ -31,7 +32,7 @@ for line in users_file:
 						this_link['value'] = 1
 						links.append(this_link)
 		
-	if count==10: break
+	if count==20: break
 	count+=1
 	if count%10==0: print str(count) + " ",
 	

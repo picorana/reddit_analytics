@@ -20,7 +20,7 @@
 	}
 
 	body {
-	    background-color: black;
+	    background-color: white;
 	}
 
 
@@ -67,7 +67,9 @@
 		  var link = svg.selectAll(".link")
 		    .data(bilinks)
 		    .enter().append("path")
+		    .style("stroke-opacity", .5)
 		      .attr("class", "link");
+
 
 		  /*var node = svg.selectAll(".node")
 		    .data(nodes.filter(function(d) { return d.id; }))
@@ -101,11 +103,17 @@
 		          .on("end", dragended));
 
 		node.append("circle")
+			.style("fill-opacity", .2)
+			.style("stroke-opacity", .2)
 		    .attr("r", function(d) { return d.radius/10 });
 
 		node.append("text")
 		    .attr("x", 12)
 		    .attr("dy", ".35em")
+		    .style("font", "10px sans-serif")
+		    .style("color", "black")
+		    .style('fill', 'black')
+		    .style("stroke-opacity", .2)
 		    .text(function(d) { return d.id; });
 
 

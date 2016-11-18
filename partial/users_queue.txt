@@ -686,7 +686,6 @@ _C0bb_
 x_ero
 Arctize
 vivescere
-_ALLDAY_
 UndeadLeech
 totally_rad_person
 Ypnose
@@ -1413,7 +1412,6 @@ fbt2lurker
 joaolrpaulo
 Bacon_Unleashed
 urspx
-PoliteUsersBotBot
 Baba_Puh
 I_heart_blastbeats
 Chizbang
@@ -2203,7 +2201,6 @@ TheFlamingTiger
 la8ters
 TouchD33
 feute
-TaPontym
 morty29
 wyvie
 mpcsh
@@ -2987,7 +2984,6 @@ natostanco
 tidux
 syi916
 ArchKudo
-Polite_Users_Bot
 axb993
 sotolf2
 jukbob12

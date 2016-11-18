@@ -6,17 +6,17 @@
             "id": "LCPDFR"
         }, 
         {
-            "radius": 1, 
-            "group": 3, 
+            "radius": 2, 
+            "group": 0, 
             "id": "assettocorsa"
         }, 
         {
             "radius": 1, 
-            "group": 4, 
+            "group": 2, 
             "id": "uwotm8"
         }, 
         {
-            "radius": 1, 
+            "radius": 2, 
             "group": 4, 
             "id": "MapPorn"
         }, 
@@ -27,17 +27,22 @@
         }, 
         {
             "radius": 1, 
-            "group": 1, 
+            "group": 4, 
             "id": "ShittyGifRecipes"
         }, 
         {
             "radius": 1, 
-            "group": 4, 
+            "group": 3, 
             "id": "NinjaSexParty"
         }, 
         {
             "radius": 1, 
-            "group": 3, 
+            "group": 0, 
+            "id": "Hunting"
+        }, 
+        {
+            "radius": 1, 
+            "group": 2, 
             "id": "asoiaf"
         }, 
         {
@@ -47,92 +52,157 @@
         }, 
         {
             "radius": 1, 
-            "group": 2, 
-            "id": "everymanshouldknow"
+            "group": 1, 
+            "id": "Cinemagraphs"
         }, 
         {
             "radius": 1, 
-            "group": 4, 
+            "group": 0, 
+            "id": "Banished"
+        }, 
+        {
+            "radius": 4, 
+            "group": 3, 
+            "id": "everymanshouldknow"
+        }, 
+        {
+            "radius": 2, 
+            "group": 3, 
             "id": "wiiu"
         }, 
         {
             "radius": 1, 
-            "group": 3, 
+            "group": 2, 
             "id": "Indiana"
         }, 
         {
             "radius": 2, 
-            "group": 1, 
+            "group": 0, 
+            "id": "HaloPlayers"
+        }, 
+        {
+            "radius": 4, 
+            "group": 0, 
             "id": "relationships"
         }, 
         {
             "radius": 1, 
-            "group": 0, 
+            "group": 5, 
             "id": "watchanimalsdie"
         }, 
         {
             "radius": 1, 
-            "group": 0, 
+            "group": 1, 
             "id": "NeutralPolitics"
         }, 
         {
             "radius": 1, 
             "group": 5, 
+            "id": "malefashion"
+        }, 
+        {
+            "radius": 1, 
+            "group": 2, 
             "id": "auckland"
         }, 
         {
-            "radius": 6, 
+            "radius": 1, 
+            "group": 3, 
+            "id": "SourceFed"
+        }, 
+        {
+            "radius": 1, 
             "group": 4, 
+            "id": "paradoxplaza"
+        }, 
+        {
+            "radius": 11, 
+            "group": 5, 
             "id": "Showerthoughts"
         }, 
         {
             "radius": 1, 
             "group": 1, 
-            "id": "picrequests"
+            "id": "montageparodies"
         }, 
         {
             "radius": 1, 
-            "group": 5, 
+            "group": 1, 
+            "id": "sanantonio"
+        }, 
+        {
+            "radius": 1, 
+            "group": 0, 
+            "id": "picrequests"
+        }, 
+        {
+            "radius": 2, 
+            "group": 4, 
+            "id": "swoleacceptance"
+        }, 
+        {
+            "radius": 1, 
+            "group": 4, 
+            "id": "CSGOKnives"
+        }, 
+        {
+            "radius": 2, 
+            "group": 2, 
             "id": "holdmybeer"
         }, 
         {
             "radius": 1, 
-            "group": 3, 
+            "group": 5, 
             "id": "misophonia"
         }, 
         {
-            "radius": 1, 
+            "radius": 2, 
             "group": 4, 
             "id": "hinduism"
         }, 
         {
             "radius": 1, 
-            "group": 5, 
+            "group": 1, 
             "id": "watch_dogs"
         }, 
         {
             "radius": 1, 
-            "group": 4, 
-            "id": "trendingsubreddits"
+            "group": 3, 
+            "id": "morbidquestions"
         }, 
         {
             "radius": 1, 
             "group": 0, 
+            "id": "BuyMyFUTPlayer"
+        }, 
+        {
+            "radius": 2, 
+            "group": 0, 
+            "id": "trendingsubreddits"
+        }, 
+        {
+            "radius": 1, 
+            "group": 1, 
             "id": "CatsWithTrumpHair"
         }, 
         {
             "radius": 1, 
-            "group": 3, 
+            "group": 1, 
             "id": "buildapcforme"
         }, 
         {
             "radius": 1, 
-            "group": 5, 
+            "group": 4, 
             "id": "IndiansGoneWild"
         }, 
         {
             "radius": 1, 
-            "group": 5, 
+            "group": 1, 
+            "id": "runescape"
+        }, 
+        {
+            "radius": 2, 
+            "group": 4, 
             "id": "YouShouldKnow"
         }, 
         {
@@ -142,46 +212,66 @@
         }, 
         {
             "radius": 1, 
-            "group": 5, 
+            "group": 1, 
             "id": "PersonOfInterest"
         }, 
         {
             "radius": 1, 
-            "group": 5, 
+            "group": 0, 
             "id": "AnimalsBeingFunny"
         }, 
         {
             "radius": 1, 
-            "group": 5, 
+            "group": 0, 
             "id": "skyrimmods"
         }, 
         {
             "radius": 1, 
-            "group": 3, 
+            "group": 2, 
             "id": "ScenesFromAHat"
         }, 
         {
-            "radius": 5, 
-            "group": 2, 
+            "radius": 1, 
+            "group": 3, 
+            "id": "MilitaryStories"
+        }, 
+        {
+            "radius": 7, 
+            "group": 4, 
             "id": "UpliftingNews"
         }, 
         {
+            "radius": 2, 
+            "group": 0, 
+            "id": "vegan"
+        }, 
+        {
             "radius": 1, 
-            "group": 5, 
+            "group": 2, 
             "id": "puzzles"
         }, 
         {
-            "radius": 5, 
-            "group": 5, 
+            "radius": 8, 
+            "group": 4, 
             "id": "Jokes"
         }, 
         {
-            "radius": 1, 
-            "group": 3, 
+            "radius": 2, 
+            "group": 2, 
             "id": "ofcoursethatsathing"
         }, 
         {
-            "radius": 2, 
+            "radius": 1, 
+            "group": 5, 
+            "id": "Military"
+        }, 
+        {
+            "radius": 1, 
+            "group": 5, 
+            "id": "gnosticism"
+        }, 
+        {
+            "radius": 4, 
             "group": 3, 
             "id": "madlads"
         }, 
@@ -191,13 +281,13 @@
             "id": "Steam"
         }, 
         {
-            "radius": 1, 
-            "group": 1, 
+            "radius": 3, 
+            "group": 2, 
             "id": "nevertellmetheodds"
         }, 
         {
             "radius": 1, 
-            "group": 4, 
+            "group": 3, 
             "id": "Clown_sightings"
         }, 
         {
@@ -206,89 +296,144 @@
             "id": "Himprovement"
         }, 
         {
-            "radius": 3, 
+            "radius": 5, 
             "group": 3, 
             "id": "photoshopbattles"
         }, 
         {
             "radius": 1, 
-            "group": 0, 
+            "group": 5, 
+            "id": "explainitlikeimhigh"
+        }, 
+        {
+            "radius": 1, 
+            "group": 2, 
+            "id": "GuiltyPleasureMusic"
+        }, 
+        {
+            "radius": 1, 
+            "group": 1, 
+            "id": "showerbeer"
+        }, 
+        {
+            "radius": 1, 
+            "group": 2, 
             "id": "CatsISUOTTATFO"
         }, 
         {
             "radius": 1, 
-            "group": 2, 
+            "group": 3, 
             "id": "GloriousKnobs"
         }, 
         {
+            "radius": 1, 
+            "group": 0, 
+            "id": "dirtgame"
+        }, 
+        {
             "radius": 2, 
-            "group": 2, 
+            "group": 1, 
             "id": "Celebs"
         }, 
         {
             "radius": 1, 
-            "group": 1, 
+            "group": 4, 
             "id": "techsupportgore"
         }, 
         {
-            "radius": 3, 
+            "radius": 1, 
+            "group": 5, 
+            "id": "FeMRADebates"
+        }, 
+        {
+            "radius": 1, 
             "group": 3, 
+            "id": "PoliticalDiscussion"
+        }, 
+        {
+            "radius": 5, 
+            "group": 2, 
             "id": "CrappyDesign"
         }, 
         {
             "radius": 1, 
-            "group": 3, 
+            "group": 5, 
             "id": "modmailbeta"
         }, 
         {
             "radius": 1, 
-            "group": 4, 
+            "group": 5, 
             "id": "SteamGameSwap"
         }, 
         {
             "radius": 1, 
-            "group": 0, 
+            "group": 4, 
             "id": "Virtual_Reality"
         }, 
         {
             "radius": 1, 
-            "group": 1, 
+            "group": 4, 
+            "id": "Psychonaut"
+        }, 
+        {
+            "radius": 4, 
+            "group": 3, 
             "id": "techsupport"
         }, 
         {
             "radius": 1, 
-            "group": 4, 
+            "group": 0, 
+            "id": "opiaterollcall"
+        }, 
+        {
+            "radius": 2, 
+            "group": 3, 
             "id": "Libertarian"
         }, 
         {
             "radius": 1, 
-            "group": 0, 
+            "group": 5, 
             "id": "BestOfPartyParrot"
         }, 
         {
             "radius": 1, 
-            "group": 1, 
+            "group": 0, 
             "id": "ShittyBatFacts"
         }, 
         {
-            "radius": 1, 
-            "group": 4, 
+            "radius": 2, 
+            "group": 2, 
             "id": "grilledcheese"
         }, 
         {
             "radius": 1, 
             "group": 3, 
+            "id": "AskGames"
+        }, 
+        {
+            "radius": 2, 
+            "group": 0, 
             "id": "pcgaming"
         }, 
         {
             "radius": 1, 
-            "group": 4, 
+            "group": 1, 
+            "id": "EatCheapAndHealthy"
+        }, 
+        {
+            "radius": 2, 
+            "group": 3, 
             "id": "195"
         }, 
         {
-            "radius": 1, 
+            "radius": 3, 
             "group": 5, 
             "id": "gentlemanboners"
+        }, 
+        {
+            "radius": 1, 
+            "group": 1, 
+            "id": "Vegetables"
         }, 
         {
             "radius": 1, 
@@ -297,72 +442,122 @@
         }, 
         {
             "radius": 1, 
-            "group": 4, 
-            "id": "jellybeantoes"
+            "group": 2, 
+            "id": "japanese"
         }, 
         {
             "radius": 1, 
-            "group": 5, 
+            "group": 3, 
+            "id": "jellybeantoes"
+        }, 
+        {
+            "radius": 2, 
+            "group": 0, 
+            "id": "legaladvice"
+        }, 
+        {
+            "radius": 1, 
+            "group": 0, 
+            "id": "electricians"
+        }, 
+        {
+            "radius": 1, 
+            "group": 1, 
+            "id": "WhyShouldIBother"
+        }, 
+        {
+            "radius": 1, 
+            "group": 4, 
             "id": "ModeratorsAnonymous"
         }, 
         {
             "radius": 1, 
-            "group": 1, 
+            "group": 3, 
             "id": "ShittyRedditRequest"
         }, 
         {
             "radius": 1, 
-            "group": 1, 
+            "group": 2, 
             "id": "womensstreetwear"
         }, 
         {
             "radius": 1, 
-            "group": 2, 
+            "group": 4, 
             "id": "nba"
         }, 
         {
             "radius": 1, 
-            "group": 2, 
+            "group": 1, 
             "id": "depression"
         }, 
         {
-            "radius": 1, 
-            "group": 1, 
+            "radius": 2, 
+            "group": 4, 
             "id": "forwardsfromgrandma"
         }, 
         {
             "radius": 1, 
-            "group": 3, 
+            "group": 4, 
             "id": "no_sob_story"
         }, 
         {
             "radius": 1, 
-            "group": 1, 
+            "group": 5, 
             "id": "pokemonshowdown"
         }, 
         {
             "radius": 1, 
-            "group": 0, 
-            "id": "pathetic"
-        }, 
-        {
-            "radius": 5, 
-            "group": 0, 
-            "id": "movies"
+            "group": 5, 
+            "id": "Sissies"
         }, 
         {
             "radius": 1, 
-            "group": 2, 
-            "id": "investing"
+            "group": 4, 
+            "id": "pathetic"
         }, 
         {
-            "radius": 3, 
+            "radius": 1, 
             "group": 4, 
-            "id": "modnews"
+            "id": "cowboybebop"
         }, 
         {
             "radius": 8, 
             "group": 3, 
+            "id": "movies"
+        }, 
+        {
+            "radius": 1, 
+            "group": 1, 
+            "id": "investing"
+        }, 
+        {
+            "radius": 1, 
+            "group": 0, 
+            "id": "deadmau5"
+        }, 
+        {
+            "radius": 1, 
+            "group": 4, 
+            "id": "DestinyClips"
+        }, 
+        {
+            "radius": 1, 
+            "group": 3, 
+            "id": "2016_elections"
+        }, 
+        {
+            "radius": 3, 
+            "group": 3, 
+            "id": "modnews"
+        }, 
+        {
+            "radius": 1, 
+            "group": 5, 
+            "id": "likeus"
+        }, 
+        {
+            "radius": 15, 
+            "group": 0, 
             "id": "worldnews"
         }, 
         {
@@ -373,12 +568,32 @@
         {
             "radius": 1, 
             "group": 1, 
+            "id": "MilitaryGfys"
+        }, 
+        {
+            "radius": 1, 
+            "group": 1, 
             "id": "vexillology"
         }, 
         {
             "radius": 1, 
-            "group": 5, 
+            "group": 1, 
+            "id": "DotA2"
+        }, 
+        {
+            "radius": 2, 
+            "group": 1, 
             "id": "tattoos"
+        }, 
+        {
+            "radius": 1, 
+            "group": 1, 
+            "id": "FloridaMan"
+        }, 
+        {
+            "radius": 1, 
+            "group": 0, 
+            "id": "TeamRedditTeams"
         }, 
         {
             "radius": 1, 
@@ -392,47 +607,62 @@
         }, 
         {
             "radius": 1, 
-            "group": 1, 
+            "group": 2, 
             "id": "needamod"
         }, 
         {
-            "radius": 1, 
+            "radius": 2, 
             "group": 0, 
             "id": "SubredditSimMeta"
         }, 
         {
-            "radius": 1, 
-            "group": 5, 
+            "radius": 2, 
+            "group": 3, 
             "id": "titanfall"
         }, 
         {
             "radius": 1, 
-            "group": 5, 
+            "group": 2, 
             "id": "AnimalCrossing"
         }, 
         {
             "radius": 1, 
-            "group": 4, 
+            "group": 0, 
             "id": "RecruitCS"
         }, 
         {
             "radius": 1, 
-            "group": 3, 
+            "group": 4, 
+            "id": "fightporn"
+        }, 
+        {
+            "radius": 2, 
+            "group": 0, 
             "id": "lgbt"
         }, 
         {
             "radius": 1, 
-            "group": 0, 
+            "group": 1, 
+            "id": "donaldglover"
+        }, 
+        {
+            "radius": 1, 
+            "group": 2, 
             "id": "paypal"
         }, 
         {
             "radius": 1, 
-            "group": 5, 
+            "group": 3, 
+            "id": "f7u12_ham"
+        }, 
+        {
+            "radius": 1, 
+            "group": 2, 
             "id": "Weed_Drugs"
         }, 
         {
             "radius": 1, 
-            "group": 0, 
+            "group": 5, 
             "id": "downvote"
         }, 
         {
@@ -442,32 +672,42 @@
         }, 
         {
             "radius": 1, 
-            "group": 2, 
+            "group": 5, 
             "id": "CodAW"
         }, 
         {
-            "radius": 2, 
+            "radius": 1, 
+            "group": 0, 
+            "id": "hugeboobs"
+        }, 
+        {
+            "radius": 3, 
             "group": 0, 
             "id": "thedivision"
         }, 
         {
             "radius": 1, 
-            "group": 0, 
+            "group": 4, 
+            "id": "saab"
+        }, 
+        {
+            "radius": 1, 
+            "group": 2, 
             "id": "luther"
         }, 
         {
             "radius": 1, 
-            "group": 3, 
+            "group": 0, 
             "id": "tipofmypenis"
         }, 
         {
-            "radius": 1, 
-            "group": 3, 
+            "radius": 2, 
+            "group": 5, 
             "id": "sanfrancisco"
         }, 
         {
             "radius": 1, 
-            "group": 3, 
+            "group": 5, 
             "id": "centuryclubcentury"
         }, 
         {
@@ -476,99 +716,144 @@
             "id": "MimicRecipes"
         }, 
         {
-            "radius": 1, 
-            "group": 5, 
+            "radius": 2, 
+            "group": 2, 
             "id": "Cynicalbrit"
         }, 
         {
-            "radius": 2, 
+            "radius": 1, 
+            "group": 0, 
+            "id": "SanMateo"
+        }, 
+        {
+            "radius": 1, 
+            "group": 5, 
+            "id": "cock"
+        }, 
+        {
+            "radius": 1, 
+            "group": 4, 
+            "id": "bravo556"
+        }, 
+        {
+            "radius": 3, 
             "group": 2, 
             "id": "personalfinance"
         }, 
         {
             "radius": 3, 
-            "group": 0, 
+            "group": 3, 
             "id": "creepy"
         }, 
         {
-            "radius": 9, 
-            "group": 3, 
+            "radius": 15, 
+            "group": 0, 
             "id": "pics"
         }, 
         {
             "radius": 1, 
-            "group": 0, 
+            "group": 4, 
             "id": "wordsofwisdom"
         }, 
         {
             "radius": 1, 
-            "group": 4, 
+            "group": 3, 
+            "id": "EverythingScience"
+        }, 
+        {
+            "radius": 1, 
+            "group": 5, 
             "id": "NewToTF2"
         }, 
         {
             "radius": 1, 
-            "group": 4, 
+            "group": 2, 
             "id": "uncharted"
         }, 
         {
             "radius": 1, 
             "group": 2, 
+            "id": "Toontown"
+        }, 
+        {
+            "radius": 1, 
+            "group": 4, 
             "id": "OnOff"
         }, 
         {
             "radius": 1, 
-            "group": 1, 
+            "group": 2, 
+            "id": "Incel"
+        }, 
+        {
+            "radius": 1, 
+            "group": 5, 
             "id": "montreal"
         }, 
         {
             "radius": 1, 
-            "group": 3, 
+            "group": 5, 
             "id": "truename_of_subreddit"
         }, 
         {
             "radius": 1, 
-            "group": 0, 
+            "group": 1, 
             "id": "asoiafcirclejerk"
         }, 
         {
             "radius": 1, 
             "group": 0, 
+            "id": "yiff"
+        }, 
+        {
+            "radius": 1, 
+            "group": 1, 
             "id": "modtools"
         }, 
         {
             "radius": 1, 
-            "group": 1, 
+            "group": 4, 
             "id": "AncientCivilizations"
         }, 
         {
-            "radius": 7, 
-            "group": 1, 
+            "radius": 15, 
+            "group": 4, 
             "id": "todayilearned"
         }, 
         {
             "radius": 3, 
-            "group": 2, 
+            "group": 1, 
             "id": "redditrequest"
         }, 
         {
-            "radius": 2, 
-            "group": 4, 
+            "radius": 3, 
+            "group": 3, 
             "id": "youdontsurf"
         }, 
         {
             "radius": 1, 
-            "group": 2, 
+            "group": 5, 
             "id": "jailbreak"
         }, 
         {
             "radius": 1, 
-            "group": 1, 
+            "group": 0, 
             "id": "60fpsporn"
         }, 
         {
             "radius": 1, 
-            "group": 2, 
+            "group": 4, 
+            "id": "findareddit"
+        }, 
+        {
+            "radius": 1, 
+            "group": 5, 
             "id": "IdiotsFightingThings"
+        }, 
+        {
+            "radius": 1, 
+            "group": 0, 
+            "id": "flexibility"
         }, 
         {
             "radius": 1, 
@@ -577,118 +862,208 @@
         }, 
         {
             "radius": 1, 
-            "group": 0, 
+            "group": 1, 
             "id": "onionhate"
         }, 
         {
             "radius": 1, 
-            "group": 4, 
+            "group": 0, 
             "id": "mylegi"
         }, 
         {
             "radius": 1, 
-            "group": 1, 
+            "group": 0, 
             "id": "ContagiousLaughter"
         }, 
         {
             "radius": 1, 
-            "group": 2, 
+            "group": 0, 
             "id": "harrypotter"
         }, 
         {
             "radius": 1, 
-            "group": 4, 
+            "group": 2, 
             "id": "PS4Pro"
         }, 
         {
-            "radius": 1, 
-            "group": 0, 
+            "radius": 2, 
+            "group": 2, 
             "id": "knifeclub"
         }, 
         {
-            "radius": 2, 
+            "radius": 1, 
             "group": 1, 
+            "id": "HistoryPorn"
+        }, 
+        {
+            "radius": 3, 
+            "group": 5, 
             "id": "FiftyFifty"
         }, 
         {
             "radius": 1, 
-            "group": 2, 
+            "group": 0, 
             "id": "Floof"
         }, 
         {
-            "radius": 2, 
-            "group": 0, 
+            "radius": 4, 
+            "group": 5, 
             "id": "AskHistorians"
         }, 
         {
-            "radius": 3, 
-            "group": 3, 
+            "radius": 1, 
+            "group": 5, 
+            "id": "TheRedPill"
+        }, 
+        {
+            "radius": 2, 
+            "group": 2, 
+            "id": "Drugs"
+        }, 
+        {
+            "radius": 1, 
+            "group": 0, 
+            "id": "DepthHub"
+        }, 
+        {
+            "radius": 5, 
+            "group": 4, 
             "id": "OutOfTheLoop"
         }, 
         {
-            "radius": 4, 
-            "group": 1, 
-            "id": "sports"
+            "radius": 1, 
+            "group": 5, 
+            "id": "stopsmoking"
         }, 
         {
             "radius": 1, 
             "group": 4, 
+            "id": "SearchfortheSleeper"
+        }, 
+        {
+            "radius": 6, 
+            "group": 2, 
+            "id": "sports"
+        }, 
+        {
+            "radius": 1, 
+            "group": 5, 
+            "id": "space_settlement"
+        }, 
+        {
+            "radius": 1, 
+            "group": 3, 
+            "id": "wheredidthesodago"
+        }, 
+        {
+            "radius": 1, 
+            "group": 3, 
             "id": "nbacirclejerk"
         }, 
         {
             "radius": 1, 
             "group": 4, 
+            "id": "misleadingthumbnails"
+        }, 
+        {
+            "radius": 1, 
+            "group": 3, 
             "id": "ChicagoCirclejerk"
         }, 
         {
             "radius": 1, 
-            "group": 1, 
+            "group": 0, 
             "id": "BeavisAndButthead"
         }, 
         {
             "radius": 1, 
-            "group": 2, 
+            "group": 1, 
+            "id": "ooerintensifies"
+        }, 
+        {
+            "radius": 2, 
+            "group": 0, 
             "id": "Pareidolia"
         }, 
         {
             "radius": 1, 
-            "group": 1, 
+            "group": 2, 
             "id": "nt337"
         }, 
         {
             "radius": 1, 
-            "group": 5, 
+            "group": 2, 
+            "id": "hockey"
+        }, 
+        {
+            "radius": 2, 
+            "group": 0, 
             "id": "tipofmytongue"
         }, 
         {
             "radius": 1, 
-            "group": 2, 
+            "group": 0, 
+            "id": "worldbuilding"
+        }, 
+        {
+            "radius": 1, 
+            "group": 5, 
             "id": "swtor"
         }, 
         {
             "radius": 1, 
-            "group": 2, 
+            "group": 1, 
+            "id": "rpg_gamers"
+        }, 
+        {
+            "radius": 1, 
+            "group": 4, 
+            "id": "opiates"
+        }, 
+        {
+            "radius": 1, 
+            "group": 5, 
             "id": "redditisfun"
         }, 
         {
             "radius": 3, 
-            "group": 2, 
+            "group": 5, 
             "id": "CallOfDuty"
         }, 
         {
             "radius": 1, 
-            "group": 1, 
+            "group": 0, 
+            "id": "csgo"
+        }, 
+        {
+            "radius": 1, 
+            "group": 4, 
             "id": "ModSupport"
         }, 
         {
-            "radius": 5, 
+            "radius": 1, 
+            "group": 1, 
+            "id": "rally"
+        }, 
+        {
+            "radius": 1, 
+            "group": 5, 
+            "id": "short"
+        }, 
+        {
+            "radius": 6, 
             "group": 1, 
             "id": "LifeProTips"
         }, 
         {
-            "radius": 2, 
-            "group": 2, 
+            "radius": 3, 
+            "group": 4, 
             "id": "Shitty_Car_Mods"
+        }, 
+        {
+            "radius": 1, 
+            "group": 1, 
+            "id": "penis"
         }, 
         {
             "radius": 1, 
@@ -697,7 +1072,7 @@
         }, 
         {
             "radius": 1, 
-            "group": 5, 
+            "group": 0, 
             "id": "AskMen"
         }, 
         {
@@ -712,87 +1087,122 @@
         }, 
         {
             "radius": 1, 
-            "group": 3, 
+            "group": 5, 
             "id": "gameswap"
         }, 
         {
+            "radius": 1, 
+            "group": 4, 
+            "id": "stockcarextreme"
+        }, 
+        {
             "radius": 2, 
-            "group": 5, 
+            "group": 1, 
             "id": "EDC"
         }, 
         {
             "radius": 1, 
-            "group": 2, 
+            "group": 1, 
             "id": "Advice"
         }, 
         {
-            "radius": 2, 
-            "group": 5, 
+            "radius": 3, 
+            "group": 1, 
             "id": "dankmemes"
+        }, 
+        {
+            "radius": 2, 
+            "group": 0, 
+            "id": "trackers"
+        }, 
+        {
+            "radius": 9, 
+            "group": 1, 
+            "id": "science"
         }, 
         {
             "radius": 1, 
             "group": 2, 
-            "id": "trackers"
+            "id": "mariokart"
         }, 
         {
-            "radius": 5, 
+            "radius": 1, 
+            "group": 2, 
+            "id": "entertainment"
+        }, 
+        {
+            "radius": 3, 
             "group": 0, 
-            "id": "science"
-        }, 
-        {
-            "radius": 2, 
-            "group": 1, 
             "id": "Glitch_in_the_Matrix"
         }, 
         {
-            "radius": 2, 
-            "group": 1, 
+            "radius": 3, 
+            "group": 0, 
             "id": "standupshots"
         }, 
         {
             "radius": 1, 
-            "group": 5, 
+            "group": 3, 
             "id": "whatsmyimpression"
         }, 
         {
             "radius": 1, 
             "group": 0, 
+            "id": "sandiego"
+        }, 
+        {
+            "radius": 1, 
+            "group": 1, 
+            "id": "yaoi"
+        }, 
+        {
+            "radius": 1, 
+            "group": 3, 
             "id": "TF2LFT"
         }, 
         {
-            "radius": 4, 
-            "group": 5, 
+            "radius": 8, 
+            "group": 0, 
             "id": "The_Donald"
         }, 
         {
             "radius": 1, 
-            "group": 4, 
+            "group": 1, 
             "id": "The_Donaldd"
         }, 
         {
-            "radius": 1, 
-            "group": 0, 
+            "radius": 2, 
+            "group": 1, 
             "id": "MMA"
         }, 
         {
             "radius": 1, 
-            "group": 3, 
+            "group": 5, 
             "id": "newfoundland"
         }, 
         {
             "radius": 1, 
-            "group": 3, 
+            "group": 5, 
             "id": "onlinegambling"
         }, 
         {
             "radius": 1, 
             "group": 4, 
+            "id": "history"
+        }, 
+        {
+            "radius": 2, 
+            "group": 3, 
+            "id": "StoppedWorking"
+        }, 
+        {
+            "radius": 2, 
+            "group": 1, 
             "id": "computers"
         }, 
         {
             "radius": 1, 
-            "group": 4, 
+            "group": 2, 
             "id": "botsrights"
         }, 
         {
@@ -802,23 +1212,33 @@
         }, 
         {
             "radius": 1, 
-            "group": 0, 
+            "group": 3, 
             "id": "PartyParrotDrama"
-        }, 
-        {
-            "radius": 2, 
-            "group": 0, 
-            "id": "india"
         }, 
         {
             "radius": 1, 
             "group": 5, 
+            "id": "WebGames"
+        }, 
+        {
+            "radius": 2, 
+            "group": 3, 
+            "id": "india"
+        }, 
+        {
+            "radius": 1, 
+            "group": 1, 
             "id": "pawg"
         }, 
         {
             "radius": 1, 
-            "group": 0, 
+            "group": 2, 
             "id": "MrRobot"
+        }, 
+        {
+            "radius": 1, 
+            "group": 1, 
+            "id": "ImaginaryWastelands"
         }, 
         {
             "radius": 1, 
@@ -828,6 +1248,11 @@
         {
             "radius": 1, 
             "group": 3, 
+            "id": "Dirtybomb"
+        }, 
+        {
+            "radius": 1, 
+            "group": 5, 
             "id": "FilthyFrank"
         }, 
         {
@@ -837,108 +1262,183 @@
         }, 
         {
             "radius": 1, 
-            "group": 2, 
+            "group": 0, 
             "id": "onions"
         }, 
         {
             "radius": 1, 
-            "group": 3, 
-            "id": "HouseOfCards"
+            "group": 4, 
+            "id": "GeometryWars3"
         }, 
         {
             "radius": 1, 
             "group": 0, 
+            "id": "HouseOfCards"
+        }, 
+        {
+            "radius": 2, 
+            "group": 1, 
             "id": "GearsOfWar"
         }, 
         {
             "radius": 1, 
-            "group": 5, 
-            "id": "NBA2k"
+            "group": 2, 
+            "id": "TitanfallCodes"
         }, 
         {
             "radius": 1, 
             "group": 4, 
+            "id": "NBA2k"
+        }, 
+        {
+            "radius": 1, 
+            "group": 5, 
+            "id": "Planetside"
+        }, 
+        {
+            "radius": 1, 
+            "group": 0, 
             "id": "PokemonGoNewfoundland"
         }, 
         {
             "radius": 1, 
-            "group": 3, 
+            "group": 5, 
+            "id": "RealGirls"
+        }, 
+        {
+            "radius": 1, 
+            "group": 4, 
+            "id": "straya"
+        }, 
+        {
+            "radius": 1, 
+            "group": 5, 
             "id": "shorthairedhotties"
         }, 
         {
             "radius": 1, 
-            "group": 3, 
+            "group": 2, 
             "id": "tarantinogifs"
         }, 
         {
             "radius": 1, 
-            "group": 1, 
+            "group": 4, 
             "id": "CableManagement"
         }, 
         {
             "radius": 1, 
-            "group": 2, 
+            "group": 1, 
             "id": "uhgglworld"
         }, 
         {
             "radius": 1, 
-            "group": 2, 
+            "group": 3, 
             "id": "YouNow"
         }, 
         {
             "radius": 1, 
-            "group": 3, 
+            "group": 5, 
             "id": "moviescirclejerk"
         }, 
         {
-            "radius": 1, 
+            "radius": 2, 
             "group": 1, 
             "id": "spaceporn"
         }, 
         {
             "radius": 1, 
-            "group": 4, 
+            "group": 1, 
             "id": "reddevils"
         }, 
         {
-            "radius": 1, 
-            "group": 5, 
+            "radius": 2, 
+            "group": 0, 
             "id": "the_meltdown"
         }, 
         {
             "radius": 1, 
-            "group": 5, 
+            "group": 0, 
+            "id": "starcraft"
+        }, 
+        {
+            "radius": 1, 
+            "group": 4, 
             "id": "labrats"
         }, 
         {
             "radius": 1, 
-            "group": 5, 
+            "group": 1, 
             "id": "woof_irl"
         }, 
         {
-            "radius": 8, 
-            "group": 3, 
+            "radius": 1, 
+            "group": 0, 
+            "id": "polandball"
+        }, 
+        {
+            "radius": 14, 
+            "group": 0, 
             "id": "gaming"
-        }, 
-        {
-            "radius": 2, 
-            "group": 1, 
-            "id": "AnimalsBeingBros"
-        }, 
-        {
-            "radius": 2, 
-            "group": 3, 
-            "id": "askscience"
-        }, 
-        {
-            "radius": 2, 
-            "group": 2, 
-            "id": "educationalgifs"
         }, 
         {
             "radius": 1, 
             "group": 2, 
+            "id": "internal_arts"
+        }, 
+        {
+            "radius": 1, 
+            "group": 1, 
+            "id": "shibe"
+        }, 
+        {
+            "radius": 2, 
+            "group": 2, 
+            "id": "AnimalsBeingBros"
+        }, 
+        {
+            "radius": 1, 
+            "group": 5, 
+            "id": "blackops3"
+        }, 
+        {
+            "radius": 1, 
+            "group": 2, 
+            "id": "kickstarter"
+        }, 
+        {
+            "radius": 6, 
+            "group": 5, 
+            "id": "askscience"
+        }, 
+        {
+            "radius": 1, 
+            "group": 2, 
+            "id": "trypophobia"
+        }, 
+        {
+            "radius": 1, 
+            "group": 1, 
+            "id": "discgolf"
+        }, 
+        {
+            "radius": 3, 
+            "group": 0, 
+            "id": "educationalgifs"
+        }, 
+        {
+            "radius": 1, 
+            "group": 5, 
+            "id": "Images"
+        }, 
+        {
+            "radius": 1, 
+            "group": 1, 
             "id": "bigbangtheory"
+        }, 
+        {
+            "radius": 1, 
+            "group": 5, 
+            "id": "MURICA"
         }, 
         {
             "radius": 1, 
@@ -947,77 +1447,107 @@
         }, 
         {
             "radius": 1, 
-            "group": 4, 
+            "group": 0, 
             "id": "10cloverfieldlane"
         }, 
         {
             "radius": 1, 
-            "group": 1, 
-            "id": "AndroidMasterRace"
+            "group": 0, 
+            "id": "FastWorkers"
         }, 
         {
             "radius": 1, 
-            "group": 1, 
-            "id": "MachinePorn"
+            "group": 0, 
+            "id": "productivity"
+        }, 
+        {
+            "radius": 1, 
+            "group": 4, 
+            "id": "Meditation"
         }, 
         {
             "radius": 1, 
             "group": 3, 
+            "id": "AndroidMasterRace"
+        }, 
+        {
+            "radius": 1, 
+            "group": 3, 
+            "id": "MachinePorn"
+        }, 
+        {
+            "radius": 1, 
+            "group": 1, 
             "id": "oculus"
         }, 
         {
-            "radius": 4, 
+            "radius": 9, 
             "group": 0, 
             "id": "CringeAnarchy"
         }, 
         {
             "radius": 1, 
-            "group": 5, 
+            "group": 3, 
             "id": "UnfairToAnts"
         }, 
         {
             "radius": 2, 
-            "group": 0, 
+            "group": 5, 
             "id": "bugs"
-        }, 
-        {
-            "radius": 1, 
-            "group": 1, 
-            "id": "psychedelic100"
-        }, 
-        {
-            "radius": 1, 
-            "group": 4, 
-            "id": "LAClippers"
-        }, 
-        {
-            "radius": 2, 
-            "group": 1, 
-            "id": "gadgets"
-        }, 
-        {
-            "radius": 1, 
-            "group": 3, 
-            "id": "FanTheories"
-        }, 
-        {
-            "radius": 1, 
-            "group": 1, 
-            "id": "mcgill"
-        }, 
-        {
-            "radius": 1, 
-            "group": 4, 
-            "id": "nvidia"
         }, 
         {
             "radius": 2, 
             "group": 5, 
+            "id": "NSFWFunny"
+        }, 
+        {
+            "radius": 1, 
+            "group": 2, 
+            "id": "psychedelic100"
+        }, 
+        {
+            "radius": 1, 
+            "group": 5, 
+            "id": "LAClippers"
+        }, 
+        {
+            "radius": 3, 
+            "group": 5, 
+            "id": "gadgets"
+        }, 
+        {
+            "radius": 2, 
+            "group": 4, 
+            "id": "FanTheories"
+        }, 
+        {
+            "radius": 1, 
+            "group": 5, 
+            "id": "MealPrepSunday"
+        }, 
+        {
+            "radius": 1, 
+            "group": 2, 
+            "id": "mcgill"
+        }, 
+        {
+            "radius": 1, 
+            "group": 2, 
+            "id": "nvidia"
+        }, 
+        {
+            "radius": 1, 
+            "group": 0, 
+            "id": "realdubstep"
+        }, 
+        {
+            "radius": 2, 
+            "group": 4, 
             "id": "streetwear"
         }, 
         {
-            "radius": 4, 
-            "group": 0, 
+            "radius": 9, 
+            "group": 4, 
             "id": "ImGoingToHellForThis"
         }, 
         {
@@ -1027,12 +1557,12 @@
         }, 
         {
             "radius": 1, 
-            "group": 0, 
+            "group": 4, 
             "id": "cableporn"
         }, 
         {
             "radius": 1, 
-            "group": 1, 
+            "group": 3, 
             "id": "Nerf"
         }, 
         {
@@ -1042,83 +1572,148 @@
         }, 
         {
             "radius": 1, 
-            "group": 5, 
+            "group": 2, 
+            "id": "Smite"
+        }, 
+        {
+            "radius": 3, 
+            "group": 1, 
             "id": "EarthPorn"
         }, 
         {
-            "radius": 1, 
+            "radius": 2, 
             "group": 4, 
             "id": "switcharoo"
         }, 
         {
-            "radius": 1, 
+            "radius": 2, 
             "group": 1, 
             "id": "Bandnames"
         }, 
         {
             "radius": 1, 
             "group": 0, 
+            "id": "DoesAnybodyElse"
+        }, 
+        {
+            "radius": 1, 
+            "group": 1, 
             "id": "pettyrevenge"
         }, 
         {
             "radius": 1, 
-            "group": 5, 
+            "group": 0, 
             "id": "malehairadvice"
         }, 
         {
-            "radius": 1, 
-            "group": 0, 
+            "radius": 2, 
+            "group": 3, 
             "id": "futanari"
         }, 
         {
-            "radius": 2, 
-            "group": 5, 
+            "radius": 4, 
+            "group": 2, 
             "id": "electronic_cigarette"
         }, 
         {
             "radius": 1, 
-            "group": 2, 
+            "group": 3, 
+            "id": "diablo3"
+        }, 
+        {
+            "radius": 1, 
+            "group": 1, 
+            "id": "turkey_irl"
+        }, 
+        {
+            "radius": 1, 
+            "group": 3, 
             "id": "GarlicBreadMemes"
         }, 
         {
             "radius": 1, 
-            "group": 3, 
+            "group": 5, 
+            "id": "shittyrobots"
+        }, 
+        {
+            "radius": 1, 
+            "group": 1, 
             "id": "actuallesbians"
         }, 
         {
             "radius": 1, 
-            "group": 4, 
+            "group": 2, 
             "id": "gifsthatendtoosoon"
         }, 
         {
-            "radius": 2, 
-            "group": 1, 
+            "radius": 4, 
+            "group": 3, 
             "id": "DeepIntoYouTube"
         }, 
         {
-            "radius": 3, 
+            "radius": 1, 
             "group": 3, 
+            "id": "balisong"
+        }, 
+        {
+            "radius": 5, 
+            "group": 5, 
             "id": "dataisbeautiful"
         }, 
         {
             "radius": 1, 
+            "group": 4, 
+            "id": "incremental_games"
+        }, 
+        {
+            "radius": 1, 
             "group": 3, 
+            "id": "japan"
+        }, 
+        {
+            "radius": 1, 
+            "group": 4, 
             "id": "itt"
         }, 
         {
             "radius": 1, 
-            "group": 4, 
+            "group": 2, 
             "id": "scaredshitless"
         }, 
         {
             "radius": 1, 
-            "group": 1, 
+            "group": 2, 
+            "id": "magicskyfairy"
+        }, 
+        {
+            "radius": 1, 
+            "group": 3, 
             "id": "highpets"
         }, 
         {
-            "radius": 3, 
+            "radius": 1, 
+            "group": 0, 
+            "id": "islam"
+        }, 
+        {
+            "radius": 1, 
+            "group": 1, 
+            "id": "Badfaketexts"
+        }, 
+        {
+            "radius": 5, 
             "group": 4, 
             "id": "GlobalOffensive"
+        }, 
+        {
+            "radius": 1, 
+            "group": 0, 
+            "id": "summonerschool"
+        }, 
+        {
+            "radius": 1, 
+            "group": 2, 
+            "id": "AccidentalRenaissance"
         }, 
         {
             "radius": 1, 
@@ -1127,41 +1722,51 @@
         }, 
         {
             "radius": 1, 
-            "group": 5, 
+            "group": 4, 
+            "id": "respectporn"
+        }, 
+        {
+            "radius": 1, 
+            "group": 3, 
             "id": "badlinguistics"
         }, 
         {
             "radius": 1, 
             "group": 3, 
-            "id": "flavortown"
-        }, 
-        {
-            "radius": 1, 
-            "group": 5, 
-            "id": "agentcarter"
-        }, 
-        {
-            "radius": 2, 
-            "group": 5, 
-            "id": "Documentaries"
-        }, 
-        {
-            "radius": 2, 
-            "group": 5, 
-            "id": "justneckbeardthings"
-        }, 
-        {
-            "radius": 1, 
-            "group": 4, 
-            "id": "whites"
+            "id": "angryjoeshow"
         }, 
         {
             "radius": 1, 
             "group": 1, 
+            "id": "flavortown"
+        }, 
+        {
+            "radius": 1, 
+            "group": 2, 
+            "id": "agentcarter"
+        }, 
+        {
+            "radius": 2, 
+            "group": 2, 
+            "id": "Documentaries"
+        }, 
+        {
+            "radius": 3, 
+            "group": 3, 
+            "id": "justneckbeardthings"
+        }, 
+        {
+            "radius": 1, 
+            "group": 2, 
+            "id": "whites"
+        }, 
+        {
+            "radius": 1, 
+            "group": 4, 
             "id": "computerhelp"
         }, 
         {
-            "radius": 6, 
+            "radius": 13, 
             "group": 2, 
             "id": "WTF"
         }, 
@@ -1176,14 +1781,29 @@
             "id": "soccer"
         }, 
         {
-            "radius": 1, 
+            "radius": 2, 
             "group": 5, 
+            "id": "wallpaper"
+        }, 
+        {
+            "radius": 1, 
+            "group": 3, 
             "id": "thingsforants"
         }, 
         {
-            "radius": 2, 
-            "group": 1, 
+            "radius": 4, 
+            "group": 5, 
             "id": "MensRights"
+        }, 
+        {
+            "radius": 1, 
+            "group": 1, 
+            "id": "AlienBlue"
+        }, 
+        {
+            "radius": 1, 
+            "group": 2, 
+            "id": "YMS"
         }, 
         {
             "radius": 1, 
@@ -1192,37 +1812,57 @@
         }, 
         {
             "radius": 1, 
+            "group": 2, 
+            "id": "electronicmusic"
+        }, 
+        {
+            "radius": 2, 
             "group": 3, 
             "id": "childfree"
         }, 
         {
             "radius": 2, 
-            "group": 4, 
+            "group": 5, 
             "id": "food"
         }, 
         {
             "radius": 1, 
-            "group": 2, 
+            "group": 4, 
             "id": "TIGHTPUSSY"
         }, 
         {
             "radius": 1, 
-            "group": 0, 
+            "group": 3, 
             "id": "MRW"
-        }, 
-        {
-            "radius": 2, 
-            "group": 5, 
-            "id": "FellowKids"
         }, 
         {
             "radius": 1, 
             "group": 4, 
-            "id": "starbucks"
+            "id": "DnDGreentext"
         }, 
         {
             "radius": 1, 
-            "group": 0, 
+            "group": 3, 
+            "id": "bjj"
+        }, 
+        {
+            "radius": 1, 
+            "group": 3, 
+            "id": "daddit"
+        }, 
+        {
+            "radius": 3, 
+            "group": 2, 
+            "id": "FellowKids"
+        }, 
+        {
+            "radius": 1, 
+            "group": 2, 
+            "id": "starbucks"
+        }, 
+        {
+            "radius": 3, 
+            "group": 5, 
             "id": "NoStupidQuestions"
         }, 
         {
@@ -1232,8 +1872,33 @@
         }, 
         {
             "radius": 1, 
-            "group": 2, 
+            "group": 3, 
+            "id": "Emo"
+        }, 
+        {
+            "radius": 1, 
+            "group": 0, 
+            "id": "NewMexico"
+        }, 
+        {
+            "radius": 2, 
+            "group": 0, 
+            "id": "halo"
+        }, 
+        {
+            "radius": 1, 
+            "group": 3, 
             "id": "motorcycles"
+        }, 
+        {
+            "radius": 1, 
+            "group": 3, 
+            "id": "Braveryjerk"
+        }, 
+        {
+            "radius": 1, 
+            "group": 2, 
+            "id": "psycho_alpaca"
         }, 
         {
             "radius": 1, 
@@ -1242,8 +1907,13 @@
         }, 
         {
             "radius": 1, 
-            "group": 4, 
+            "group": 1, 
             "id": "WatchItForThePlot"
+        }, 
+        {
+            "radius": 1, 
+            "group": 3, 
+            "id": "lwgcirclejerk"
         }, 
         {
             "radius": 1, 
@@ -1252,7 +1922,12 @@
         }, 
         {
             "radius": 1, 
-            "group": 0, 
+            "group": 1, 
+            "id": "freebies"
+        }, 
+        {
+            "radius": 1, 
+            "group": 5, 
             "id": "Watches"
         }, 
         {
@@ -1262,82 +1937,132 @@
         }, 
         {
             "radius": 1, 
-            "group": 3, 
+            "group": 5, 
             "id": "CubeWorld"
         }, 
         {
-            "radius": 5, 
-            "group": 5, 
+            "radius": 12, 
+            "group": 3, 
             "id": "AdviceAnimals"
         }, 
         {
-            "radius": 1, 
-            "group": 4, 
+            "radius": 2, 
+            "group": 3, 
             "id": "antibaw"
         }, 
         {
             "radius": 1, 
-            "group": 1, 
+            "group": 3, 
             "id": "arrow"
         }, 
         {
             "radius": 1, 
-            "group": 4, 
+            "group": 5, 
+            "id": "minimalism"
+        }, 
+        {
+            "radius": 1, 
+            "group": 0, 
             "id": "Sneakers"
+        }, 
+        {
+            "radius": 2, 
+            "group": 4, 
+            "id": "wallpapers"
         }, 
         {
             "radius": 1, 
             "group": 3, 
+            "id": "NewOrleans"
+        }, 
+        {
+            "radius": 1, 
+            "group": 4, 
             "id": "turtlesonalligators"
         }, 
         {
             "radius": 1, 
-            "group": 2, 
+            "group": 0, 
             "id": "FFXV"
         }, 
         {
             "radius": 1, 
-            "group": 2, 
+            "group": 4, 
+            "id": "dresdenfiles"
+        }, 
+        {
+            "radius": 1, 
+            "group": 4, 
             "id": "ScratchyScratchy"
         }, 
         {
-            "radius": 6, 
-            "group": 3, 
+            "radius": 9, 
+            "group": 1, 
             "id": "mildlyinteresting"
         }, 
         {
             "radius": 2, 
-            "group": 3, 
+            "group": 0, 
             "id": "natureismetal"
         }, 
         {
             "radius": 1, 
+            "group": 0, 
+            "id": "projecteternity"
+        }, 
+        {
+            "radius": 1, 
             "group": 2, 
+            "id": "HaloCirclejerk"
+        }, 
+        {
+            "radius": 1, 
+            "group": 1, 
             "id": "SubredditMixUps"
         }, 
         {
-            "radius": 2, 
-            "group": 3, 
+            "radius": 3, 
+            "group": 1, 
             "id": "starterpacks"
         }, 
         {
             "radius": 1, 
+            "group": 1, 
+            "id": "Warhammer40k"
+        }, 
+        {
+            "radius": 1, 
             "group": 0, 
-            "id": "wholesomememes"
+            "id": "physicsgifs"
         }, 
         {
             "radius": 2, 
-            "group": 0, 
+            "group": 4, 
+            "id": "wholesomememes"
+        }, 
+        {
+            "radius": 3, 
+            "group": 4, 
             "id": "books"
         }, 
         {
             "radius": 1, 
             "group": 2, 
+            "id": "earthbound"
+        }, 
+        {
+            "radius": 1, 
+            "group": 0, 
+            "id": "CatastrophicFailure"
+        }, 
+        {
+            "radius": 2, 
+            "group": 0, 
             "id": "TwoXChromosomes"
         }, 
         {
             "radius": 1, 
-            "group": 4, 
+            "group": 2, 
             "id": "shitpost"
         }, 
         {
@@ -1348,26 +2073,46 @@
         {
             "radius": 1, 
             "group": 4, 
-            "id": "fieldofdreams"
-        }, 
-        {
-            "radius": 1, 
-            "group": 3, 
-            "id": "popping"
-        }, 
-        {
-            "radius": 1, 
-            "group": 1, 
-            "id": "canada"
+            "id": "bjjerk"
         }, 
         {
             "radius": 1, 
             "group": 0, 
+            "id": "USMC"
+        }, 
+        {
+            "radius": 1, 
+            "group": 2, 
+            "id": "fieldofdreams"
+        }, 
+        {
+            "radius": 1, 
+            "group": 0, 
+            "id": "popping"
+        }, 
+        {
+            "radius": 2, 
+            "group": 3, 
+            "id": "canada"
+        }, 
+        {
+            "radius": 2, 
+            "group": 5, 
             "id": "DunderMifflin"
         }, 
         {
-            "radius": 3, 
+            "radius": 1, 
             "group": 1, 
+            "id": "psychology"
+        }, 
+        {
+            "radius": 1, 
+            "group": 2, 
+            "id": "Diablo3Crusaders"
+        }, 
+        {
+            "radius": 3, 
+            "group": 3, 
             "id": "space"
         }, 
         {
@@ -1377,92 +2122,147 @@
         }, 
         {
             "radius": 1, 
-            "group": 3, 
+            "group": 1, 
             "id": "EightBitBailey"
         }, 
         {
             "radius": 1, 
-            "group": 3, 
+            "group": 1, 
             "id": "PMclub"
         }, 
         {
             "radius": 1, 
-            "group": 0, 
+            "group": 1, 
             "id": "modclub"
         }, 
         {
-            "radius": 2, 
-            "group": 0, 
+            "radius": 3, 
+            "group": 3, 
             "id": "malefashionadvice"
         }, 
         {
-            "radius": 1, 
+            "radius": 2, 
             "group": 3, 
             "id": "LearnUselessTalents"
         }, 
         {
-            "radius": 5, 
-            "group": 0, 
+            "radius": 9, 
+            "group": 1, 
             "id": "meirl"
         }, 
         {
-            "radius": 1, 
-            "group": 0, 
+            "radius": 4, 
+            "group": 5, 
             "id": "leagueoflegends"
         }, 
         {
+            "radius": 1, 
+            "group": 3, 
+            "id": "RoomPorn"
+        }, 
+        {
             "radius": 2, 
-            "group": 5, 
+            "group": 2, 
             "id": "ActLikeYouBelong"
         }, 
         {
             "radius": 1, 
-            "group": 4, 
+            "group": 5, 
+            "id": "medicine"
+        }, 
+        {
+            "radius": 3, 
+            "group": 3, 
             "id": "IgnorantImgur"
         }, 
         {
-            "radius": 2, 
-            "group": 5, 
+            "radius": 3, 
+            "group": 3, 
             "id": "tf2"
         }, 
         {
             "radius": 1, 
-            "group": 3, 
-            "id": "bannedfromclubpenguin"
+            "group": 5, 
+            "id": "ImaginaryArrakis"
         }, 
         {
             "radius": 1, 
-            "group": 3, 
+            "group": 0, 
+            "id": "bannedfromclubpenguin"
+        }, 
+        {
+            "radius": 3, 
+            "group": 5, 
             "id": "math"
         }, 
         {
             "radius": 1, 
-            "group": 5, 
+            "group": 0, 
             "id": "WiiHacks"
         }, 
         {
             "radius": 1, 
-            "group": 4, 
+            "group": 1, 
+            "id": "hillaryclinton"
+        }, 
+        {
+            "radius": 3, 
+            "group": 1, 
             "id": "bestof"
         }, 
         {
-            "radius": 2, 
-            "group": 3, 
+            "radius": 4, 
+            "group": 2, 
             "id": "trashy"
         }, 
         {
             "radius": 1, 
-            "group": 0, 
+            "group": 5, 
             "id": "StarWarsLeaks"
         }, 
         {
+            "radius": 1, 
+            "group": 2, 
+            "id": "cars"
+        }, 
+        {
+            "radius": 1, 
+            "group": 1, 
+            "id": "ultraviolent"
+        }, 
+        {
+            "radius": 1, 
+            "group": 4, 
+            "id": "coaxedintoasnafu"
+        }, 
+        {
+            "radius": 1, 
+            "group": 2, 
+            "id": "dune"
+        }, 
+        {
             "radius": 2, 
-            "group": 0, 
+            "group": 4, 
             "id": "Drama"
         }, 
         {
             "radius": 1, 
             "group": 0, 
+            "id": "Bayonetta"
+        }, 
+        {
+            "radius": 1, 
+            "group": 1, 
+            "id": "gfur"
+        }, 
+        {
+            "radius": 1, 
+            "group": 3, 
+            "id": "cardsagainsthumanity"
+        }, 
+        {
+            "radius": 1, 
+            "group": 3, 
             "id": "emulation"
         }, 
         {
@@ -1471,8 +2271,8 @@
             "id": "girlskissing"
         }, 
         {
-            "radius": 1, 
-            "group": 2, 
+            "radius": 3, 
+            "group": 5, 
             "id": "GamePhysics"
         }, 
         {
@@ -1482,43 +2282,88 @@
         }, 
         {
             "radius": 1, 
-            "group": 3, 
+            "group": 4, 
             "id": "RedditInTheNews"
-        }, 
-        {
-            "radius": 2, 
-            "group": 2, 
-            "id": "youtubehaiku"
-        }, 
-        {
-            "radius": 1, 
-            "group": 3, 
-            "id": "dayz"
-        }, 
-        {
-            "radius": 1, 
-            "group": 3, 
-            "id": "CasualConversation"
-        }, 
-        {
-            "radius": 1, 
-            "group": 2, 
-            "id": "recipes"
-        }, 
-        {
-            "radius": 1, 
-            "group": 2, 
-            "id": "headphones"
         }, 
         {
             "radius": 1, 
             "group": 1, 
-            "id": "programming"
+            "id": "software"
+        }, 
+        {
+            "radius": 1, 
+            "group": 0, 
+            "id": "onewordeach"
+        }, 
+        {
+            "radius": 2, 
+            "group": 4, 
+            "id": "youtubehaiku"
+        }, 
+        {
+            "radius": 2, 
+            "group": 2, 
+            "id": "dayz"
+        }, 
+        {
+            "radius": 1, 
+            "group": 0, 
+            "id": "Funnypics"
         }, 
         {
             "radius": 1, 
             "group": 5, 
+            "id": "simracing"
+        }, 
+        {
+            "radius": 1, 
+            "group": 5, 
+            "id": "Chinese"
+        }, 
+        {
+            "radius": 3, 
+            "group": 5, 
+            "id": "CasualConversation"
+        }, 
+        {
+            "radius": 1, 
+            "group": 0, 
+            "id": "recipes"
+        }, 
+        {
+            "radius": 1, 
+            "group": 1, 
+            "id": "headphones"
+        }, 
+        {
+            "radius": 2, 
+            "group": 5, 
+            "id": "programming"
+        }, 
+        {
+            "radius": 1, 
+            "group": 1, 
+            "id": "running"
+        }, 
+        {
+            "radius": 1, 
+            "group": 2, 
+            "id": "Cornell"
+        }, 
+        {
+            "radius": 1, 
+            "group": 2, 
             "id": "dontdeadopeninside"
+        }, 
+        {
+            "radius": 1, 
+            "group": 0, 
+            "id": "gaynsfw"
+        }, 
+        {
+            "radius": 1, 
+            "group": 2, 
+            "id": "dogecoin"
         }, 
         {
             "radius": 1, 
@@ -1526,94 +2371,124 @@
             "id": "clickholeorbuzzfeed"
         }, 
         {
-            "radius": 1, 
+            "radius": 2, 
             "group": 3, 
-            "id": "NYKnicks"
+            "id": "coolguides"
         }, 
         {
             "radius": 1, 
+            "group": 5, 
+            "id": "NYKnicks"
+        }, 
+        {
+            "radius": 2, 
             "group": 3, 
             "id": "GirlsFinishingTheJob"
         }, 
         {
             "radius": 1, 
             "group": 1, 
+            "id": "seduction"
+        }, 
+        {
+            "radius": 1, 
+            "group": 5, 
             "id": "TellMeAFact"
         }, 
         {
             "radius": 1, 
-            "group": 5, 
+            "group": 3, 
             "id": "ErinAshford"
         }, 
         {
             "radius": 1, 
-            "group": 1, 
+            "group": 4, 
             "id": "Amd"
         }, 
         {
             "radius": 1, 
-            "group": 1, 
+            "group": 0, 
             "id": "AsiansGoneWild"
         }, 
         {
             "radius": 1, 
-            "group": 0, 
+            "group": 2, 
             "id": "rant"
         }, 
         {
             "radius": 1, 
-            "group": 0, 
-            "id": "gtaonline"
+            "group": 3, 
+            "id": "Salvia"
         }, 
         {
             "radius": 1, 
-            "group": 0, 
-            "id": "NatureIsFuckingLit"
+            "group": 1, 
+            "id": "DentalRDH"
         }, 
         {
             "radius": 1, 
             "group": 4, 
-            "id": "FullScorpion"
-        }, 
-        {
-            "radius": 1, 
-            "group": 5, 
-            "id": "insanepeoplefacebook"
-        }, 
-        {
-            "radius": 3, 
-            "group": 1, 
-            "id": "pokemon"
-        }, 
-        {
-            "radius": 1, 
-            "group": 5, 
-            "id": "PornOverlords"
-        }, 
-        {
-            "radius": 1, 
-            "group": 5, 
-            "id": "canipaybycheck4"
+            "id": "gtaonline"
         }, 
         {
             "radius": 1, 
             "group": 1, 
-            "id": "TurtleFacts"
-        }, 
-        {
-            "radius": 3, 
-            "group": 1, 
-            "id": "OldSchoolCool"
+            "id": "NatureIsFuckingLit"
         }, 
         {
             "radius": 1, 
             "group": 3, 
-            "id": "gif"
+            "id": "FullScorpion"
+        }, 
+        {
+            "radius": 2, 
+            "group": 2, 
+            "id": "insanepeoplefacebook"
+        }, 
+        {
+            "radius": 3, 
+            "group": 5, 
+            "id": "pokemon"
+        }, 
+        {
+            "radius": 1, 
+            "group": 3, 
+            "id": "PornOverlords"
+        }, 
+        {
+            "radius": 1, 
+            "group": 4, 
+            "id": "canipaybycheck4"
         }, 
         {
             "radius": 1, 
             "group": 0, 
+            "id": "TurtleFacts"
+        }, 
+        {
+            "radius": 1, 
+            "group": 3, 
+            "id": "longboarding"
+        }, 
+        {
+            "radius": 4, 
+            "group": 4, 
+            "id": "OldSchoolCool"
+        }, 
+        {
+            "radius": 2, 
+            "group": 4, 
+            "id": "gif"
+        }, 
+        {
+            "radius": 1, 
+            "group": 4, 
             "id": "josh1989"
+        }, 
+        {
+            "radius": 1, 
+            "group": 3, 
+            "id": "AdvancedFitness"
         }, 
         {
             "radius": 1, 
@@ -1622,53 +2497,83 @@
         }, 
         {
             "radius": 1, 
-            "group": 4, 
+            "group": 5, 
+            "id": "EAUFCPS4"
+        }, 
+        {
+            "radius": 1, 
+            "group": 3, 
+            "id": "totalwar"
+        }, 
+        {
+            "radius": 1, 
+            "group": 5, 
+            "id": "Feels"
+        }, 
+        {
+            "radius": 1, 
+            "group": 2, 
             "id": "r4chanMeta"
         }, 
         {
             "radius": 1, 
-            "group": 4, 
-            "id": "SuggestALaptop"
-        }, 
-        {
-            "radius": 3, 
-            "group": 2, 
-            "id": "oldpeoplefacebook"
-        }, 
-        {
-            "radius": 3, 
-            "group": 3, 
-            "id": "explainlikeimfive"
+            "group": 0, 
+            "id": "periwinkle"
         }, 
         {
             "radius": 1, 
+            "group": 0, 
+            "id": "SuggestALaptop"
+        }, 
+        {
+            "radius": 5, 
+            "group": 5, 
+            "id": "oldpeoplefacebook"
+        }, 
+        {
+            "radius": 1, 
+            "group": 3, 
+            "id": "PenmanshipPorn"
+        }, 
+        {
+            "radius": 8, 
+            "group": 1, 
+            "id": "explainlikeimfive"
+        }, 
+        {
+            "radius": 2, 
             "group": 0, 
             "id": "dogs"
         }, 
         {
-            "radius": 2, 
-            "group": 5, 
+            "radius": 3, 
+            "group": 1, 
             "id": "shittyreactiongifs"
         }, 
         {
             "radius": 1, 
-            "group": 0, 
+            "group": 1, 
             "id": "iOSthemes"
         }, 
         {
             "radius": 1, 
-            "group": 2, 
+            "group": 0, 
             "id": "GTA"
         }, 
         {
             "radius": 1, 
-            "group": 2, 
+            "group": 5, 
             "id": "TrollYChromosome"
         }, 
         {
             "radius": 1, 
-            "group": 3, 
+            "group": 5, 
             "id": "BoobiesGoneWild"
+        }, 
+        {
+            "radius": 1, 
+            "group": 4, 
+            "id": "RotMG"
         }, 
         {
             "radius": 1, 
@@ -1676,39 +2581,54 @@
             "id": "adoptareddit"
         }, 
         {
-            "radius": 2, 
-            "group": 0, 
+            "radius": 1, 
+            "group": 2, 
+            "id": "buccos"
+        }, 
+        {
+            "radius": 4, 
+            "group": 5, 
             "id": "mildlyinfuriating"
         }, 
         {
             "radius": 1, 
-            "group": 0, 
-            "id": "joinrobin"
-        }, 
-        {
-            "radius": 1, 
             "group": 5, 
-            "id": "youtubers"
-        }, 
-        {
-            "radius": 1, 
-            "group": 1, 
-            "id": "EuroTruck2"
+            "id": "madmen"
         }, 
         {
             "radius": 1, 
             "group": 4, 
+            "id": "joinrobin"
+        }, 
+        {
+            "radius": 1, 
+            "group": 4, 
+            "id": "youtubers"
+        }, 
+        {
+            "radius": 1, 
+            "group": 2, 
+            "id": "EuroTruck2"
+        }, 
+        {
+            "radius": 2, 
+            "group": 5, 
             "id": "Awwducational"
         }, 
         {
             "radius": 1, 
-            "group": 0, 
+            "group": 5, 
             "id": "skyrim"
         }, 
         {
             "radius": 1, 
-            "group": 0, 
+            "group": 4, 
             "id": "ShittierAnimalFacts"
+        }, 
+        {
+            "radius": 2, 
+            "group": 3, 
+            "id": "sex"
         }, 
         {
             "radius": 1, 
@@ -1717,32 +2637,42 @@
         }, 
         {
             "radius": 1, 
-            "group": 3, 
+            "group": 4, 
             "id": "Battlefield"
         }, 
         {
-            "radius": 3, 
+            "radius": 5, 
             "group": 4, 
             "id": "television"
         }, 
         {
             "radius": 1, 
-            "group": 4, 
+            "group": 1, 
             "id": "CatPeopleTwitter"
         }, 
         {
             "radius": 1, 
-            "group": 1, 
-            "id": "verypunny"
-        }, 
-        {
-            "radius": 5, 
-            "group": 5, 
-            "id": "thatHappened"
+            "group": 2, 
+            "id": "futurebeats"
         }, 
         {
             "radius": 1, 
             "group": 5, 
+            "id": "verypunny"
+        }, 
+        {
+            "radius": 7, 
+            "group": 3, 
+            "id": "thatHappened"
+        }, 
+        {
+            "radius": 1, 
+            "group": 0, 
+            "id": "treecaching"
+        }, 
+        {
+            "radius": 1, 
+            "group": 2, 
             "id": "mechanical_gifs"
         }, 
         {
@@ -1752,22 +2682,32 @@
         }, 
         {
             "radius": 3, 
-            "group": 4, 
+            "group": 0, 
             "id": "nononono"
         }, 
         {
             "radius": 1, 
-            "group": 5, 
+            "group": 2, 
             "id": "alaskanbushpeople"
         }, 
         {
             "radius": 1, 
             "group": 4, 
+            "id": "sweden"
+        }, 
+        {
+            "radius": 1, 
+            "group": 1, 
+            "id": "CODGhosts"
+        }, 
+        {
+            "radius": 1, 
+            "group": 5, 
             "id": "knives"
         }, 
         {
             "radius": 1, 
-            "group": 2, 
+            "group": 3, 
             "id": "cynicalbritofficial"
         }, 
         {
@@ -1777,47 +2717,52 @@
         }, 
         {
             "radius": 1, 
-            "group": 3, 
+            "group": 2, 
             "id": "college"
         }, 
         {
             "radius": 1, 
-            "group": 1, 
+            "group": 0, 
             "id": "hacking"
         }, 
         {
             "radius": 1, 
-            "group": 2, 
+            "group": 5, 
             "id": "WordpressPlugins"
         }, 
         {
             "radius": 1, 
-            "group": 3, 
+            "group": 4, 
             "id": "MissionFailedGifs"
         }, 
         {
             "radius": 1, 
-            "group": 2, 
+            "group": 1, 
             "id": "badroommates"
         }, 
         {
             "radius": 1, 
-            "group": 5, 
+            "group": 4, 
             "id": "yesyesyesyesno"
         }, 
         {
             "radius": 1, 
-            "group": 3, 
+            "group": 0, 
             "id": "Member_Berries"
         }, 
         {
             "radius": 1, 
-            "group": 0, 
+            "group": 5, 
             "id": "gallifrey"
         }, 
         {
             "radius": 1, 
-            "group": 4, 
+            "group": 1, 
+            "id": "ShingekiNoKyojin"
+        }, 
+        {
+            "radius": 2, 
+            "group": 1, 
             "id": "FoodPorn"
         }, 
         {
@@ -1827,93 +2772,143 @@
         }, 
         {
             "radius": 1, 
-            "group": 1, 
+            "group": 3, 
             "id": "damnthatsugly"
         }, 
         {
             "radius": 1, 
-            "group": 2, 
+            "group": 3, 
+            "id": "fail"
+        }, 
+        {
+            "radius": 1, 
+            "group": 0, 
+            "id": "BuildaCarAVForMe"
+        }, 
+        {
+            "radius": 4, 
+            "group": 1, 
             "id": "conspiracy"
         }, 
         {
             "radius": 1, 
-            "group": 3, 
+            "group": 2, 
             "id": "battlefield_one"
         }, 
         {
             "radius": 1, 
-            "group": 1, 
+            "group": 2, 
+            "id": "ShitSRSSays"
+        }, 
+        {
+            "radius": 1, 
+            "group": 5, 
             "id": "PussyPass"
         }, 
         {
             "radius": 1, 
-            "group": 1, 
+            "group": 0, 
             "id": "TF2replay"
         }, 
         {
             "radius": 1, 
-            "group": 1, 
+            "group": 2, 
+            "id": "Conservative"
+        }, 
+        {
+            "radius": 1, 
+            "group": 0, 
             "id": "radioheadcirclejerk"
+        }, 
+        {
+            "radius": 1, 
+            "group": 2, 
+            "id": "memphis"
+        }, 
+        {
+            "radius": 2, 
+            "group": 3, 
+            "id": "rarepuppers"
         }, 
         {
             "radius": 2, 
             "group": 2, 
-            "id": "rarepuppers"
-        }, 
-        {
-            "radius": 1, 
-            "group": 0, 
             "id": "HighQualityGifs"
         }, 
         {
             "radius": 1, 
-            "group": 3, 
+            "group": 1, 
             "id": "memes"
         }, 
         {
             "radius": 1, 
-            "group": 5, 
+            "group": 3, 
             "id": "self"
         }, 
         {
             "radius": 1, 
-            "group": 5, 
+            "group": 0, 
             "id": "billiards"
         }, 
         {
-            "radius": 5, 
-            "group": 4, 
+            "radius": 8, 
+            "group": 3, 
             "id": "IAmA"
         }, 
         {
             "radius": 1, 
-            "group": 0, 
+            "group": 3, 
+            "id": "StartledCats"
+        }, 
+        {
+            "radius": 1, 
+            "group": 1, 
             "id": "snoovatars"
         }, 
         {
             "radius": 1, 
-            "group": 3, 
+            "group": 1, 
+            "id": "Parenting"
+        }, 
+        {
+            "radius": 3, 
+            "group": 0, 
+            "id": "im14andthisisdeep"
+        }, 
+        {
+            "radius": 1, 
+            "group": 4, 
             "id": "drift0r"
         }, 
         {
             "radius": 1, 
-            "group": 4, 
+            "group": 1, 
+            "id": "fantasyfootball"
+        }, 
+        {
+            "radius": 1, 
+            "group": 2, 
             "id": "UCA"
         }, 
         {
             "radius": 1, 
-            "group": 0, 
+            "group": 3, 
             "id": "TomSwifty"
         }, 
         {
-            "radius": 1, 
-            "group": 3, 
+            "radius": 2, 
+            "group": 2, 
             "id": "lastimages"
         }, 
         {
-            "radius": 1, 
-            "group": 4, 
+            "radius": 5, 
+            "group": 1, 
             "id": "nonononoyes"
+        }, 
+        {
+            "radius": 1, 
+            "group": 0, 
+            "id": "getdisciplined"
         }, 
         {
             "radius": 1, 
@@ -1926,253 +2921,413 @@
             "id": "orangesoda"
         }, 
         {
-            "radius": 2, 
-            "group": 4, 
+            "radius": 1, 
+            "group": 3, 
+            "id": "2007scape"
+        }, 
+        {
+            "radius": 1, 
+            "group": 3, 
+            "id": "listentothis"
+        }, 
+        {
+            "radius": 4, 
+            "group": 2, 
             "id": "iamverybadass"
         }, 
         {
             "radius": 1, 
-            "group": 5, 
+            "group": 4, 
             "id": "LANL_German"
         }, 
         {
-            "radius": 7, 
-            "group": 0, 
+            "radius": 13, 
+            "group": 5, 
             "id": "aww"
         }, 
         {
-            "radius": 4, 
+            "radius": 1, 
+            "group": 5, 
+            "id": "beermoney"
+        }, 
+        {
+            "radius": 5, 
             "group": 1, 
             "id": "Futurology"
         }, 
         {
             "radius": 1, 
-            "group": 3, 
+            "group": 5, 
             "id": "googleplaydeals"
         }, 
         {
             "radius": 1, 
             "group": 5, 
+            "id": "Bioshock"
+        }, 
+        {
+            "radius": 1, 
+            "group": 2, 
             "id": "beta"
         }, 
         {
             "radius": 1, 
-            "group": 4, 
+            "group": 1, 
             "id": "ThatPeelingFeeling"
         }, 
         {
-            "radius": 1, 
-            "group": 5, 
+            "radius": 2, 
+            "group": 3, 
             "id": "Games"
         }, 
         {
             "radius": 1, 
-            "group": 2, 
+            "group": 0, 
             "id": "t:1990s"
         }, 
         {
             "radius": 1, 
-            "group": 4, 
+            "group": 1, 
             "id": "RBI"
         }, 
         {
             "radius": 1, 
-            "group": 5, 
+            "group": 2, 
             "id": "shitx5post"
         }, 
         {
             "radius": 1, 
-            "group": 2, 
-            "id": "rslash"
-        }, 
-        {
-            "radius": 1, 
-            "group": 2, 
-            "id": "Minecraft"
+            "group": 3, 
+            "id": "hearthstone"
         }, 
         {
             "radius": 1, 
             "group": 5, 
-            "id": "PiratedGTA"
+            "id": "crappyoffbrands"
         }, 
         {
             "radius": 1, 
-            "group": 0, 
-            "id": "treemusic"
-        }, 
-        {
-            "radius": 1, 
-            "group": 0, 
-            "id": "Overwatch"
-        }, 
-        {
-            "radius": 1, 
-            "group": 1, 
-            "id": "FuckableFaces"
+            "group": 5, 
+            "id": "SocialJusticeInAction"
         }, 
         {
             "radius": 1, 
             "group": 3, 
+            "id": "rslash"
+        }, 
+        {
+            "radius": 3, 
+            "group": 1, 
+            "id": "Minecraft"
+        }, 
+        {
+            "radius": 1, 
+            "group": 2, 
+            "id": "PiratedGTA"
+        }, 
+        {
+            "radius": 1, 
+            "group": 2, 
+            "id": "treemusic"
+        }, 
+        {
+            "radius": 1, 
+            "group": 4, 
+            "id": "lolwat"
+        }, 
+        {
+            "radius": 4, 
+            "group": 1, 
+            "id": "Overwatch"
+        }, 
+        {
+            "radius": 1, 
+            "group": 4, 
+            "id": "badmathematics"
+        }, 
+        {
+            "radius": 1, 
+            "group": 0, 
+            "id": "amishadowbanned"
+        }, 
+        {
+            "radius": 1, 
+            "group": 0, 
+            "id": "FuckableFaces"
+        }, 
+        {
+            "radius": 1, 
+            "group": 1, 
+            "id": "dayzlfg"
+        }, 
+        {
+            "radius": 1, 
+            "group": 2, 
+            "id": "spaceflight"
+        }, 
+        {
+            "radius": 1, 
+            "group": 4, 
             "id": "dataisugly"
         }, 
         {
             "radius": 1, 
+            "group": 3, 
+            "id": "Enough_Sanders_Spam"
+        }, 
+        {
+            "radius": 2, 
             "group": 1, 
             "id": "CitiesSkylines"
         }, 
         {
             "radius": 1, 
-            "group": 4, 
+            "group": 0, 
             "id": "brushybrushy"
         }, 
         {
-            "radius": 4, 
-            "group": 1, 
+            "radius": 1, 
+            "group": 4, 
+            "id": "Political_Revolution"
+        }, 
+        {
+            "radius": 1, 
+            "group": 2, 
+            "id": "killerinstinct"
+        }, 
+        {
+            "radius": 10, 
+            "group": 5, 
             "id": "TumblrInAction"
         }, 
         {
-            "radius": 2, 
-            "group": 4, 
+            "radius": 1, 
+            "group": 1, 
+            "id": "tech"
+        }, 
+        {
+            "radius": 3, 
+            "group": 0, 
             "id": "sadcringe"
         }, 
         {
             "radius": 1, 
-            "group": 1, 
-            "id": "waterporn"
-        }, 
-        {
-            "radius": 1, 
             "group": 3, 
-            "id": "AmericanHorrorStory"
-        }, 
-        {
-            "radius": 1, 
-            "group": 2, 
-            "id": "pimpmyreddit"
-        }, 
-        {
-            "radius": 1, 
-            "group": 2, 
-            "id": "PositivePepe"
-        }, 
-        {
-            "radius": 1, 
-            "group": 1, 
-            "id": "WinMyArgument"
-        }, 
-        {
-            "radius": 1, 
-            "group": 3, 
-            "id": "adventuretime"
+            "id": "linux4noobs"
         }, 
         {
             "radius": 1, 
             "group": 5, 
-            "id": "gonewildjr"
+            "id": "waterporn"
         }, 
         {
             "radius": 1, 
+            "group": 2, 
+            "id": "WildStar"
+        }, 
+        {
+            "radius": 1, 
+            "group": 2, 
+            "id": "AmericanHorrorStory"
+        }, 
+        {
+            "radius": 1, 
+            "group": 3, 
+            "id": "rule34"
+        }, 
+        {
+            "radius": 1, 
+            "group": 5, 
+            "id": "pimpmyreddit"
+        }, 
+        {
+            "radius": 1, 
+            "group": 5, 
+            "id": "eastcounty"
+        }, 
+        {
+            "radius": 2, 
+            "group": 3, 
+            "id": "millionairemakers"
+        }, 
+        {
+            "radius": 1, 
+            "group": 5, 
+            "id": "Heavymind"
+        }, 
+        {
+            "radius": 1, 
+            "group": 1, 
+            "id": "PositivePepe"
+        }, 
+        {
+            "radius": 1, 
+            "group": 3, 
+            "id": "RandomActsOfGaming"
+        }, 
+        {
+            "radius": 1, 
+            "group": 3, 
+            "id": "WinMyArgument"
+        }, 
+        {
+            "radius": 1, 
+            "group": 0, 
+            "id": "adventuretime"
+        }, 
+        {
+            "radius": 1, 
+            "group": 2, 
+            "id": "gonewildjr"
+        }, 
+        {
+            "radius": 3, 
             "group": 2, 
             "id": "fffffffuuuuuuuuuuuu"
         }, 
         {
             "radius": 1, 
-            "group": 5, 
+            "group": 4, 
+            "id": "attackontitan"
+        }, 
+        {
+            "radius": 1, 
+            "group": 2, 
             "id": "subreddit"
         }, 
         {
             "radius": 1, 
-            "group": 2, 
+            "group": 3, 
             "id": "LilWayneLyrics"
         }, 
         {
             "radius": 1, 
-            "group": 1, 
+            "group": 0, 
             "id": "Hiphopcirclejerk"
         }, 
         {
             "radius": 2, 
-            "group": 3, 
+            "group": 0, 
             "id": "dbz"
         }, 
         {
             "radius": 1, 
-            "group": 5, 
+            "group": 2, 
             "id": "shittykickstarters"
         }, 
         {
             "radius": 1, 
-            "group": 3, 
-            "id": "ThingsCutInHalfPorn"
-        }, 
-        {
-            "radius": 1, 
-            "group": 3, 
-            "id": "awkwardtheturtle"
-        }, 
-        {
-            "radius": 1, 
-            "group": 1, 
-            "id": "DrunkOrAKid"
+            "group": 2, 
+            "id": "bodybuilding"
         }, 
         {
             "radius": 1, 
             "group": 2, 
-            "id": "help"
-        }, 
-        {
-            "radius": 3, 
-            "group": 5, 
-            "id": "HumansBeingBros"
-        }, 
-        {
-            "radius": 1, 
-            "group": 1, 
-            "id": "Teespring"
+            "id": "Foodforthought"
         }, 
         {
             "radius": 1, 
             "group": 0, 
+            "id": "ThingsCutInHalfPorn"
+        }, 
+        {
+            "radius": 1, 
+            "group": 0, 
+            "id": "awkwardtheturtle"
+        }, 
+        {
+            "radius": 3, 
+            "group": 2, 
+            "id": "DrunkOrAKid"
+        }, 
+        {
+            "radius": 1, 
+            "group": 4, 
+            "id": "help"
+        }, 
+        {
+            "radius": 1, 
+            "group": 4, 
+            "id": "StreetFights"
+        }, 
+        {
+            "radius": 4, 
+            "group": 0, 
+            "id": "HumansBeingBros"
+        }, 
+        {
+            "radius": 1, 
+            "group": 2, 
+            "id": "Teespring"
+        }, 
+        {
+            "radius": 1, 
+            "group": 4, 
             "id": "thingstomakeyoudrool"
         }, 
         {
             "radius": 1, 
-            "group": 1, 
+            "group": 2, 
             "id": "TheoryOfReddit"
         }, 
         {
             "radius": 1, 
-            "group": 2, 
+            "group": 0, 
             "id": "MDMA"
         }, 
         {
             "radius": 1, 
-            "group": 2, 
+            "group": 1, 
             "id": "safeforwork"
         }, 
         {
-            "radius": 2, 
+            "radius": 1, 
             "group": 5, 
+            "id": "learnmath"
+        }, 
+        {
+            "radius": 2, 
+            "group": 2, 
             "id": "KenM"
         }, 
         {
             "radius": 1, 
-            "group": 3, 
+            "group": 0, 
+            "id": "spirituality"
+        }, 
+        {
+            "radius": 1, 
+            "group": 5, 
+            "id": "whowouldwin"
+        }, 
+        {
+            "radius": 2, 
+            "group": 0, 
             "id": "GrandTheftAutoV"
         }, 
         {
             "radius": 1, 
-            "group": 1, 
+            "group": 4, 
+            "id": "TinyHouses"
+        }, 
+        {
+            "radius": 1, 
+            "group": 3, 
             "id": "NLSSCircleJerk"
         }, 
         {
             "radius": 1, 
-            "group": 1, 
+            "group": 5, 
             "id": "AnimalPorn"
         }, 
         {
             "radius": 1, 
             "group": 4, 
+            "id": "vikingstv"
+        }, 
+        {
+            "radius": 1, 
+            "group": 0, 
             "id": "FrankOcean"
         }, 
         {
@@ -2182,162 +3337,237 @@
         }, 
         {
             "radius": 1, 
-            "group": 1, 
+            "group": 5, 
+            "id": "PerfectTiming"
+        }, 
+        {
+            "radius": 1, 
+            "group": 5, 
             "id": "circlejerkcopypasta"
         }, 
         {
             "radius": 1, 
-            "group": 5, 
+            "group": 2, 
             "id": "unturnedservers"
         }, 
         {
             "radius": 1, 
-            "group": 5, 
+            "group": 3, 
+            "id": "vintagekitchentoys"
+        }, 
+        {
+            "radius": 1, 
+            "group": 0, 
             "id": "arresteddevelopment"
         }, 
         {
-            "radius": 4, 
+            "radius": 5, 
             "group": 5, 
             "id": "shutupandtakemymoney"
         }, 
         {
             "radius": 1, 
-            "group": 0, 
+            "group": 2, 
             "id": "CatSlaps"
+        }, 
+        {
+            "radius": 4, 
+            "group": 3, 
+            "id": "chemicalreactiongifs"
+        }, 
+        {
+            "radius": 2, 
+            "group": 1, 
+            "id": "JusticePorn"
         }, 
         {
             "radius": 2, 
             "group": 0, 
-            "id": "chemicalreactiongifs"
+            "id": "forge"
         }, 
         {
-            "radius": 1, 
+            "radius": 9, 
             "group": 5, 
-            "id": "JusticePorn"
-        }, 
-        {
-            "radius": 5, 
-            "group": 4, 
             "id": "trees"
         }, 
         {
-            "radius": 1, 
-            "group": 3, 
+            "radius": 2, 
+            "group": 5, 
             "id": "smashbros"
         }, 
         {
             "radius": 1, 
             "group": 5, 
-            "id": "NotMyJob"
-        }, 
-        {
-            "radius": 1, 
-            "group": 4, 
-            "id": "smartwatch"
-        }, 
-        {
-            "radius": 2, 
-            "group": 4, 
-            "id": "Fitness"
-        }, 
-        {
-            "radius": 1, 
-            "group": 4, 
-            "id": "trollabot"
-        }, 
-        {
-            "radius": 2, 
-            "group": 3, 
-            "id": "beards"
+            "id": "PokemonGoPittsburgh"
         }, 
         {
             "radius": 1, 
             "group": 5, 
-            "id": "GTAgifs"
+            "id": "idleraiders"
+        }, 
+        {
+            "radius": 1, 
+            "group": 2, 
+            "id": "NotMyJob"
+        }, 
+        {
+            "radius": 1, 
+            "group": 1, 
+            "id": "smartwatch"
+        }, 
+        {
+            "radius": 5, 
+            "group": 1, 
+            "id": "Fitness"
+        }, 
+        {
+            "radius": 1, 
+            "group": 5, 
+            "id": "trollabot"
         }, 
         {
             "radius": 1, 
             "group": 0, 
+            "id": "Kombucha"
+        }, 
+        {
+            "radius": 2, 
+            "group": 4, 
+            "id": "beards"
+        }, 
+        {
+            "radius": 2, 
+            "group": 2, 
+            "id": "GTAgifs"
+        }, 
+        {
+            "radius": 2, 
+            "group": 4, 
             "id": "PrettyGirlsUglyFaces"
         }, 
         {
             "radius": 1, 
-            "group": 3, 
+            "group": 5, 
             "id": "overclocking"
         }, 
         {
-            "radius": 1, 
-            "group": 3, 
+            "radius": 2, 
+            "group": 4, 
             "id": "AbandonedPorn"
         }, 
         {
             "radius": 1, 
+            "group": 1, 
+            "id": "mildyinteresting"
+        }, 
+        {
+            "radius": 2, 
             "group": 0, 
             "id": "Demotivational"
         }, 
         {
             "radius": 1, 
-            "group": 3, 
+            "group": 4, 
             "id": "tmobile"
         }, 
         {
-            "radius": 2, 
-            "group": 0, 
+            "radius": 1, 
+            "group": 5, 
+            "id": "progressive"
+        }, 
+        {
+            "radius": 3, 
+            "group": 5, 
             "id": "THE_PACK"
         }, 
         {
             "radius": 1, 
             "group": 0, 
-            "id": "FolkPunk"
-        }, 
-        {
-            "radius": 1, 
-            "group": 1, 
-            "id": "kickasstorrents"
+            "id": "CrazyHand"
         }, 
         {
             "radius": 1, 
             "group": 4, 
-            "id": "turt_irl"
+            "id": "FolkPunk"
         }, 
         {
             "radius": 1, 
-            "group": 5, 
-            "id": "quitejarringirony"
+            "group": 3, 
+            "id": "kickasstorrents"
         }, 
         {
             "radius": 1, 
             "group": 1, 
+            "id": "turt_irl"
+        }, 
+        {
+            "radius": 1, 
+            "group": 2, 
+            "id": "quitejarringirony"
+        }, 
+        {
+            "radius": 1, 
+            "group": 3, 
+            "id": "WeAreTheMusicMakers"
+        }, 
+        {
+            "radius": 1, 
+            "group": 4, 
             "id": "kittengifs"
         }, 
         {
             "radius": 1, 
             "group": 0, 
+            "id": "dadjokes"
+        }, 
+        {
+            "radius": 1, 
+            "group": 0, 
+            "id": "ttgl"
+        }, 
+        {
+            "radius": 1, 
+            "group": 1, 
+            "id": "ClashOfClans"
+        }, 
+        {
+            "radius": 2, 
+            "group": 2, 
             "id": "whitepeoplegifs"
         }, 
         {
-            "radius": 3, 
+            "radius": 4, 
             "group": 2, 
             "id": "cringe"
         }, 
         {
             "radius": 1, 
-            "group": 2, 
+            "group": 4, 
+            "id": "AteThePasta"
+        }, 
+        {
+            "radius": 1, 
+            "group": 1, 
             "id": "trucksim"
         }, 
         {
             "radius": 1, 
-            "group": 3, 
+            "group": 2, 
             "id": "StarWarsBattlefront"
         }, 
         {
-            "radius": 3, 
-            "group": 0, 
+            "radius": 1, 
+            "group": 3, 
+            "id": "FIFA"
+        }, 
+        {
+            "radius": 5, 
+            "group": 5, 
             "id": "StarWars"
         }, 
         {
             "radius": 1, 
-            "group": 4, 
+            "group": 1, 
             "id": "rpg"
         }, 
         {
@@ -2346,143 +3576,188 @@
             "id": "truetf2"
         }, 
         {
-            "radius": 4, 
-            "group": 2, 
+            "radius": 10, 
+            "group": 0, 
             "id": "pokemongo"
         }, 
         {
             "radius": 1, 
             "group": 2, 
+            "id": "mildlyamusing"
+        }, 
+        {
+            "radius": 1, 
+            "group": 1, 
             "id": "NewTubers"
         }, 
         {
             "radius": 1, 
+            "group": 2, 
+            "id": "TrueDetective"
+        }, 
+        {
+            "radius": 1, 
+            "group": 2, 
+            "id": "DeFranco"
+        }, 
+        {
+            "radius": 2, 
             "group": 5, 
             "id": "mallninjashit"
         }, 
         {
-            "radius": 1, 
-            "group": 0, 
+            "radius": 2, 
+            "group": 4, 
             "id": "titlegore"
         }, 
         {
             "radius": 1, 
             "group": 4, 
-            "id": "WalkenGifs"
+            "id": "Christianity"
         }, 
         {
             "radius": 1, 
-            "group": 1, 
+            "group": 0, 
+            "id": "WalkenGifs"
+        }, 
+        {
+            "radius": 2, 
+            "group": 2, 
             "id": "Justrolledintotheshop"
         }, 
         {
             "radius": 1, 
-            "group": 0, 
+            "group": 4, 
             "id": "friendsafari"
         }, 
         {
             "radius": 1, 
-            "group": 5, 
+            "group": 4, 
             "id": "torrents"
         }, 
         {
             "radius": 1, 
-            "group": 1, 
+            "group": 5, 
             "id": "roosterteeth"
         }, 
         {
             "radius": 1, 
-            "group": 1, 
+            "group": 3, 
+            "id": "shittytumblrgifs"
+        }, 
+        {
+            "radius": 1, 
+            "group": 2, 
             "id": "PS3"
         }, 
         {
             "radius": 3, 
-            "group": 1, 
+            "group": 3, 
             "id": "Android"
         }, 
         {
             "radius": 1, 
-            "group": 2, 
+            "group": 0, 
             "id": "KarmaCourt"
         }, 
         {
-            "radius": 1, 
+            "radius": 2, 
             "group": 3, 
             "id": "PS4"
         }, 
         {
-            "radius": 3, 
-            "group": 2, 
+            "radius": 7, 
+            "group": 4, 
             "id": "firstworldanarchists"
         }, 
         {
             "radius": 1, 
-            "group": 2, 
+            "group": 5, 
             "id": "TastyFood"
         }, 
         {
             "radius": 1, 
-            "group": 5, 
+            "group": 0, 
             "id": "truegaming"
         }, 
         {
             "radius": 1, 
-            "group": 2, 
+            "group": 4, 
             "id": "hackedgadgets"
         }, 
         {
             "radius": 1, 
-            "group": 0, 
+            "group": 2, 
+            "id": "SanDiegoJobs"
+        }, 
+        {
+            "radius": 2, 
+            "group": 1, 
             "id": "breakingbad"
         }, 
         {
             "radius": 1, 
-            "group": 1, 
+            "group": 3, 
             "id": "deadliestcatch"
         }, 
         {
             "radius": 1, 
-            "group": 3, 
+            "group": 2, 
+            "id": "outside"
+        }, 
+        {
+            "radius": 2, 
+            "group": 2, 
             "id": "olympics"
         }, 
         {
             "radius": 1, 
-            "group": 2, 
+            "group": 0, 
             "id": "budgies"
         }, 
         {
             "radius": 1, 
-            "group": 4, 
+            "group": 1, 
             "id": "SocialEngineering"
         }, 
         {
             "radius": 1, 
-            "group": 4, 
+            "group": 1, 
+            "id": "RetroFuturism"
+        }, 
+        {
+            "radius": 1, 
+            "group": 1, 
             "id": "MonsterHunter"
         }, 
         {
-            "radius": 4, 
-            "group": 1, 
+            "radius": 6, 
+            "group": 5, 
             "id": "pcmasterrace"
         }, 
         {
             "radius": 1, 
-            "group": 5, 
+            "group": 3, 
             "id": "ForwardsFromKlandma"
         }, 
         {
-            "radius": 2, 
-            "group": 4, 
+            "radius": 1, 
+            "group": 2, 
+            "id": "medicalschool"
+        }, 
+        {
+            "radius": 3, 
+            "group": 1, 
             "id": "europe"
         }, 
         {
             "radius": 2, 
-            "group": 3, 
+            "group": 2, 
             "id": "jobs"
         }, 
         {
             "radius": 1, 
-            "group": 3, 
+            "group": 5, 
             "id": "Wordpress"
         }, 
         {
@@ -2491,93 +3766,138 @@
             "id": "casualiama"
         }, 
         {
-            "radius": 3, 
-            "group": 1, 
+            "radius": 7, 
+            "group": 2, 
             "id": "facepalm"
         }, 
         {
-            "radius": 1, 
-            "group": 3, 
+            "radius": 2, 
+            "group": 5, 
             "id": "NotTimAndEric"
         }, 
         {
             "radius": 1, 
-            "group": 3, 
+            "group": 5, 
             "id": "NigelThornberry"
         }, 
         {
             "radius": 1, 
-            "group": 4, 
-            "id": "OSHA"
-        }, 
-        {
-            "radius": 1, 
-            "group": 5, 
-            "id": "tf2trade"
+            "group": 2, 
+            "id": "CatsStandingUp"
         }, 
         {
             "radius": 1, 
             "group": 2, 
-            "id": "moderatorproblems"
-        }, 
-        {
-            "radius": 7, 
-            "group": 0, 
-            "id": "news"
+            "id": "fakeid"
         }, 
         {
             "radius": 1, 
             "group": 3, 
-            "id": "IDecidetheContext"
+            "id": "OSHA"
         }, 
         {
             "radius": 1, 
-            "group": 5, 
-            "id": "emobatman"
-        }, 
-        {
-            "radius": 1, 
-            "group": 3, 
-            "id": "GrassrootsSelect"
-        }, 
-        {
-            "radius": 2, 
-            "group": 3, 
-            "id": "Unexpected"
+            "group": 1, 
+            "id": "tf2trade"
         }, 
         {
             "radius": 1, 
             "group": 4, 
+            "id": "moderatorproblems"
+        }, 
+        {
+            "radius": 10, 
+            "group": 1, 
+            "id": "news"
+        }, 
+        {
+            "radius": 1, 
+            "group": 1, 
+            "id": "IDecidetheContext"
+        }, 
+        {
+            "radius": 1, 
+            "group": 1, 
+            "id": "emobatman"
+        }, 
+        {
+            "radius": 1, 
+            "group": 5, 
+            "id": "GrassrootsSelect"
+        }, 
+        {
+            "radius": 1, 
+            "group": 3, 
+            "id": "gamingsuggestions"
+        }, 
+        {
+            "radius": 2, 
+            "group": 5, 
+            "id": "PublicFreakout"
+        }, 
+        {
+            "radius": 6, 
+            "group": 4, 
+            "id": "Unexpected"
+        }, 
+        {
+            "radius": 1, 
+            "group": 3, 
+            "id": "LeagueofLegendsMeta"
+        }, 
+        {
+            "radius": 1, 
+            "group": 2, 
             "id": "chicagobulls"
         }, 
         {
             "radius": 1, 
-            "group": 5, 
+            "group": 1, 
             "id": "RedditInsider"
         }, 
         {
             "radius": 1, 
-            "group": 5, 
+            "group": 2, 
             "id": "MisleadingPoodles"
         }, 
         {
-            "radius": 2, 
-            "group": 0, 
+            "radius": 3, 
+            "group": 4, 
             "id": "nocontext"
         }, 
         {
             "radius": 1, 
-            "group": 0, 
+            "group": 2, 
             "id": "tf2rafflehouse"
         }, 
         {
-            "radius": 2, 
-            "group": 0, 
-            "id": "nosleep"
+            "radius": 1, 
+            "group": 4, 
+            "id": "reallifedoodles"
+        }, 
+        {
+            "radius": 1, 
+            "group": 2, 
+            "id": "russia"
+        }, 
+        {
+            "radius": 1, 
+            "group": 3, 
+            "id": "familyguy"
         }, 
         {
             "radius": 3, 
             "group": 0, 
+            "id": "nosleep"
+        }, 
+        {
+            "radius": 1, 
+            "group": 0, 
+            "id": "Supplements"
+        }, 
+        {
+            "radius": 4, 
+            "group": 3, 
             "id": "watchpeopledie"
         }, 
         {
@@ -2587,38 +3907,63 @@
         }, 
         {
             "radius": 1, 
+            "group": 3, 
+            "id": "MuslimNoFap"
+        }, 
+        {
+            "radius": 1, 
             "group": 1, 
+            "id": "mylittlepony"
+        }, 
+        {
+            "radius": 1, 
+            "group": 4, 
             "id": "AMDHelp"
         }, 
         {
             "radius": 1, 
             "group": 1, 
-            "id": "dopplebangher"
-        }, 
-        {
-            "radius": 3, 
-            "group": 1, 
-            "id": "GetMotivated"
+            "id": "infp"
         }, 
         {
             "radius": 1, 
             "group": 5, 
+            "id": "dopplebangher"
+        }, 
+        {
+            "radius": 5, 
+            "group": 0, 
+            "id": "GetMotivated"
+        }, 
+        {
+            "radius": 2, 
+            "group": 1, 
             "id": "EnoughTrumpSpam"
         }, 
         {
             "radius": 1, 
-            "group": 4, 
+            "group": 0, 
             "id": "pakistan"
         }, 
         {
             "radius": 2, 
-            "group": 5, 
+            "group": 1, 
             "id": "buildapc"
         }, 
         {
             "radius": 1, 
-            "group": 5, 
+            "group": 0, 
             "id": "lizords"
+        }, 
+        {
+            "radius": 1, 
+            "group": 3, 
+            "id": "shallowhouse"
+        }, 
+        {
+            "radius": 1, 
+            "group": 3, 
+            "id": "1200isplenty"
         }, 
         {
             "radius": 1, 
@@ -2627,52 +3972,72 @@
         }, 
         {
             "radius": 1, 
-            "group": 2, 
+            "group": 0, 
+            "id": "drunk"
+        }, 
+        {
+            "radius": 1, 
+            "group": 0, 
             "id": "wall"
         }, 
         {
-            "radius": 4, 
-            "group": 1, 
+            "radius": 8, 
+            "group": 3, 
             "id": "reactiongifs"
         }, 
         {
             "radius": 1, 
-            "group": 4, 
+            "group": 1, 
             "id": "community"
         }, 
         {
             "radius": 1, 
-            "group": 5, 
+            "group": 0, 
             "id": "ScienceFacts"
         }, 
         {
+            "radius": 1, 
+            "group": 3, 
+            "id": "geekboners"
+        }, 
+        {
             "radius": 2, 
-            "group": 1, 
+            "group": 4, 
             "id": "Justfuckmyshitup"
         }, 
         {
-            "radius": 6, 
-            "group": 3, 
+            "radius": 10, 
+            "group": 2, 
             "id": "Music"
         }, 
         {
             "radius": 1, 
-            "group": 3, 
+            "group": 2, 
+            "id": "Disneyland"
+        }, 
+        {
+            "radius": 2, 
+            "group": 0, 
             "id": "MadeMeSmile"
         }, 
         {
             "radius": 1, 
-            "group": 1, 
+            "group": 0, 
             "id": "linux"
         }, 
         {
             "radius": 1, 
-            "group": 5, 
+            "group": 2, 
             "id": "chloegracemoretz"
         }, 
         {
             "radius": 1, 
-            "group": 4, 
+            "group": 1, 
+            "id": "CombatFootage"
+        }, 
+        {
+            "radius": 1, 
+            "group": 2, 
             "id": "starwarsrebels"
         }, 
         {
@@ -2683,81 +4048,116 @@
         {
             "radius": 1, 
             "group": 0, 
-            "id": "BigCatGifs"
+            "id": "Transhuman"
         }, 
         {
             "radius": 2, 
-            "group": 2, 
+            "group": 4, 
+            "id": "raidsecrets"
+        }, 
+        {
+            "radius": 1, 
+            "group": 5, 
+            "id": "BigCatGifs"
+        }, 
+        {
+            "radius": 1, 
+            "group": 1, 
+            "id": "savedyouaclick"
+        }, 
+        {
+            "radius": 2, 
+            "group": 3, 
             "id": "JustUnsubbed"
         }, 
         {
             "radius": 1, 
-            "group": 4, 
+            "group": 3, 
+            "id": "Re_Zero"
+        }, 
+        {
+            "radius": 1, 
+            "group": 0, 
             "id": "DC_Cinematic"
         }, 
         {
             "radius": 1, 
-            "group": 3, 
+            "group": 0, 
             "id": "chatshow"
         }, 
         {
-            "radius": 1, 
-            "group": 1, 
+            "radius": 2, 
+            "group": 0, 
             "id": "Harambe"
         }, 
         {
             "radius": 1, 
-            "group": 3, 
+            "group": 1, 
             "id": "pcmods"
         }, 
         {
             "radius": 2, 
-            "group": 3, 
+            "group": 0, 
             "id": "ireland"
         }, 
         {
             "radius": 1, 
-            "group": 0, 
+            "group": 3, 
             "id": "ak47"
         }, 
         {
             "radius": 1, 
-            "group": 2, 
+            "group": 3, 
             "id": "TheseFuckingAccounts"
         }, 
         {
             "radius": 1, 
-            "group": 0, 
+            "group": 4, 
             "id": "doodles"
         }, 
         {
-            "radius": 3, 
-            "group": 5, 
-            "id": "h3h3productions"
+            "radius": 1, 
+            "group": 2, 
+            "id": "cannabis"
         }, 
         {
             "radius": 1, 
             "group": 4, 
-            "id": "gildedconspiracy"
+            "id": "LoLSuggestions"
         }, 
         {
-            "radius": 2, 
+            "radius": 4, 
             "group": 2, 
-            "id": "Fallout"
+            "id": "h3h3productions"
         }, 
         {
             "radius": 1, 
-            "group": 2, 
-            "id": "theocho"
-        }, 
-        {
-            "radius": 2, 
             "group": 0, 
-            "id": "WastedGifs"
+            "id": "CCW"
         }, 
         {
             "radius": 1, 
             "group": 1, 
+            "id": "gildedconspiracy"
+        }, 
+        {
+            "radius": 3, 
+            "group": 4, 
+            "id": "Fallout"
+        }, 
+        {
+            "radius": 1, 
+            "group": 5, 
+            "id": "theocho"
+        }, 
+        {
+            "radius": 3, 
+            "group": 5, 
+            "id": "WastedGifs"
+        }, 
+        {
+            "radius": 1, 
+            "group": 2, 
             "id": "androidapps"
         }, 
         {
@@ -2767,12 +4167,12 @@
         }, 
         {
             "radius": 1, 
-            "group": 0, 
+            "group": 3, 
             "id": "HelpMeFind"
         }, 
         {
             "radius": 1, 
-            "group": 0, 
+            "group": 4, 
             "id": "GalaxyS7"
         }, 
         {
@@ -2781,14 +4181,19 @@
             "id": "GalaxyS6"
         }, 
         {
-            "radius": 2, 
-            "group": 1, 
+            "radius": 3, 
+            "group": 3, 
             "id": "oddlysatisfying"
         }, 
         {
             "radius": 1, 
-            "group": 1, 
+            "group": 2, 
             "id": "ColoredByCrash"
+        }, 
+        {
+            "radius": 1, 
+            "group": 5, 
+            "id": "stevenuniverse"
         }, 
         {
             "radius": 1, 
@@ -2796,48 +4201,88 @@
             "id": "keto"
         }, 
         {
-            "radius": 1, 
-            "group": 1, 
+            "radius": 2, 
+            "group": 2, 
             "id": "ChoosingBeggars"
         }, 
         {
-            "radius": 4, 
+            "radius": 1, 
+            "group": 4, 
+            "id": "EliteDangerous"
+        }, 
+        {
+            "radius": 2, 
+            "group": 5, 
+            "id": "chess"
+        }, 
+        {
+            "radius": 6, 
             "group": 1, 
             "id": "instant_regret"
         }, 
         {
             "radius": 1, 
-            "group": 4, 
-            "id": "wallstreetbets"
-        }, 
-        {
-            "radius": 2, 
             "group": 3, 
-            "id": "hitmanimals"
-        }, 
-        {
-            "radius": 1, 
-            "group": 3, 
-            "id": "minerapocalypse"
-        }, 
-        {
-            "radius": 1, 
-            "group": 3, 
-            "id": "wherecanibuythis"
+            "id": "ImaginaryHorrors"
         }, 
         {
             "radius": 1, 
             "group": 1, 
-            "id": "chanzhfsneakers"
+            "id": "wallstreetbets"
+        }, 
+        {
+            "radius": 3, 
+            "group": 4, 
+            "id": "hitmanimals"
+        }, 
+        {
+            "radius": 1, 
+            "group": 0, 
+            "id": "Elona"
+        }, 
+        {
+            "radius": 1, 
+            "group": 5, 
+            "id": "minerapocalypse"
+        }, 
+        {
+            "radius": 1, 
+            "group": 5, 
+            "id": "wherecanibuythis"
+        }, 
+        {
+            "radius": 1, 
+            "group": 4, 
+            "id": "penryn"
+        }, 
+        {
+            "radius": 1, 
+            "group": 0, 
+            "id": "stevethechicken"
         }, 
         {
             "radius": 1, 
             "group": 2, 
-            "id": "awwgifs"
+            "id": "Perfectfit"
+        }, 
+        {
+            "radius": 1, 
+            "group": 5, 
+            "id": "chanzhfsneakers"
         }, 
         {
             "radius": 1, 
             "group": 3, 
+            "id": "offbeat"
+        }, 
+        {
+            "radius": 1, 
+            "group": 0, 
+            "id": "awwgifs"
+        }, 
+        {
+            "radius": 2, 
+            "group": 5, 
             "id": "softwaregore"
         }, 
         {
@@ -2847,168 +4292,263 @@
         }, 
         {
             "radius": 1, 
-            "group": 3, 
+            "group": 1, 
             "id": "worstof"
         }, 
         {
             "radius": 1, 
             "group": 0, 
+            "id": "JusticeServed"
+        }, 
+        {
+            "radius": 1, 
+            "group": 2, 
             "id": "TF2files"
         }, 
         {
             "radius": 1, 
+            "group": 3, 
+            "id": "assignedmale"
+        }, 
+        {
+            "radius": 1, 
             "group": 0, 
+            "id": "helpinghand"
+        }, 
+        {
+            "radius": 1, 
+            "group": 2, 
             "id": "FashionReps"
         }, 
         {
             "radius": 1, 
-            "group": 2, 
+            "group": 0, 
             "id": "openstreetmap"
         }, 
         {
             "radius": 1, 
-            "group": 3, 
-            "id": "PizzaAesthetics"
-        }, 
-        {
-            "radius": 1, 
-            "group": 2, 
-            "id": "Pipes"
+            "group": 0, 
+            "id": "rap"
         }, 
         {
             "radius": 1, 
             "group": 4, 
-            "id": "Filmmakers"
-        }, 
-        {
-            "radius": 1, 
-            "group": 1, 
-            "id": "doggos"
+            "id": "stopdrinking"
         }, 
         {
             "radius": 1, 
             "group": 2, 
+            "id": "PizzaAesthetics"
+        }, 
+        {
+            "radius": 1, 
+            "group": 0, 
+            "id": "Pipes"
+        }, 
+        {
+            "radius": 1, 
+            "group": 3, 
+            "id": "Filmmakers"
+        }, 
+        {
+            "radius": 1, 
+            "group": 4, 
+            "id": "doggos"
+        }, 
+        {
+            "radius": 2, 
+            "group": 3, 
+            "id": "KotakuInAction"
+        }, 
+        {
+            "radius": 1, 
+            "group": 0, 
             "id": "IASIP"
         }, 
         {
             "radius": 1, 
             "group": 2, 
+            "id": "hittableFaces"
+        }, 
+        {
+            "radius": 1, 
+            "group": 3, 
             "id": "slavs_squatting"
         }, 
         {
-            "radius": 3, 
-            "group": 4, 
+            "radius": 4, 
+            "group": 1, 
             "id": "DIY"
         }, 
         {
             "radius": 1, 
-            "group": 1, 
+            "group": 0, 
             "id": "youreonalistnow"
         }, 
         {
             "radius": 1, 
-            "group": 3, 
+            "group": 5, 
             "id": "assassinscreed"
         }, 
         {
-            "radius": 2, 
-            "group": 3, 
+            "radius": 4, 
+            "group": 1, 
             "id": "technology"
         }, 
         {
             "radius": 1, 
-            "group": 0, 
+            "group": 3, 
             "id": "cheatatmathhomework"
         }, 
         {
             "radius": 1, 
             "group": 4, 
+            "id": "southpark"
+        }, 
+        {
+            "radius": 1, 
+            "group": 0, 
             "id": "TPB"
         }, 
         {
-            "radius": 7, 
-            "group": 4, 
+            "radius": 13, 
+            "group": 2, 
             "id": "funny"
         }, 
         {
             "radius": 1, 
-            "group": 4, 
+            "group": 1, 
             "id": "dashcamgifs"
         }, 
         {
             "radius": 1, 
-            "group": 2, 
+            "group": 5, 
             "id": "sophieturner"
         }, 
         {
             "radius": 1, 
-            "group": 5, 
+            "group": 0, 
             "id": "Knife_Swap"
         }, 
         {
             "radius": 1, 
-            "group": 3, 
+            "group": 0, 
             "id": "sixthworldproblems"
         }, 
         {
             "radius": 1, 
-            "group": 3, 
+            "group": 4, 
             "id": "Subredditads"
         }, 
         {
             "radius": 1, 
-            "group": 3, 
+            "group": 0, 
             "id": "Hungergames"
         }, 
         {
             "radius": 1, 
-            "group": 5, 
+            "group": 0, 
             "id": "hardcoreaww"
         }, 
         {
             "radius": 1, 
             "group": 5, 
+            "id": "pitbulls"
+        }, 
+        {
+            "radius": 1, 
+            "group": 1, 
+            "id": "pepe"
+        }, 
+        {
+            "radius": 1, 
+            "group": 4, 
             "id": "GoneMild"
         }, 
         {
             "radius": 1, 
-            "group": 3, 
+            "group": 2, 
             "id": "guns"
         }, 
         {
             "radius": 1, 
             "group": 0, 
+            "id": "Makemeagif"
+        }, 
+        {
+            "radius": 1, 
+            "group": 1, 
+            "id": "pussypassdenied"
+        }, 
+        {
+            "radius": 1, 
+            "group": 1, 
+            "id": "PeopleBeingJerks"
+        }, 
+        {
+            "radius": 1, 
+            "group": 1, 
             "id": "itookapicture"
         }, 
         {
-            "radius": 3, 
+            "radius": 1, 
             "group": 0, 
+            "id": "OverwatchLFT"
+        }, 
+        {
+            "radius": 4, 
+            "group": 5, 
             "id": "Whatcouldgowrong"
         }, 
         {
             "radius": 1, 
-            "group": 4, 
+            "group": 5, 
+            "id": "fifthworldproblems"
+        }, 
+        {
+            "radius": 2, 
+            "group": 1, 
             "id": "talesfromtechsupport"
         }, 
         {
             "radius": 1, 
-            "group": 4, 
-            "id": "bestoftwitter"
+            "group": 3, 
+            "id": "niceguys"
         }, 
         {
             "radius": 1, 
             "group": 5, 
+            "id": "bestoftwitter"
+        }, 
+        {
+            "radius": 2, 
+            "group": 2, 
             "id": "breathinginformation"
         }, 
         {
             "radius": 2, 
-            "group": 3, 
+            "group": 2, 
             "id": "notinteresting"
         }, 
         {
-            "radius": 3, 
+            "radius": 1, 
+            "group": 3, 
+            "id": "PoliticalHumor"
+        }, 
+        {
+            "radius": 1, 
             "group": 1, 
+            "id": "DesirePath"
+        }, 
+        {
+            "radius": 3, 
+            "group": 2, 
             "id": "AnimalsBeingJerks"
+        }, 
+        {
+            "radius": 1, 
+            "group": 4, 
+            "id": "swarmsim"
         }, 
         {
             "radius": 1, 
@@ -3017,23 +4557,38 @@
         }, 
         {
             "radius": 1, 
+            "group": 2, 
+            "id": "Thetruthishere"
+        }, 
+        {
+            "radius": 1, 
             "group": 4, 
             "id": "linux_gaming"
         }, 
         {
             "radius": 1, 
-            "group": 0, 
+            "group": 4, 
             "id": "pogobat"
         }, 
         {
             "radius": 1, 
-            "group": 0, 
+            "group": 1, 
             "id": "goingtohellforthis"
         }, 
         {
             "radius": 1, 
-            "group": 1, 
+            "group": 2, 
             "id": "Domains"
+        }, 
+        {
+            "radius": 1, 
+            "group": 5, 
+            "id": "Nootropics"
+        }, 
+        {
+            "radius": 1, 
+            "group": 4, 
+            "id": "palatecleanser"
         }, 
         {
             "radius": 1, 
@@ -3042,48 +4597,83 @@
         }, 
         {
             "radius": 1, 
-            "group": 1, 
+            "group": 4, 
             "id": "PipeTobacco"
         }, 
         {
-            "radius": 1, 
+            "radius": 2, 
             "group": 2, 
             "id": "BeAmazed"
         }, 
         {
             "radius": 2, 
-            "group": 0, 
+            "group": 5, 
             "id": "unpopularopinion"
         }, 
         {
             "radius": 1, 
-            "group": 3, 
+            "group": 5, 
             "id": "whatabadcatitude"
         }, 
         {
             "radius": 1, 
-            "group": 0, 
+            "group": 2, 
             "id": "DoctorWhumour"
         }, 
         {
             "radius": 2, 
-            "group": 0, 
+            "group": 4, 
             "id": "newreddits"
         }, 
         {
             "radius": 1, 
-            "group": 1, 
+            "group": 4, 
+            "id": "twinks"
+        }, 
+        {
+            "radius": 1, 
+            "group": 0, 
+            "id": "theknick"
+        }, 
+        {
+            "radius": 1, 
+            "group": 3, 
             "id": "boop"
         }, 
         {
             "radius": 1, 
-            "group": 2, 
-            "id": "EvolveGame"
+            "group": 5, 
+            "id": "whatcouldgoright"
+        }, 
+        {
+            "radius": 1, 
+            "group": 5, 
+            "id": "RedditDads"
         }, 
         {
             "radius": 1, 
             "group": 2, 
+            "id": "massage"
+        }, 
+        {
+            "radius": 1, 
+            "group": 0, 
+            "id": "EvolveGame"
+        }, 
+        {
+            "radius": 1, 
+            "group": 5, 
             "id": "trippinthroughtime"
+        }, 
+        {
+            "radius": 1, 
+            "group": 1, 
+            "id": "ffxiv"
+        }, 
+        {
+            "radius": 1, 
+            "group": 0, 
+            "id": "MechanicAdvice"
         }, 
         {
             "radius": 1, 
@@ -3092,7 +4682,7 @@
         }, 
         {
             "radius": 1, 
-            "group": 4, 
+            "group": 2, 
             "id": "pokemongodev"
         }, 
         {
@@ -3102,78 +4692,118 @@
         }, 
         {
             "radius": 1, 
+            "group": 0, 
+            "id": "UrbanHell"
+        }, 
+        {
+            "radius": 2, 
             "group": 3, 
+            "id": "HomeworkHelp"
+        }, 
+        {
+            "radius": 1, 
+            "group": 0, 
             "id": "KarmaConspiracy"
         }, 
         {
-            "radius": 3, 
-            "group": 4, 
+            "radius": 1, 
+            "group": 5, 
+            "id": "whatsthisbug"
+        }, 
+        {
+            "radius": 4, 
+            "group": 5, 
             "id": "Piracy"
         }, 
         {
             "radius": 1, 
-            "group": 1, 
+            "group": 4, 
             "id": "FitWomenGifs"
         }, 
         {
-            "radius": 8, 
+            "radius": 18, 
             "group": 4, 
             "id": "PokemonGoFuckYourself"
         }, 
         {
             "radius": 1, 
-            "group": 0, 
+            "group": 4, 
             "id": "ShittyTurtleFacts"
         }, 
         {
             "radius": 1, 
-            "group": 4, 
+            "group": 0, 
             "id": "WordAvalanches"
         }, 
         {
-            "radius": 1, 
+            "radius": 2, 
             "group": 3, 
-            "id": "camphalfblood"
-        }, 
-        {
-            "radius": 1, 
-            "group": 1, 
-            "id": "NSFWvines"
-        }, 
-        {
-            "radius": 1, 
-            "group": 3, 
-            "id": "woodworking"
+            "id": "rickandmorty"
         }, 
         {
             "radius": 1, 
             "group": 0, 
-            "id": "perfectloops"
+            "id": "civic"
+        }, 
+        {
+            "radius": 1, 
+            "group": 0, 
+            "id": "camphalfblood"
         }, 
         {
             "radius": 1, 
             "group": 5, 
-            "id": "GreenManGaming"
-        }, 
-        {
-            "radius": 1, 
-            "group": 3, 
-            "id": "InternetIsBeautiful"
+            "id": "NSFWvines"
         }, 
         {
             "radius": 1, 
             "group": 1, 
+            "id": "woodworking"
+        }, 
+        {
+            "radius": 1, 
+            "group": 4, 
+            "id": "perfectloops"
+        }, 
+        {
+            "radius": 1, 
+            "group": 0, 
+            "id": "GreenManGaming"
+        }, 
+        {
+            "radius": 1, 
+            "group": 4, 
+            "id": "InternetIsBeautiful"
+        }, 
+        {
+            "radius": 1, 
+            "group": 2, 
+            "id": "perfect_response"
+        }, 
+        {
+            "radius": 1, 
+            "group": 1, 
+            "id": "A_irsoft"
+        }, 
+        {
+            "radius": 1, 
+            "group": 2, 
             "id": "foodhacks"
         }, 
         {
             "radius": 1, 
-            "group": 3, 
+            "group": 4, 
             "id": "apple"
         }, 
         {
             "radius": 1, 
-            "group": 5, 
+            "group": 0, 
             "id": "flashlight"
+        }, 
+        {
+            "radius": 1, 
+            "group": 2, 
+            "id": "TalesFromRetail"
         }, 
         {
             "radius": 1, 
@@ -3182,57 +4812,82 @@
         }, 
         {
             "radius": 1, 
-            "group": 2, 
+            "group": 4, 
+            "id": "TrueReddit"
+        }, 
+        {
+            "radius": 2, 
+            "group": 4, 
             "id": "WritingPrompts"
         }, 
         {
             "radius": 1, 
-            "group": 2, 
+            "group": 5, 
             "id": "WouldYouRather"
         }, 
         {
-            "radius": 5, 
-            "group": 4, 
+            "radius": 8, 
+            "group": 1, 
             "id": "quityourbullshit"
         }, 
         {
             "radius": 1, 
-            "group": 1, 
+            "group": 5, 
             "id": "YouVsHim"
         }, 
         {
             "radius": 1, 
-            "group": 5, 
-            "id": "blog"
-        }, 
-        {
-            "radius": 1, 
-            "group": 2, 
-            "id": "APPARENTLY_HITLER"
-        }, 
-        {
-            "radius": 5, 
-            "group": 4, 
-            "id": "woahdude"
-        }, 
-        {
-            "radius": 2, 
-            "group": 3, 
-            "id": "hiphopheads"
+            "group": 1, 
+            "id": "Gunz2"
         }, 
         {
             "radius": 1, 
             "group": 0, 
-            "id": "SteamTrade"
+            "id": "Diablo"
         }, 
         {
             "radius": 1, 
-            "group": 2, 
-            "id": "Avengers"
+            "group": 0, 
+            "id": "vsauce"
+        }, 
+        {
+            "radius": 1, 
+            "group": 4, 
+            "id": "blog"
         }, 
         {
             "radius": 1, 
             "group": 5, 
+            "id": "APPARENTLY_HITLER"
+        }, 
+        {
+            "radius": 7, 
+            "group": 5, 
+            "id": "woahdude"
+        }, 
+        {
+            "radius": 2, 
+            "group": 5, 
+            "id": "hiphopheads"
+        }, 
+        {
+            "radius": 1, 
+            "group": 1, 
+            "id": "SteamTrade"
+        }, 
+        {
+            "radius": 1, 
+            "group": 5, 
+            "id": "libreoffice"
+        }, 
+        {
+            "radius": 1, 
+            "group": 5, 
+            "id": "Avengers"
+        }, 
+        {
+            "radius": 2, 
+            "group": 4, 
             "id": "AnimalsBeingDerps"
         }, 
         {
@@ -3241,19 +4896,29 @@
             "id": "theydidthemath"
         }, 
         {
-            "radius": 2, 
-            "group": 0, 
+            "radius": 4, 
+            "group": 3, 
             "id": "SweatyPalms"
         }, 
         {
             "radius": 1, 
-            "group": 3, 
+            "group": 4, 
             "id": "PartyParrot"
         }, 
         {
             "radius": 1, 
-            "group": 1, 
+            "group": 5, 
+            "id": "James"
+        }, 
+        {
+            "radius": 1, 
+            "group": 3, 
             "id": "BetterEveryLoop"
+        }, 
+        {
+            "radius": 1, 
+            "group": 0, 
+            "id": "VaporwaveArt"
         }, 
         {
             "radius": 1, 
@@ -3262,17 +4927,17 @@
         }, 
         {
             "radius": 1, 
-            "group": 4, 
+            "group": 3, 
             "id": "HomeNetworking"
         }, 
         {
             "radius": 1, 
-            "group": 4, 
+            "group": 5, 
             "id": "TrueOffMyChest"
         }, 
         {
             "radius": 1, 
-            "group": 0, 
+            "group": 3, 
             "id": "MosinNagant"
         }, 
         {
@@ -3281,134 +4946,219 @@
             "id": "redditisfacebook"
         }, 
         {
-            "radius": 3, 
+            "radius": 1, 
+            "group": 3, 
+            "id": "trap"
+        }, 
+        {
+            "radius": 1, 
+            "group": 3, 
+            "id": "whiteknighting"
+        }, 
+        {
+            "radius": 5, 
             "group": 1, 
             "id": "UNBGBBIIVCHIDCTIICBG"
         }, 
         {
-            "radius": 2, 
-            "group": 2, 
+            "radius": 1, 
+            "group": 1, 
+            "id": "Fireteams"
+        }, 
+        {
+            "radius": 6, 
+            "group": 5, 
             "id": "cringepics"
         }, 
         {
             "radius": 1, 
-            "group": 2, 
+            "group": 4, 
             "id": "picturesoftext"
         }, 
         {
-            "radius": 4, 
-            "group": 2, 
+            "radius": 9, 
+            "group": 5, 
             "id": "iamverysmart"
-        }, 
-        {
-            "radius": 2, 
-            "group": 2, 
-            "id": "thewalkingdead"
-        }, 
-        {
-            "radius": 8, 
-            "group": 2, 
-            "id": "gifs"
-        }, 
-        {
-            "radius": 1, 
-            "group": 0, 
-            "id": "Art"
         }, 
         {
             "radius": 1, 
             "group": 5, 
-            "id": "modhelp"
+            "id": "FeralSound"
+        }, 
+        {
+            "radius": 1, 
+            "group": 4, 
+            "id": "bodyweightfitness"
+        }, 
+        {
+            "radius": 2, 
+            "group": 1, 
+            "id": "thewalkingdead"
+        }, 
+        {
+            "radius": 14, 
+            "group": 0, 
+            "id": "gifs"
+        }, 
+        {
+            "radius": 2, 
+            "group": 5, 
+            "id": "Art"
         }, 
         {
             "radius": 1, 
             "group": 1, 
+            "id": "classicrage"
+        }, 
+        {
+            "radius": 1, 
+            "group": 3, 
+            "id": "WallpaperRequests"
+        }, 
+        {
+            "radius": 1, 
+            "group": 1, 
+            "id": "modhelp"
+        }, 
+        {
+            "radius": 1, 
+            "group": 0, 
+            "id": "Agario"
+        }, 
+        {
+            "radius": 1, 
+            "group": 2, 
             "id": "t:1980s"
         }, 
         {
-            "radius": 2, 
-            "group": 2, 
+            "radius": 1, 
+            "group": 3, 
+            "id": "psych"
+        }, 
+        {
+            "radius": 1, 
+            "group": 5, 
+            "id": "Idubbbz"
+        }, 
+        {
+            "radius": 5, 
+            "group": 0, 
             "id": "4chan"
         }, 
         {
-            "radius": 9, 
+            "radius": 18, 
             "group": 1, 
             "id": "AskReddit"
         }, 
         {
             "radius": 4, 
-            "group": 4, 
+            "group": 0, 
             "id": "t"
         }, 
         {
             "radius": 1, 
-            "group": 2, 
+            "group": 3, 
             "id": "zombies"
         }, 
         {
-            "radius": 4, 
-            "group": 0, 
+            "radius": 5, 
+            "group": 5, 
             "id": "Eyebleach"
         }, 
         {
             "radius": 1, 
-            "group": 0, 
+            "group": 4, 
+            "id": "Ohlympics"
+        }, 
+        {
+            "radius": 1, 
+            "group": 2, 
             "id": "OopsDidntMeanTo"
         }, 
         {
             "radius": 1, 
-            "group": 4, 
+            "group": 5, 
             "id": "csshelp"
         }, 
         {
             "radius": 1, 
-            "group": 0, 
-            "id": "fonts"
+            "group": 3, 
+            "id": "Brrrrrrrrrrrrrrrrt"
         }, 
         {
             "radius": 1, 
-            "group": 0, 
-            "id": "SubredditSimulator"
+            "group": 2, 
+            "id": "fonts"
+        }, 
+        {
+            "radius": 2, 
+            "group": 2, 
+            "id": "gardening"
         }, 
         {
             "radius": 1, 
             "group": 5, 
-            "id": "NetflixBestOf"
+            "id": "SubredditSimulator"
         }, 
         {
             "radius": 1, 
-            "group": 4, 
+            "group": 3, 
+            "id": "CatGifs"
+        }, 
+        {
+            "radius": 2, 
+            "group": 0, 
+            "id": "NetflixBestOf"
+        }, 
+        {
+            "radius": 2, 
+            "group": 0, 
             "id": "9gag"
         }, 
         {
             "radius": 1, 
-            "group": 2, 
+            "group": 5, 
             "id": "MEOW_IRL"
         }, 
         {
             "radius": 1, 
-            "group": 3, 
+            "group": 0, 
             "id": "circlebroke2"
         }, 
         {
             "radius": 1, 
-            "group": 2, 
+            "group": 0, 
+            "id": "heroesofthestorm"
+        }, 
+        {
+            "radius": 3, 
+            "group": 5, 
             "id": "xboxone"
         }, 
         {
             "radius": 1, 
-            "group": 4, 
+            "group": 3, 
             "id": "nosneeze"
         }, 
         {
-            "radius": 2, 
-            "group": 3, 
+            "radius": 4, 
+            "group": 4, 
             "id": "tumblr"
         }, 
         {
-            "radius": 6, 
+            "radius": 11, 
             "group": 0, 
             "id": "interestingasfuck"
+        }, 
+        {
+            "radius": 1, 
+            "group": 4, 
+            "id": "ps2outfits"
+        }, 
+        {
+            "radius": 1, 
+            "group": 3, 
+            "id": "PropagandaPosters"
         }, 
         {
             "radius": 1, 
@@ -3417,18 +5167,28 @@
         }, 
         {
             "radius": 1, 
+            "group": 3, 
+            "id": "LazyCats"
+        }, 
+        {
+            "radius": 1, 
             "group": 2, 
             "id": "radiohead"
         }, 
         {
-            "radius": 1, 
-            "group": 2, 
+            "radius": 2, 
+            "group": 1, 
             "id": "PeopleFuckingDying"
         }, 
         {
             "radius": 1, 
-            "group": 3, 
+            "group": 4, 
             "id": "Compilers"
+        }, 
+        {
+            "radius": 1, 
+            "group": 1, 
+            "id": "AcademicPsychology"
         }, 
         {
             "radius": 1, 
@@ -3436,53 +5196,83 @@
             "id": "KneadyCats"
         }, 
         {
-            "radius": 1, 
-            "group": 3, 
+            "radius": 3, 
+            "group": 1, 
             "id": "Coffee"
         }, 
         {
             "radius": 1, 
-            "group": 4, 
+            "group": 5, 
             "id": "gifrequests"
         }, 
         {
             "radius": 1, 
-            "group": 2, 
+            "group": 1, 
             "id": "jewelry"
         }, 
         {
             "radius": 1, 
-            "group": 0, 
-            "id": "AR_css"
-        }, 
-        {
-            "radius": 2, 
-            "group": 0, 
-            "id": "SkincareAddiction"
-        }, 
-        {
-            "radius": 1, 
-            "group": 2, 
-            "id": "tryintomakeachange"
-        }, 
-        {
-            "radius": 1, 
-            "group": 2, 
-            "id": "RandomKindness"
-        }, 
-        {
-            "radius": 1, 
-            "group": 3, 
-            "id": "absolutelynotmeirl"
+            "group": 1, 
+            "id": "Wicca"
         }, 
         {
             "radius": 1, 
             "group": 5, 
-            "id": "lifehacks"
+            "id": "AR_css"
+        }, 
+        {
+            "radius": 1, 
+            "group": 3, 
+            "id": "AMA"
         }, 
         {
             "radius": 1, 
             "group": 2, 
+            "id": "ResentfulAnimals"
+        }, 
+        {
+            "radius": 2, 
+            "group": 4, 
+            "id": "SkincareAddiction"
+        }, 
+        {
+            "radius": 1, 
+            "group": 4, 
+            "id": "playark"
+        }, 
+        {
+            "radius": 1, 
+            "group": 1, 
+            "id": "tryintomakeachange"
+        }, 
+        {
+            "radius": 1, 
+            "group": 4, 
+            "id": "trebuchetmemes"
+        }, 
+        {
+            "radius": 1, 
+            "group": 4, 
+            "id": "RandomKindness"
+        }, 
+        {
+            "radius": 1, 
+            "group": 1, 
+            "id": "absolutelynotmeirl"
+        }, 
+        {
+            "radius": 1, 
+            "group": 3, 
+            "id": "blackpeoplegifs"
+        }, 
+        {
+            "radius": 3, 
+            "group": 2, 
+            "id": "lifehacks"
+        }, 
+        {
+            "radius": 1, 
+            "group": 1, 
             "id": "Moderationseverywhere"
         }, 
         {
@@ -3491,64 +5281,114 @@
             "id": "TheSilphRoad"
         }, 
         {
-            "radius": 1, 
-            "group": 3, 
+            "radius": 3, 
+            "group": 1, 
             "id": "SubredditDrama"
         }, 
         {
             "radius": 1, 
-            "group": 5, 
+            "group": 4, 
             "id": "amibeingdetained"
         }, 
         {
-            "radius": 1, 
-            "group": 0, 
+            "radius": 2, 
+            "group": 4, 
             "id": "airsoft"
         }, 
         {
             "radius": 1, 
-            "group": 0, 
+            "group": 3, 
             "id": "unfortunateplacement"
         }, 
         {
             "radius": 1, 
-            "group": 4, 
-            "id": "Economics"
-        }, 
-        {
-            "radius": 4, 
-            "group": 4, 
-            "id": "circlejerk"
+            "group": 0, 
+            "id": "tekkit"
         }, 
         {
             "radius": 1, 
+            "group": 0, 
+            "id": "Economics"
+        }, 
+        {
+            "radius": 8, 
+            "group": 5, 
+            "id": "circlejerk"
+        }, 
+        {
+            "radius": 2, 
             "group": 0, 
             "id": "delusionalartists"
         }, 
         {
-            "radius": 1, 
-            "group": 3, 
-            "id": "Frugal"
+            "radius": 2, 
+            "group": 1, 
+            "id": "OkCupid"
         }, 
         {
             "radius": 1, 
-            "group": 3, 
-            "id": "JonTron"
-        }, 
-        {
-            "radius": 1, 
-            "group": 0, 
-            "id": "bestof2012"
+            "group": 1, 
+            "id": "House"
         }, 
         {
             "radius": 1, 
             "group": 2, 
+            "id": "BaseBuildingGames"
+        }, 
+        {
+            "radius": 1, 
+            "group": 5, 
+            "id": "Frugal"
+        }, 
+        {
+            "radius": 1, 
+            "group": 2, 
+            "id": "grooveshark"
+        }, 
+        {
+            "radius": 1, 
+            "group": 2, 
+            "id": "JonTron"
+        }, 
+        {
+            "radius": 1, 
+            "group": 2, 
+            "id": "bestof2012"
+        }, 
+        {
+            "radius": 1, 
+            "group": 3, 
+            "id": "pilates"
+        }, 
+        {
+            "radius": 1, 
+            "group": 3, 
             "id": "AskModerators"
+        }, 
+        {
+            "radius": 1, 
+            "group": 2, 
+            "id": "eu4"
+        }, 
+        {
+            "radius": 3, 
+            "group": 5, 
+            "id": "shittyaskscience"
+        }, 
+        {
+            "radius": 1, 
+            "group": 2, 
+            "id": "crappyvideos"
+        }, 
+        {
+            "radius": 1, 
+            "group": 1, 
+            "id": "VaporwaveAesthetics"
         }, 
         {
             "radius": 2, 
             "group": 3, 
-            "id": "shittyaskscience"
+            "id": "indianpeoplefacebook"
         }, 
         {
             "radius": 1, 
@@ -3557,22 +5397,27 @@
         }, 
         {
             "radius": 1, 
-            "group": 5, 
+            "group": 0, 
             "id": "thepiratebay"
         }, 
         {
-            "radius": 2, 
+            "radius": 4, 
             "group": 4, 
             "id": "lewronggeneration"
         }, 
         {
-            "radius": 1, 
-            "group": 1, 
+            "radius": 2, 
+            "group": 0, 
             "id": "fo4"
         }, 
         {
             "radius": 1, 
-            "group": 5, 
+            "group": 0, 
+            "id": "ayylmao"
+        }, 
+        {
+            "radius": 1, 
+            "group": 1, 
             "id": "survivorzero"
         }, 
         {
@@ -3581,28 +5426,28 @@
             "id": "Blep"
         }, 
         {
-            "radius": 1, 
-            "group": 1, 
+            "radius": 2, 
+            "group": 4, 
             "id": "netflix"
         }, 
         {
             "radius": 2, 
-            "group": 2, 
+            "group": 5, 
             "id": "Defenders"
         }, 
         {
-            "radius": 3, 
-            "group": 3, 
+            "radius": 6, 
+            "group": 1, 
             "id": "SandersForPresident"
         }, 
         {
-            "radius": 2, 
-            "group": 2, 
+            "radius": 5, 
+            "group": 1, 
             "id": "RocketLeague"
         }, 
         {
             "radius": 2, 
-            "group": 2, 
+            "group": 1, 
             "id": "shield"
         }, 
         {
@@ -3616,8 +5461,13 @@
             "id": "KendrickLamar"
         }, 
         {
+            "radius": 2, 
+            "group": 4, 
+            "id": "Cooking"
+        }, 
+        {
             "radius": 1, 
-            "group": 1, 
+            "group": 2, 
             "id": "chrome"
         }, 
         {
@@ -3627,22 +5477,32 @@
         }, 
         {
             "radius": 1, 
-            "group": 3, 
+            "group": 4, 
             "id": "anime"
         }, 
         {
             "radius": 1, 
-            "group": 4, 
+            "group": 1, 
             "id": "CinemaSins"
         }, 
         {
             "radius": 1, 
-            "group": 4, 
+            "group": 1, 
+            "id": "totallynotrobots"
+        }, 
+        {
+            "radius": 1, 
+            "group": 5, 
+            "id": "classic4chan"
+        }, 
+        {
+            "radius": 1, 
+            "group": 0, 
             "id": "AnimalTextGifs"
         }, 
         {
             "radius": 2, 
-            "group": 5, 
+            "group": 3, 
             "id": "battlestations"
         }, 
         {
@@ -3652,13 +5512,23 @@
         }, 
         {
             "radius": 1, 
-            "group": 3, 
+            "group": 1, 
             "id": "androidcirclejerk"
         }, 
         {
             "radius": 1, 
-            "group": 5, 
+            "group": 0, 
             "id": "Constantine"
+        }, 
+        {
+            "radius": 1, 
+            "group": 2, 
+            "id": "amiugly"
+        }, 
+        {
+            "radius": 1, 
+            "group": 2, 
+            "id": "wikiwhat"
         }, 
         {
             "radius": 1, 
@@ -3667,7 +5537,7 @@
         }, 
         {
             "radius": 2, 
-            "group": 0, 
+            "group": 1, 
             "id": "applehelp"
         }, 
         {
@@ -3676,38 +5546,63 @@
             "id": "brooklynninenine"
         }, 
         {
-            "radius": 1, 
-            "group": 2, 
+            "radius": 2, 
+            "group": 1, 
             "id": "linuxquestions"
         }, 
         {
             "radius": 1, 
+            "group": 5, 
+            "id": "interstellar"
+        }, 
+        {
+            "radius": 1, 
+            "group": 1, 
+            "id": "Antitheism"
+        }, 
+        {
+            "radius": 1, 
             "group": 3, 
-            "id": "Arkansas"
+            "id": "raisedbynarcissists"
         }, 
         {
             "radius": 1, 
             "group": 4, 
+            "id": "DnB"
+        }, 
+        {
+            "radius": 1, 
+            "group": 0, 
+            "id": "subaru"
+        }, 
+        {
+            "radius": 1, 
+            "group": 1, 
+            "id": "Arkansas"
+        }, 
+        {
+            "radius": 1, 
+            "group": 1, 
             "id": "reddithax"
         }, 
         {
             "radius": 1, 
-            "group": 5, 
+            "group": 1, 
             "id": "TrollXChromosomes"
         }, 
         {
-            "radius": 1, 
-            "group": 5, 
+            "radius": 2, 
+            "group": 3, 
             "id": "confession"
         }, 
         {
-            "radius": 8, 
-            "group": 3, 
+            "radius": 10, 
+            "group": 1, 
             "id": "tifu"
         }, 
         {
             "radius": 1, 
-            "group": 3, 
+            "group": 1, 
             "id": "jesuschristreddit"
         }, 
         {
@@ -3716,78 +5611,113 @@
             "id": "CatTaps"
         }, 
         {
-            "radius": 2, 
-            "group": 4, 
-            "id": "Damnthatsinteresting"
-        }, 
-        {
-            "radius": 2, 
-            "group": 0, 
-            "id": "CrazyIdeas"
-        }, 
-        {
-            "radius": 1, 
-            "group": 4, 
-            "id": "RelayForReddit"
-        }, 
-        {
-            "radius": 1, 
-            "group": 3, 
-            "id": "spam"
-        }, 
-        {
-            "radius": 1, 
-            "group": 5, 
-            "id": "SquaredCircle"
-        }, 
-        {
-            "radius": 1, 
-            "group": 5, 
-            "id": "FlashTV"
-        }, 
-        {
             "radius": 1, 
             "group": 2, 
-            "id": "MinionHate"
+            "id": "ShouldIbuythisgame"
         }, 
         {
-            "radius": 2, 
-            "group": 2, 
-            "id": "subredditoftheday"
-        }, 
-        {
-            "radius": 1, 
-            "group": 1, 
-            "id": "redpanda_gifs"
-        }, 
-        {
-            "radius": 4, 
+            "radius": 3, 
             "group": 3, 
-            "id": "BestOfReports"
+            "id": "whatisthisthing"
         }, 
         {
             "radius": 3, 
             "group": 1, 
-            "id": "NoMansSkyTheGame"
+            "id": "Damnthatsinteresting"
+        }, 
+        {
+            "radius": 1, 
+            "group": 5, 
+            "id": "k12"
         }, 
         {
             "radius": 1, 
             "group": 0, 
-            "id": "cats"
+            "id": "loseit"
+        }, 
+        {
+            "radius": 3, 
+            "group": 5, 
+            "id": "CrazyIdeas"
+        }, 
+        {
+            "radius": 1, 
+            "group": 3, 
+            "id": "HighStrangeness"
+        }, 
+        {
+            "radius": 1, 
+            "group": 3, 
+            "id": "RelayForReddit"
+        }, 
+        {
+            "radius": 1, 
+            "group": 0, 
+            "id": "spam"
+        }, 
+        {
+            "radius": 1, 
+            "group": 4, 
+            "id": "SquaredCircle"
+        }, 
+        {
+            "radius": 1, 
+            "group": 1, 
+            "id": "FlashTV"
+        }, 
+        {
+            "radius": 2, 
+            "group": 0, 
+            "id": "MinionHate"
+        }, 
+        {
+            "radius": 2, 
+            "group": 3, 
+            "id": "subredditoftheday"
+        }, 
+        {
+            "radius": 1, 
+            "group": 3, 
+            "id": "redpanda_gifs"
+        }, 
+        {
+            "radius": 4, 
+            "group": 5, 
+            "id": "BestOfReports"
         }, 
         {
             "radius": 1, 
             "group": 2, 
+            "id": "MorbidReality"
+        }, 
+        {
+            "radius": 5, 
+            "group": 2, 
+            "id": "NoMansSkyTheGame"
+        }, 
+        {
+            "radius": 3, 
+            "group": 1, 
+            "id": "cats"
+        }, 
+        {
+            "radius": 1, 
+            "group": 4, 
             "id": "nice_sweater"
         }, 
         {
             "radius": 1, 
-            "group": 4, 
+            "group": 1, 
+            "id": "itsaunixsystem"
+        }, 
+        {
+            "radius": 1, 
+            "group": 0, 
             "id": "babybigcatgifs"
         }, 
         {
             "radius": 1, 
-            "group": 4, 
+            "group": 1, 
             "id": "beetlejuicing"
         }, 
         {
@@ -3797,62 +5727,92 @@
         }, 
         {
             "radius": 1, 
+            "group": 3, 
+            "id": "dankchristianmemes"
+        }, 
+        {
+            "radius": 1, 
             "group": 2, 
             "id": "explainlikeIAmA"
         }, 
         {
             "radius": 1, 
-            "group": 0, 
+            "group": 5, 
             "id": "kittens"
         }, 
         {
             "radius": 1, 
-            "group": 5, 
+            "group": 1, 
             "id": "FierceFlow"
         }, 
         {
             "radius": 1, 
-            "group": 4, 
+            "group": 2, 
             "id": "gamegrumps"
         }, 
         {
             "radius": 1, 
-            "group": 0, 
+            "group": 1, 
             "id": "trailerparkboys"
         }, 
         {
             "radius": 1, 
-            "group": 4, 
-            "id": "bindingofisaac"
+            "group": 2, 
+            "id": "GifRecipes"
         }, 
         {
             "radius": 1, 
             "group": 0, 
+            "id": "bindingofisaac"
+        }, 
+        {
+            "radius": 1, 
+            "group": 5, 
             "id": "Roast_Me"
         }, 
         {
             "radius": 1, 
             "group": 2, 
+            "id": "Cigarettes"
+        }, 
+        {
+            "radius": 1, 
+            "group": 5, 
             "id": "themountaingoats"
         }, 
         {
             "radius": 1, 
-            "group": 4, 
+            "group": 1, 
+            "id": "Rateme"
+        }, 
+        {
+            "radius": 1, 
+            "group": 3, 
             "id": "HipHopImages"
         }, 
         {
-            "radius": 3, 
+            "radius": 5, 
             "group": 0, 
             "id": "BlackPeopleTwitter"
         }, 
         {
             "radius": 1, 
-            "group": 4, 
+            "group": 5, 
             "id": "HostGator"
         }, 
         {
             "radius": 1, 
-            "group": 0, 
+            "group": 2, 
+            "id": "ns2"
+        }, 
+        {
+            "radius": 1, 
+            "group": 5, 
+            "id": "tipofmyjoystick"
+        }, 
+        {
+            "radius": 1, 
+            "group": 2, 
             "id": "excgaration"
         }, 
         {
@@ -3862,18 +5822,23 @@
         }, 
         {
             "radius": 2, 
-            "group": 5, 
+            "group": 4, 
             "id": "blunderyears"
         }, 
         {
-            "radius": 2, 
-            "group": 2, 
+            "radius": 3, 
+            "group": 4, 
             "id": "Marvel"
         }, 
         {
-            "radius": 1, 
-            "group": 2, 
+            "radius": 2, 
+            "group": 5, 
             "id": "gonewild"
+        }, 
+        {
+            "radius": 1, 
+            "group": 0, 
+            "id": "raccoongifs"
         }, 
         {
             "radius": 1, 
@@ -3881,24 +5846,59 @@
             "id": "wethebest"
         }, 
         {
-            "radius": 1, 
-            "group": 0, 
+            "radius": 3, 
+            "group": 5, 
             "id": "rage"
         }, 
         {
+            "radius": 2, 
+            "group": 5, 
+            "id": "comics"
+        }, 
+        {
             "radius": 1, 
-            "group": 4, 
+            "group": 0, 
+            "id": "makemychoice"
+        }, 
+        {
+            "radius": 1, 
+            "group": 5, 
             "id": "4ChanMeta"
         }, 
         {
             "radius": 1, 
+            "group": 2, 
+            "id": "nsfw"
+        }, 
+        {
+            "radius": 1, 
             "group": 1, 
+            "id": "myg0t"
+        }, 
+        {
+            "radius": 1, 
+            "group": 5, 
+            "id": "byob"
+        }, 
+        {
+            "radius": 2, 
+            "group": 3, 
             "id": "behindthegifs"
         }, 
         {
             "radius": 1, 
             "group": 5, 
+            "id": "creepygaming"
+        }, 
+        {
+            "radius": 1, 
+            "group": 1, 
             "id": "barbershop"
+        }, 
+        {
+            "radius": 1, 
+            "group": 3, 
+            "id": "AnimalReactions"
         }, 
         {
             "radius": 2, 
@@ -3907,8 +5907,18 @@
         }, 
         {
             "radius": 1, 
-            "group": 0, 
+            "group": 3, 
             "id": "supergirlTV"
+        }, 
+        {
+            "radius": 1, 
+            "group": 2, 
+            "id": "AskBattlestations"
+        }, 
+        {
+            "radius": 1, 
+            "group": 4, 
+            "id": "medical"
         }, 
         {
             "radius": 1, 
@@ -3917,42 +5927,67 @@
         }, 
         {
             "radius": 1, 
-            "group": 3, 
+            "group": 5, 
             "id": "AdorableDragons"
         }, 
         {
-            "radius": 7, 
-            "group": 0, 
+            "radius": 12, 
+            "group": 5, 
             "id": "videos"
         }, 
         {
+            "radius": 3, 
+            "group": 4, 
+            "id": "fatlogic"
+        }, 
+        {
             "radius": 1, 
-            "group": 3, 
+            "group": 5, 
             "id": "TF2fashionadvice"
         }, 
         {
             "radius": 1, 
-            "group": 0, 
+            "group": 1, 
             "id": "pic"
         }, 
         {
             "radius": 1, 
-            "group": 2, 
+            "group": 5, 
             "id": "copypasta"
         }, 
         {
             "radius": 1, 
-            "group": 2, 
+            "group": 3, 
             "id": "Repsneakers"
         }, 
         {
-            "radius": 3, 
-            "group": 0, 
-            "id": "politics"
+            "radius": 1, 
+            "group": 1, 
+            "id": "taijiquan"
+        }, 
+        {
+            "radius": 1, 
+            "group": 4, 
+            "id": "navy"
         }, 
         {
             "radius": 1, 
             "group": 2, 
+            "id": "futuregarage"
+        }, 
+        {
+            "radius": 1, 
+            "group": 1, 
+            "id": "FitToFat"
+        }, 
+        {
+            "radius": 6, 
+            "group": 2, 
+            "id": "politics"
+        }, 
+        {
+            "radius": 1, 
+            "group": 0, 
             "id": "cafe"
         }, 
         {
@@ -3962,7 +5997,7 @@
         }, 
         {
             "radius": 1, 
-            "group": 5, 
+            "group": 0, 
             "id": "zst"
         }, 
         {
@@ -3971,23 +6006,28 @@
             "id": "ideasfortheadmins"
         }, 
         {
-            "radius": 2, 
-            "group": 1, 
+            "radius": 4, 
+            "group": 5, 
             "id": "2meirl4meirl"
         }, 
         {
             "radius": 1, 
-            "group": 5, 
+            "group": 3, 
             "id": "SpamAccounts"
         }, 
         {
-            "radius": 3, 
-            "group": 0, 
+            "radius": 4, 
+            "group": 5, 
             "id": "thebutton"
         }, 
         {
             "radius": 1, 
-            "group": 1, 
+            "group": 3, 
+            "id": "asmr"
+        }, 
+        {
+            "radius": 4, 
+            "group": 4, 
             "id": "DestinyTheGame"
         }, 
         {
@@ -3997,58 +6037,108 @@
         }, 
         {
             "radius": 1, 
-            "group": 1, 
-            "id": "Seahawks"
+            "group": 0, 
+            "id": "HarshlyCritical"
         }, 
         {
-            "radius": 5, 
-            "group": 1, 
-            "id": "nottheonion"
-        }, 
-        {
-            "radius": 3, 
-            "group": 2, 
-            "id": "announcements"
+            "radius": 1, 
+            "group": 5, 
+            "id": "EmpireDidNothingWrong"
         }, 
         {
             "radius": 1, 
             "group": 2, 
+            "id": "CanadianForces"
+        }, 
+        {
+            "radius": 1, 
+            "group": 1, 
+            "id": "TsumTsum"
+        }, 
+        {
+            "radius": 1, 
+            "group": 2, 
+            "id": "Seahawks"
+        }, 
+        {
+            "radius": 10, 
+            "group": 2, 
+            "id": "nottheonion"
+        }, 
+        {
+            "radius": 4, 
+            "group": 1, 
+            "id": "announcements"
+        }, 
+        {
+            "radius": 2, 
+            "group": 5, 
+            "id": "CruciblePlaybook"
+        }, 
+        {
+            "radius": 2, 
+            "group": 1, 
             "id": "RoastMe"
         }, 
         {
             "radius": 1, 
-            "group": 1, 
+            "group": 5, 
             "id": "tort_irl"
         }, 
         {
             "radius": 1, 
-            "group": 2, 
+            "group": 4, 
+            "id": "apocalympics2016"
+        }, 
+        {
+            "radius": 1, 
+            "group": 4, 
+            "id": "LateStageCapitalism"
+        }, 
+        {
+            "radius": 1, 
+            "group": 3, 
             "id": "BollywoodRealism"
         }, 
         {
             "radius": 1, 
-            "group": 3, 
+            "group": 1, 
+            "id": "abandoned"
+        }, 
+        {
+            "radius": 2, 
+            "group": 5, 
             "id": "ChildrenFallingOver"
         }, 
         {
             "radius": 1, 
-            "group": 5, 
+            "group": 2, 
             "id": "COD_LFG"
         }, 
         {
             "radius": 1, 
-            "group": 2, 
+            "group": 1, 
             "id": "ShittyAnimalFacts"
         }, 
         {
             "radius": 1, 
-            "group": 3, 
+            "group": 5, 
+            "id": "SuicideWatch"
+        }, 
+        {
+            "radius": 1, 
+            "group": 2, 
             "id": "kansas"
         }, 
         {
             "radius": 1, 
-            "group": 5, 
+            "group": 0, 
             "id": "problems"
+        }, 
+        {
+            "radius": 1, 
+            "group": 4, 
+            "id": "GTAV"
         }, 
         {
             "radius": 2, 
@@ -4056,33 +6146,43 @@
             "id": "microgrowery"
         }, 
         {
-            "radius": 2, 
-            "group": 5, 
+            "radius": 3, 
+            "group": 4, 
             "id": "gameofthrones"
         }, 
         {
-            "radius": 3, 
-            "group": 2, 
+            "radius": 4, 
+            "group": 4, 
             "id": "Tinder"
         }, 
         {
             "radius": 1, 
-            "group": 1, 
+            "group": 0, 
             "id": "reddeadredemption"
         }, 
         {
             "radius": 1, 
-            "group": 2, 
+            "group": 4, 
             "id": "ZombieSurvivalTactics"
         }, 
         {
             "radius": 1, 
             "group": 3, 
-            "id": "comicbooks"
+            "id": "lowlevelaware"
         }, 
         {
             "radius": 2, 
-            "group": 3, 
+            "group": 0, 
+            "id": "comicbooks"
+        }, 
+        {
+            "radius": 1, 
+            "group": 1, 
+            "id": "ARKone"
+        }, 
+        {
+            "radius": 2, 
+            "group": 1, 
             "id": "marvelstudios"
         }, 
         {
@@ -4092,58 +6192,108 @@
         }, 
         {
             "radius": 1, 
-            "group": 0, 
+            "group": 4, 
+            "id": "mountandblade"
+        }, 
+        {
+            "radius": 1, 
+            "group": 3, 
             "id": "TheMusketeers"
         }, 
         {
             "radius": 1, 
-            "group": 5, 
+            "group": 0, 
+            "id": "ProgrammerHumor"
+        }, 
+        {
+            "radius": 1, 
+            "group": 2, 
             "id": "Streetwearcirclejerks"
         }, 
         {
             "radius": 1, 
-            "group": 4, 
-            "id": "cosplaygirls"
+            "group": 0, 
+            "id": "AirForce"
+        }, 
+        {
+            "radius": 1, 
+            "group": 3, 
+            "id": "ExplainLikeImPHD"
         }, 
         {
             "radius": 1, 
             "group": 1, 
-            "id": "redditlogos"
-        }, 
-        {
-            "radius": 2, 
-            "group": 2, 
-            "id": "youtube"
-        }, 
-        {
-            "radius": 2, 
-            "group": 3, 
-            "id": "AskDocs"
-        }, 
-        {
-            "radius": 2, 
-            "group": 2, 
-            "id": "atheism"
-        }, 
-        {
-            "radius": 1, 
-            "group": 3, 
-            "id": "NBASpurs"
-        }, 
-        {
-            "radius": 4, 
-            "group": 2, 
-            "id": "me_irl"
+            "id": "cosplaygirls"
         }, 
         {
             "radius": 1, 
             "group": 0, 
-            "id": "Pyongyang"
+            "id": "redditlogos"
+        }, 
+        {
+            "radius": 2, 
+            "group": 3, 
+            "id": "youtube"
+        }, 
+        {
+            "radius": 3, 
+            "group": 5, 
+            "id": "AskDocs"
+        }, 
+        {
+            "radius": 6, 
+            "group": 5, 
+            "id": "atheism"
         }, 
         {
             "radius": 1, 
             "group": 2, 
+            "id": "Vaping"
+        }, 
+        {
+            "radius": 1, 
+            "group": 1, 
+            "id": "NBASpurs"
+        }, 
+        {
+            "radius": 8, 
+            "group": 4, 
+            "id": "me_irl"
+        }, 
+        {
+            "radius": 1, 
+            "group": 4, 
+            "id": "Pyongyang"
+        }, 
+        {
+            "radius": 1, 
+            "group": 4, 
+            "id": "ColorizedHistory"
+        }, 
+        {
+            "radius": 1, 
+            "group": 2, 
+            "id": "Baking"
+        }, 
+        {
+            "radius": 1, 
+            "group": 0, 
             "id": "nbastreams"
+        }, 
+        {
+            "radius": 1, 
+            "group": 0, 
+            "id": "urbanexploration"
+        }, 
+        {
+            "radius": 1, 
+            "group": 5, 
+            "id": "FullLengthMovies"
+        }, 
+        {
+            "radius": 1, 
+            "group": 4, 
+            "id": "oklahoma"
         }
     ], 
     "links": [
@@ -5475,6 +7625,396 @@
         {
             "source": "turt_irl", 
             "target": "rarepuppers", 
+            "value": 1
+        }, 
+        {
+            "source": "fantasyfootball", 
+            "target": "DestinyTheGame", 
+            "value": 1
+        }, 
+        {
+            "source": "fantasyfootball", 
+            "target": "halo", 
+            "value": 1
+        }, 
+        {
+            "source": "DestinyTheGame", 
+            "target": "fantasyfootball", 
+            "value": 1
+        }, 
+        {
+            "source": "DestinyTheGame", 
+            "target": "halo", 
+            "value": 1
+        }, 
+        {
+            "source": "halo", 
+            "target": "fantasyfootball", 
+            "value": 1
+        }, 
+        {
+            "source": "halo", 
+            "target": "DestinyTheGame", 
+            "value": 1
+        }, 
+        {
+            "source": "halo", 
+            "target": "4chan", 
+            "value": 1
+        }, 
+        {
+            "source": "4chan", 
+            "target": "halo", 
+            "value": 1
+        }, 
+        {
+            "source": "AskReddit", 
+            "target": "Cigarettes", 
+            "value": 1
+        }, 
+        {
+            "source": "Cigarettes", 
+            "target": "AskReddit", 
+            "value": 1
+        }, 
+        {
+            "source": "funny", 
+            "target": "AskReddit", 
+            "value": 1
+        }, 
+        {
+            "source": "funny", 
+            "target": "CanadianForces", 
+            "value": 1
+        }, 
+        {
+            "source": "funny", 
+            "target": "pics", 
+            "value": 1
+        }, 
+        {
+            "source": "funny", 
+            "target": "AdviceAnimals", 
+            "value": 1
+        }, 
+        {
+            "source": "AskReddit", 
+            "target": "funny", 
+            "value": 1
+        }, 
+        {
+            "source": "AskReddit", 
+            "target": "CanadianForces", 
+            "value": 1
+        }, 
+        {
+            "source": "AskReddit", 
+            "target": "pics", 
+            "value": 1
+        }, 
+        {
+            "source": "AskReddit", 
+            "target": "AdviceAnimals", 
+            "value": 1
+        }, 
+        {
+            "source": "CanadianForces", 
+            "target": "funny", 
+            "value": 1
+        }, 
+        {
+            "source": "CanadianForces", 
+            "target": "AskReddit", 
+            "value": 1
+        }, 
+        {
+            "source": "CanadianForces", 
+            "target": "pics", 
+            "value": 1
+        }, 
+        {
+            "source": "CanadianForces", 
+            "target": "AdviceAnimals", 
+            "value": 1
+        }, 
+        {
+            "source": "pics", 
+            "target": "funny", 
+            "value": 1
+        }, 
+        {
+            "source": "pics", 
+            "target": "AskReddit", 
+            "value": 1
+        }, 
+        {
+            "source": "pics", 
+            "target": "CanadianForces", 
+            "value": 1
+        }, 
+        {
+            "source": "pics", 
+            "target": "AdviceAnimals", 
+            "value": 1
+        }, 
+        {
+            "source": "AdviceAnimals", 
+            "target": "funny", 
+            "value": 1
+        }, 
+        {
+            "source": "AdviceAnimals", 
+            "target": "AskReddit", 
+            "value": 1
+        }, 
+        {
+            "source": "AdviceAnimals", 
+            "target": "CanadianForces", 
+            "value": 1
+        }, 
+        {
+            "source": "AdviceAnimals", 
+            "target": "pics", 
+            "value": 1
+        }, 
+        {
+            "source": "europe", 
+            "target": "simracing", 
+            "value": 1
+        }, 
+        {
+            "source": "europe", 
+            "target": "fatlogic", 
+            "value": 1
+        }, 
+        {
+            "source": "europe", 
+            "target": "CringeAnarchy", 
+            "value": 1
+        }, 
+        {
+            "source": "simracing", 
+            "target": "europe", 
+            "value": 1
+        }, 
+        {
+            "source": "simracing", 
+            "target": "fatlogic", 
+            "value": 1
+        }, 
+        {
+            "source": "simracing", 
+            "target": "CringeAnarchy", 
+            "value": 1
+        }, 
+        {
+            "source": "fatlogic", 
+            "target": "europe", 
+            "value": 1
+        }, 
+        {
+            "source": "fatlogic", 
+            "target": "simracing", 
+            "value": 1
+        }, 
+        {
+            "source": "fatlogic", 
+            "target": "CringeAnarchy", 
+            "value": 1
+        }, 
+        {
+            "source": "CringeAnarchy", 
+            "target": "europe", 
+            "value": 1
+        }, 
+        {
+            "source": "CringeAnarchy", 
+            "target": "simracing", 
+            "value": 1
+        }, 
+        {
+            "source": "CringeAnarchy", 
+            "target": "fatlogic", 
+            "value": 1
+        }, 
+        {
+            "source": "AskReddit", 
+            "target": "DestinyTheGame", 
+            "value": 1
+        }, 
+        {
+            "source": "AskReddit", 
+            "target": "CringeAnarchy", 
+            "value": 1
+        }, 
+        {
+            "source": "DestinyTheGame", 
+            "target": "AskReddit", 
+            "value": 1
+        }, 
+        {
+            "source": "DestinyTheGame", 
+            "target": "CringeAnarchy", 
+            "value": 1
+        }, 
+        {
+            "source": "CringeAnarchy", 
+            "target": "AskReddit", 
+            "value": 1
+        }, 
+        {
+            "source": "CringeAnarchy", 
+            "target": "DestinyTheGame", 
+            "value": 1
+        }, 
+        {
+            "source": "summonerschool", 
+            "target": "heroesofthestorm", 
+            "value": 1
+        }, 
+        {
+            "source": "summonerschool", 
+            "target": "leagueoflegends", 
+            "value": 1
+        }, 
+        {
+            "source": "summonerschool", 
+            "target": "bjj", 
+            "value": 1
+        }, 
+        {
+            "source": "summonerschool", 
+            "target": "sandiego", 
+            "value": 1
+        }, 
+        {
+            "source": "summonerschool", 
+            "target": "dune", 
+            "value": 1
+        }, 
+        {
+            "source": "heroesofthestorm", 
+            "target": "summonerschool", 
+            "value": 1
+        }, 
+        {
+            "source": "heroesofthestorm", 
+            "target": "leagueoflegends", 
+            "value": 1
+        }, 
+        {
+            "source": "heroesofthestorm", 
+            "target": "bjj", 
+            "value": 1
+        }, 
+        {
+            "source": "heroesofthestorm", 
+            "target": "sandiego", 
+            "value": 1
+        }, 
+        {
+            "source": "heroesofthestorm", 
+            "target": "dune", 
+            "value": 1
+        }, 
+        {
+            "source": "leagueoflegends", 
+            "target": "summonerschool", 
+            "value": 1
+        }, 
+        {
+            "source": "leagueoflegends", 
+            "target": "heroesofthestorm", 
+            "value": 1
+        }, 
+        {
+            "source": "leagueoflegends", 
+            "target": "bjj", 
+            "value": 1
+        }, 
+        {
+            "source": "leagueoflegends", 
+            "target": "sandiego", 
+            "value": 1
+        }, 
+        {
+            "source": "leagueoflegends", 
+            "target": "dune", 
+            "value": 1
+        }, 
+        {
+            "source": "bjj", 
+            "target": "summonerschool", 
+            "value": 1
+        }, 
+        {
+            "source": "bjj", 
+            "target": "heroesofthestorm", 
+            "value": 1
+        }, 
+        {
+            "source": "bjj", 
+            "target": "leagueoflegends", 
+            "value": 1
+        }, 
+        {
+            "source": "bjj", 
+            "target": "sandiego", 
+            "value": 1
+        }, 
+        {
+            "source": "bjj", 
+            "target": "dune", 
+            "value": 1
+        }, 
+        {
+            "source": "sandiego", 
+            "target": "summonerschool", 
+            "value": 1
+        }, 
+        {
+            "source": "sandiego", 
+            "target": "heroesofthestorm", 
+            "value": 1
+        }, 
+        {
+            "source": "sandiego", 
+            "target": "leagueoflegends", 
+            "value": 1
+        }, 
+        {
+            "source": "sandiego", 
+            "target": "bjj", 
+            "value": 1
+        }, 
+        {
+            "source": "sandiego", 
+            "target": "dune", 
+            "value": 1
+        }, 
+        {
+            "source": "dune", 
+            "target": "summonerschool", 
+            "value": 1
+        }, 
+        {
+            "source": "dune", 
+            "target": "heroesofthestorm", 
+            "value": 1
+        }, 
+        {
+            "source": "dune", 
+            "target": "leagueoflegends", 
+            "value": 1
+        }, 
+        {
+            "source": "dune", 
+            "target": "bjj", 
+            "value": 1
+        }, 
+        {
+            "source": "dune", 
+            "target": "sandiego", 
             "value": 1
         }
     ]
