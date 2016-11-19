@@ -3,6 +3,8 @@ import json
 from sklearn.cluster import AgglomerativeClustering
 from sklearn.metrics import pairwise_distances
 from collections import defaultdict
+from scipy.spatial.distance import pdist, squareform
+from scipy.cluster.hierarchy import linkage, dendrogram
 
 n_clusters = 10
 
@@ -39,8 +41,8 @@ for sub in subs_dict:
 		else:
 			array.append(0)
 
-	#for i in range(len(array)):
-	#	array[i] = array[i]/user_count
+	for i in range(len(array)):
+		array[i] = float(array[i])/float(user_count)
 
 	X[count] = array
 	subs_array_dict[sub] = array

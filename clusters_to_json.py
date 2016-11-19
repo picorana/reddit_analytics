@@ -8,7 +8,7 @@ init_dict = {}
 init_dict['name'] = 'reddit'
 init_dict['children'] = []
 
-for i in range(10):
+for i in range(20):
 	cluster = json.load(open('./clusters/cluster_'+str(i)+'.json'))
 	cluster_dict = {}
 	init_dict['children'].append(cluster_dict)

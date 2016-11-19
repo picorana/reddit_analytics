@@ -17,7 +17,7 @@ for line in users_file:
 subcount = 0
 for sub in subs_dict:
 	if sub in defaults_list: continue
-	if len(subs_dict[sub])>=100: subcount+=1
+	if len(subs_dict[sub])>=20: subcount+=1
 
 X = np.empty((subcount, len(users)))
 subs_array_dict = {}
@@ -25,7 +25,7 @@ subs_array_dict = {}
 count = 0
 for sub in subs_dict:
 	if sub in defaults_list: continue
-	if len(subs_dict[sub])<100: continue
+	if len(subs_dict[sub])<20: continue
 
 	user_count = 0
 	array = []
@@ -45,7 +45,7 @@ for sub in subs_dict:
 	count +=1
 	print count
 
-kmeans = KMeans(n_clusters=10).fit(X)
+kmeans = KMeans(n_clusters=20).fit(X)
 
 clusters = defaultdict(set)
 
