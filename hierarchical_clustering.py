@@ -11,9 +11,9 @@ outfile = open('data2.json', 'w')
 subs_dict = json.load(json_file)
 defaults_list = json.load(defaults_file)
 
-n_clusters_per_level = 10
-kmeans_cycles = 3
-users_threshold = 10
+n_clusters_per_level = 20
+kmeans_cycles = 2
+users_threshold = 50
 
 users = []
 for line in users_file:
@@ -108,6 +108,7 @@ def kmeans (this_subs_dict):
 
 		pprint.pprint(clusters)
 
+		"""
 		centers = []
 		for item in clusters:
 			
@@ -134,6 +135,17 @@ def kmeans (this_subs_dict):
 					similarity = size_of_intersection / divisor
 				if similarity >= max_similarity:
 					max_similarity = similarity
+					candidate = sub
+			centers.append(candidate)
+		"""
+		centers = []
+
+		for item in clusters:
+			biggest_size = 0
+			candidate = ""
+			for sub in clusters[item]:
+				if len(subs_dict[sub]) >= biggest_size:
+					biggest_size = len(subs_dict[sub])
 					candidate = sub
 			centers.append(candidate)
 
