@@ -32,8 +32,11 @@ for line in users_file:
 	line = line.strip().split('\t')
 	sub_set = defaultdict(int)
 	if len(line)==1: continue
-	for subreddit in line[1].split(' '):
-		sub_set[subreddit.split('::')[0]] = int(subreddit.split('::')[1])
+	for subreddit in line[1].strip().split(' '):
+		if len(subreddit.split('::'))==1: continue
+		value = subreddit.split('::')[1]
+		if value == '': continue
+		sub_set[subreddit.split('::')[0]] = int(value)
 	users_dict[line[0]] = sub_set
 
 for line in users_queue_file:
