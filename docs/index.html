@@ -27,8 +27,45 @@
   pointer-events: none;
 }
 
+.svg_container {
+  text-align: center;
+}
+
+.info {
+  background-color: #ffffff;
+  position: absolute;
+  color: black;
+  top: 10px;
+  right: 10px;
+  border-radius: 10px;
+  width:20%;
+}
+
+svg {
+  width: 90%;
+}
+
+body {
+  background: #A4F5D0;
+  font-family: Hack, monospace;
+  font-size: 11px;
+}
+
 </style>
-<svg width="1300" height="1300"></svg>
+<link rel="stylesheet" href="//cdn.jsdelivr.net/font-hack/2.020/css/hack.min.css">
+<div class="svg_container"><svg width="1000" height="1000"></svg></div>
+<div class='info'>
+  <p style="padding:15px">
+    <u>Map of Reddit</u>
+    <br>
+    The Map of Reddit shows clusters of subreddits based on user contributes.
+    <br>
+    <br>
+    picorana
+    <br>
+    <a href='https://d3js.org/'>d3js!</a>
+  </p>
+</div>
 <script src="https://d3js.org/d3.v4.min.js"></script>
 <script>
 
