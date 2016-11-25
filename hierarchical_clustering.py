@@ -11,64 +11,13 @@ outfile = open('data2.json', 'w')
 subs_dict = json.load(json_file)
 defaults_list = json.load(defaults_file)
 
-n_clusters_per_level = 20
+n_clusters_per_level = 40
 kmeans_cycles = 2
 users_threshold = 50
 
 users = []
 for line in users_file:
 	users.append(line.split("\t")[0])
-
-"""
-max_similarity = 0
-chosen1 = ""
-chosen2 = ""
-count = 0
-for sub in subs_dict:
-	if len(subs_dict[sub]) < 400: continue
-	sub_set = set(subs_dict[sub])
-	for sub2 in subs_dict:
-		if len(subs_dict[sub2]) < 400: continue
-		if (sub!=sub2):
-			sub2_set = set(subs_dict[sub2])
-			similarity = len(sub_set.intersection(sub2_set)) / math.sqrt(len(subs_dict[sub])*len(subs_dict[sub2]))
-			if similarity > max_similarity:
-				max_similarity = similarity
-				chosen1 = sub
-				chosen2 = sub2
-	count+=1
-
-print str(count) + " " + str(max_similarity) + " sub1: " + chosen1 + " sub2: " + chosen2
-"""
-"""
-clusters = []
-for sub in subs_dict:
-	if len(subs_dict[sub]) < 500: continue
-	clusters.append(sub)
-
-while len(clusters) > 1:
-	max_similarity = 0
-	candidate = []
-	for sub1 in clusters:
-		sub1_set = frozenset(subs_dict[sub1])
-		for sub2 in clusters:
-			if sub1 != sub2:
-				sub2_set = frozenset(subs_dict[sub2])
-				similarity = len(sub1_set.intersection(sub2_set)) / math.sqrt(len(subs_dict[sub])*len(subs_dict[sub2]))
-				if similarity > max_similarity:
-					max_similarity = similarity
-					candidate = []
-					candidate.append(sub1)
-					candidate.append(sub2)
-
-	for item in candidate:
-		clusters.remove(item)
-		print type(candidate)
-	clusters.append(candidate)
-	break
-
-pprint.pprint(clusters)
-"""
 
 
 def kmeans (this_subs_dict):
