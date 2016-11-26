@@ -5,9 +5,10 @@ import math
 import numpy as np
 import sys
 from collections import defaultdict
+import time
 
 max_user_threshold = 2000
-min_user_threshold = 200
+min_user_threshold = 1000
 
 def compute_this_subs_dict(min_user_threshold, max_user_threshold):
 	f = open('./partial/inverted_subreddits.json', 'r')
@@ -46,12 +47,12 @@ this_subs_dict = compute_this_subs_dict(min_user_threshold, max_user_threshold)
 
 """
 distance_matrix = compute_distance_matrix(this_subs_dict)
-outfile = open('distance_matrix.npy', 'w')
+outfile = open('distance_matrix2.npy', 'w')
 np.save(outfile, distance_matrix)
 """
-outfile = open('distance_matrix.npy', 'r')
+outfile = open('distance_matrix2npy', 'r')
 distance_matrix = np.load(outfile)
-
+"""
 print sub_list[1]
 max_similarity = 0
 candidate = ''
@@ -65,16 +66,24 @@ for i in distance_matrix[1]:
 print candidate
 
 """
-affinity_propagation = sklearn.cluster.AffinityPropagation(affinity="precomputed", damping=0.8)
-affinity_propagation.fit(distance_matrix)
 
-cluster_dict = defaultdict(set)
+availability_matrix = np.zeros([len(distance_matrix), len(distance_matrix)])
+responsibility_matrix = np.zeros([len(distance_matrix), len(distance_matrix)])
 
-index = 0
-for i in affinity_propagation.labels_:
-	cluster_dict[i].add(sub_list[index])
-	index += 1
+start_time = time.time()
+count = 0
+for i in range(len(distance_matrix)):
+	for j in range(len(distance_matrix[i])):
+		max_val = 0
+		for k in range(len(distance_matrix[i])):
+			if k != j:
+				if (availability_matrix[i][k] + distance_matrix[i][k]) >= max_val:
+					max_val = availability_matrix[i][k] + distance_matrix[i][k]
+		responsibility_matrix[i][j] = distance_matrix[i][j] - max_val
+	count +=1
+	if count%10==0: print count
 
-for s in cluster_dict:
-	print cluster_dict[s]
-"""
+pprint.pprint(responsibility_matrix)
+print "time for 1 cicle of 133 subs: " + str(time.time()-start_time)
+
+# 1090 x 1090 x 1090 = 

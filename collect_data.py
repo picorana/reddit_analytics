@@ -150,13 +150,13 @@ def print_current_stats():
 	print "subreddits in subreddits_queue:\t" + str(len(subreddits_queue))
 	print "\n\n ******** \n\n ********"
 
-
+"""
 retrieve_usernames_from_subreddit('worldnews')
 """
 users_queue2 = users_queue.copy()
 for user in users_queue2:
 	try: retrieve_subreddits_from_username(user)
 	except: print 'error!!!'
-"""
+
 print_queues_to_file()
 print_current_stats()
