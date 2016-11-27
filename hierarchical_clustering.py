@@ -2,6 +2,7 @@ import json
 import math
 import pprint
 import random
+import numpy as np
 from collections import defaultdict
 
 json_file = open("./partial/inverted_subreddits.json", 'r')
