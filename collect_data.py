@@ -89,7 +89,7 @@ def print_user_to_user_file (username):
 
 def retrieve_usernames_from_subreddit (subreddit):
 	start_time = time()
-	if subreddit in subreddits_dict: return
+	#if subreddit in subreddits_dict: return
 	if subreddit in subreddits_queue: subreddits_queue.remove(subreddit)
 	subredditr = r.get_subreddit(subreddit)
 
@@ -151,7 +151,7 @@ def print_current_stats():
 	print "\n\n ******** \n\n ********"
 
 """
-retrieve_usernames_from_subreddit('worldnews')
+retrieve_usernames_from_subreddit('Drawing')
 """
 users_queue2 = users_queue.copy()
 for user in users_queue2:
