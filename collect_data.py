@@ -151,7 +151,7 @@ def print_current_stats():
 	print "\n\n ******** \n\n ********"
 
 """
-retrieve_usernames_from_subreddit('Drawing')
+retrieve_usernames_from_subreddit('4chan')
 """
 users_queue2 = users_queue.copy()
 for user in users_queue2:
