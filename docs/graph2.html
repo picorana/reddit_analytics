@@ -19,7 +19,7 @@
   font: 11px "Helvetica Neue", Helvetica, Arial, sans-serif;
   
   text-anchor: middle;
-  text-shadow: 0 2px 0 #fff, 2px 0 0 #fff, -2px 0 0 #fff, 0 -2px 0 #fff;
+  text-shadow: 0 1px 0 #fff, 1px 0 0 #fff, -1px 0 0 #fff, 0 -1px 0 #fff;
 }
 
 .label,
@@ -28,10 +28,65 @@
   pointer-events: none;
 }
 
+.svg_container {
+  text-align: center;
+}
+
+.info {
+  background-color: #ffffff;
+  position: absolute;
+  color: black;
+  top: 10px;
+  right: 10px;
+  border-radius: 10px;
+  width:20%;
+}
+
+body {
+  background: #E5E5BE;
+  font-family: Hack, monospace;
+  font-size: 11px;
+}
+
 </style>
-<svg style="height: 100vh; width: 100%"></svg>
+<link rel="stylesheet" href="//cdn.jsdelivr.net/font-hack/2.020/css/hack.min.css">
+<script
+        src="https://code.jquery.com/jquery-3.1.1.min.js"
+        integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8="
+        crossorigin="anonymous"></script>
+<script
+        src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"
+        integrity="sha256-T0Vest3yCU7pafRw9r+settMBX6JkKN06dqBnpQ8d30="
+        crossorigin="anonymous"></script>
+<link rel="stylesheet" type="text/css" href="https://code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
+<div class="svg_container"><svg style="height: 100vh; width: 100%"></svg></div>
+<div class='info'>
+
+  <div class="ui-widget" style="padding: 15px">
+      <input id="search">
+      <button type="button" onclick="searchNode()">Search</button>
+    </div>
+
+  <p style="padding:15px">
+    <u><b>Map of Reddit</b></u><br>
+
+    This Map of Reddit shows clusters of subreddits based on user contributes.
+    <br>
+    Subreddits that share the highest intersection of common posters are positioned near each other.
+    <br>
+    <br>
+
+    <a href="https://github.com/picorana/reddit_analytics">Project Repository</a><br>
+    Author: <b>picorana</b> <br> <a href='https://picorana.github.io/'>personal website</a> - <a href="https://github.com/picorana">github</a>
+    <br><br>
+    Tools: <a href='https://d3js.org/'>d3.js</a> <a href="https://praw.readthedocs.io/en/latest/">PRAW</a>
+  </p>
+</div>
 <script src="https://d3js.org/d3.v4.min.js"></script>
 <script>
+
+var outer_nodes;
+var outer_zoom;
 
 var svg = d3.select("svg"),
     margin = 20,
@@ -60,6 +115,8 @@ d3.json("graph2.json", function(error, root) {
       nodes = pack(root).descendants(),
       view;
 
+  outer_nodes = nodes;
+
   var circle = g.selectAll("circle")
     .data(nodes)
     .enter().append("circle")
@@ -78,19 +135,30 @@ d3.json("graph2.json", function(error, root) {
       .style("display", function(d) { return d.parent === root ? "inline" : "none"; })
       .text(function(d) { return d.data.name; });
 
+  var optArray = [];
+  for (var i = 0; i < nodes.length - 1; i++) { 
+      optArray.push(nodes[i].data.name);
+  }
+
+  optArray = optArray.sort();
+  $(function () {
+      $("#search").autocomplete({
+          source: optArray
+      });
+  });
+
   var node = g.selectAll("circle,text");
 
   svg
       .style("background", color(-1))
       .on("click", function() { zoom(root); });
 
-  zoomTo([root.x, root.y, root.r * 2 + margin]);
 
-  function zoom(d) {
+  var zoom = function(d) {
     var focus0 = focus; focus = d;
 
     var transition = d3.transition()
-        .duration(d3.event.altKey ? 7500 : 750)
+        .duration(750)
         .tween("zoom", function(d) {
           var i = d3.interpolateZoom(view, [focus.x, focus.y, focus.r * 2 + margin]);
           return function(t) { zoomTo(i(t)); };
@@ -107,11 +175,28 @@ d3.json("graph2.json", function(error, root) {
         .on("end", function(d) { if (d.parent !== focus) this.style.display = "none"; });
   }
 
-  function zoomTo(v) {
+  var zoomTo = function(v) {
     var k = diameter / v[2]; view = v;
     node.attr("transform", function(d) { return "translate(" + (d.x - v[0]) * k + "," + (d.y - v[1]) * k + ")"; });
     circle.attr("r", function(d) { return d.r * k; });
   }
+
+  outer_zoom = zoom;
+
+  zoomTo([root.x, root.y, root.r * 2 + margin]);
+  
 });
+
+function searchNode() {
+  
+  var selectedVal = document.getElementById('search').value;
+  for (var i=0; i<outer_nodes.length; i++){
+    if (outer_nodes[i].data.name == selectedVal){
+      //outer_zoom([outer_nodes[i].x, outer_nodes[i].y, outer_nodes[i].r * 2 + margin]);
+      outer_zoom(outer_nodes[i]);
+      return;
+    }
+  }
+}
 
 </script>
