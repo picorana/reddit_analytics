@@ -11,7 +11,7 @@ defaults_list = json.load(open("./partial/defaults.json", 'r'))
 
 n_clusters_per_level = 50
 kmeans_cycles = 4
-users_threshold = 4
+users_threshold = 20
 subs_per_user_threshold = 100
 nodes_per_level = 100
 
@@ -24,6 +24,9 @@ def retrieve_inverted_subreddits(subs_per_user_threshold):
 		if len(line.strip().split("\t"))==1: continue
 		sublist = line.strip().split("\t")[1].split(" ")
 		if len(sublist) < subs_per_user_threshold: continue
+		if len(sublist) > 400: 
+			#print "this user posted in: " + str(len(sublist))
+			continue
 		for sub in sublist:
 			sub = sub.split("::")[0]
 			subs_dict[sub].append(user)
@@ -32,7 +35,7 @@ def retrieve_inverted_subreddits(subs_per_user_threshold):
 
 def kmeans (this_subs_dict, depth):
 
-	print len(this_subs_dict)
+	print "CLUSTERING " + str(len(this_subs_dict)) + " SUBREDDITS"
 
 	centers = []
 	clusters = {}
@@ -69,7 +72,7 @@ def kmeans (this_subs_dict, depth):
 			clusters[candidate].append(sub)
 
 			count+=1
-			if count%100==0: print count
+			if count%100==0: print count,
 
 		pprint.pprint(clusters)
 
@@ -98,13 +101,14 @@ def fill_tree(last_node, this_subs_dict, depth):
 	list_of_separated_nodes = []
 
 	for c in first_cluster:
-		cluster_dict = {'name':c, 'children' = []}
+		cluster_dict = {'name':c, 'children': []}
+		
 		
 		if len(first_cluster[c]) < 10:
 			for sub in first_cluster[c]:
 				subdict = {'name':sub, 'size':len(subs_dict[sub])}
 				list_of_separated_nodes.append(sub)
-
+		
 		elif len(first_cluster[c]) < nodes_per_level:
 			for sub in first_cluster[c]:
 				cluster_dict['children'].append({ 'name' : sub, 'size' : len(subs_dict[sub]) })
@@ -128,9 +132,9 @@ def fill_tree(last_node, this_subs_dict, depth):
 		for sub in list_of_separated_nodes:
 			last_node['children'].append({ 'name' : sub, 'size' : len(subs_dict[sub]) })
 
-print len(subs_dict)
+print "TOTAL NUMBER OF SUBS: " + str(len(subs_dict))
 subs_dict = retrieve_inverted_subreddits(subs_per_user_threshold)
-print len(subs_dict)
+print "READING " + str(len(subs_dict)) + " SUBS"
 
 tree = {}
 tree['name'] = 'reddit'
@@ -141,8 +145,9 @@ this_subs_dict = {}
 for sub in subs_dict:
 	#if sub in defaults_list: continue
 	if len(subs_dict[sub]) > users_threshold and len(subs_dict[sub])<3000: this_subs_dict[sub] = subs_dict[sub]
-	if len(subs_dict[sub]) > 3000: print len(subs_dict[sub])
+	#if len(subs_dict[sub]) > 3000: print len(subs_dict[sub])
 
+print "PROCESSING " + str(len(this_subs_dict)) + " SUBS"
 fill_tree(tree, this_subs_dict, depth=0)
 
 json.dump(tree, open('data2.json', 'w'), indent=4)
