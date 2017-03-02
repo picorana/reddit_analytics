@@ -119,7 +119,7 @@ body {
 
 </style>
 
-<div class="svg_container"><svg style="height: 97vh; width: 100%"></svg></div>
+<div class="svg_container" id='svg_container'><svg style="height: 97vh; width: 100%"></svg></div>
 <div class='info'>
 
 <div style="margin-left: 15px; margin-right: 15px; margin-top: 15px">Search a subreddit:<br><br></div>
@@ -142,12 +142,10 @@ body {
     <br>
     The names of the groups of subreddits are just the name of the largest subreddit in the group.
     <br>
+    This only contains partial data collected with a random walk. Default subreddits are filtered out.
     <br>
-    <!--<div style="font-size: 0.75em">
-      Similarities are computed by: <br>
-      sim(A, B) = #[users(A) &cap; users(B)] / [#users(A) + #users(B)]  
+    <br>
 
-    </div>-->
     <br>
     <br>
 
@@ -180,9 +178,6 @@ var pack = d3.pack()
     .size([diameter - margin, diameter - margin])
     .padding(2);
 
-    var zoom = d3.zoom().scaleExtent([-100, 100]).on('zoom', zoomed);
-
-    svg.call(zoom);
 
  
 
@@ -224,7 +219,7 @@ d3.json("graph1.json", function(error, root) {
       //.style("stroke", function(d) { return d===focus ? } )
       .on("click", function(d) { if (focus !== d) zoom(d), d3.event.stopPropagation(); })
       .on('mouseover', tip.show)
-      .on('mouseout', function(d) {if (d!=focus) tip.hide});
+      .on('mouseout', function(d) {if (d!=focus) tip.hide;});
 
 
 
@@ -256,7 +251,6 @@ d3.json("graph1.json", function(error, root) {
   });
 
   var node = g.selectAll("circle,text");
-  var group_info;
 
   svg
       .style("background", color(-1))
@@ -265,14 +259,7 @@ d3.json("graph1.json", function(error, root) {
   var zoom = function(d) {
     var focus0 = focus; focus = d;
 
-    if (group_info != null) group_info.remove();
     
-    if (!focus.children){
-      group_info = svg.append('g')
-
-      console.log(focus)
-
-    }
 
     var transition = d3.transition()
         .duration(750)
@@ -290,7 +277,8 @@ d3.json("graph1.json", function(error, root) {
           return 0; 
         })
         .on("start", function(d) { if (d.parent === focus) this.style.display = "inline"; })
-        .on("end", function(d) { if (d.parent !== focus) this.style.display = "none"; });
+        .on("end", function(d) { if (d.parent !== focus) this.style.display = "none";
+      });
 
   }
 
@@ -308,9 +296,6 @@ d3.json("graph1.json", function(error, root) {
   
 });
 
-function zoomed() {
-    g.attr("transform", d3.event.transform);
-  }
 
 function searchNode() {
   
@@ -323,11 +308,6 @@ function searchNode() {
   }
 }
 
-function computeTextLenght(s){
-  var c=document.getElementById("ruler");
-  c.HTML = s;
-  return c.clientWidth;
-}
 
 </script>
 <script>
