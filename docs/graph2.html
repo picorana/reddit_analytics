@@ -113,6 +113,8 @@ body {
     Author: <b>picorana</b> <br> <a href='https://picorana.github.io/'>personal website</a> - <a href="https://github.com/picorana">github</a>
     <br><br>
     Tools: <a href='https://d3js.org/'>d3.js</a> <a href="https://praw.readthedocs.io/en/latest/">PRAW</a> <a href="http://hackcss.com/">hack.css</a>
+    <br><br>
+    This project is released under 
   </div>
 </div>
 <script src="https://d3js.org/d3.v4.min.js"></script>
@@ -124,7 +126,6 @@ var outer_zoom;
 var svg = d3.select("svg"),
     margin = 10,
     diameter = window.innerHeight*0.95,
-    //diameter = +svg.attr("width"),
     g = svg.append("g").attr("transform", "translate(" + window.innerWidth/2 + "," + window.innerHeight/ 2 + ")");
 
 var color = d3.scaleLinear()

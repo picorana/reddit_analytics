@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <meta charset="utf-8">
+<title>Reddit Map</title>
 
 <link rel="stylesheet" href="//cdn.jsdelivr.net/font-hack/2.020/css/hack.min.css">
 <script
@@ -19,12 +20,12 @@
    
     .d3-tip {
       line-height: 1;
-      padding: 6px;
+      padding: 8px;
       background: rgba(0, 0, 0, 0.8);
       color: #fff;
       border-radius: 4px;
       font-size: 12px;
-      pointer-events: none;
+      /*pointer-events: none;*/
     }
  
     /* Creates a small triangle extender for the tooltip */
@@ -108,6 +109,13 @@ body {
   border: 1px solid #333333;
 }
 
+.tip_link:visited {
+    color: lightgreen;
+}
+
+.tip_link {
+    color: lightgreen;
+}
 
 </style>
 
@@ -126,7 +134,7 @@ body {
   <div style="margin-left: 15px; margin-right: 15px; margin-bottom: 15px; margin-top: 15px">
   Or click on a circle to dive into the map.<br><br>
 
-    <u><b>Map of Reddit</b></u><br>
+    <u><b>Map of Reddit</b> v.0.1</u><br>
 
     This Map of Reddit shows clusters of subreddits based on user contributes.
     <br>
@@ -144,11 +152,12 @@ body {
     <br>
 
     <a href="https://github.com/picorana/reddit_analytics">Project Repository</a><br><br>
-    Author: <b>picorana</b> <br> <a href='https://picorana.github.io/'>personal website</a> - <a href="https://github.com/picorana">github</a>
+    Author: <b>picorana</b> <br> <a href='https://picorana.github.io/'>personal website</a> <a href="https://github.com/picorana">github</a> <a href="https://twitter.com/picopicorana">twitter</a>
     <br><br>
-    Tools: <a href='https://d3js.org/'>d3.js</a> <a href="https://praw.readthedocs.io/en/latest/">PRAW</a> <a href="http://hackcss.com/">hack.css</a>
+    Tools: <a href='https://d3js.org/'>d3.js</a> <a href="https://praw.readthedocs.io/en/latest/">PRAW</a> <a href="http://hackcss.com/">hack.css</a> <a href="https://github.com/Caged/d3-tip">d3tip.js</a>
   </div>
 </div>
+<span class="label" id='ruler' style='visibility: hidden; width: auto; height: auto'></span>
 <script src="https://d3js.org/d3.v4.min.js"></script>
 <script src="d3tip.js"></script>
 <script>
@@ -158,7 +167,7 @@ var outer_zoom;
 
 var svg = d3.select("svg"),
     margin = 10,
-    diameter = window.innerHeight*0.95,
+    diameter = window.innerHeight*0.95
     //diameter = +svg.attr("width"),
     g = svg.append("g").attr("transform", "translate(" + window.innerWidth/2 + "," + window.innerHeight/ 2 + ")");
 
@@ -171,6 +180,10 @@ var pack = d3.pack()
     .size([diameter - margin, diameter - margin])
     .padding(2);
 
+    var zoom = d3.zoom().scaleExtent([-100, 100]).on('zoom', zoomed);
+
+    svg.call(zoom);
+
  
 
 d3.json("graph1.json", function(error, root) {
@@ -178,7 +191,16 @@ d3.json("graph1.json", function(error, root) {
 
   var tip = d3.tip()
       .attr('class', 'd3-tip')
-      .html(function(d) { return d.data.name; });
+      .html(function(d) { if(d==focus) return '<b>' + d.data.name + '</b>' 
+        +'<br><br><a class="tip_link" href=\'https://www.reddit.com/r/'+ d.data.name + '\'>/r/' + d.data.name + ' on reddit' + '</a>'
+        + '<br><div style="font-size: 0.75em;"><br>size:' + d.data.size + '</div>'; 
+        else return d.data.name })
+      .offset(function(d){ 
+        if (d==focus) return [d.y/2, 0];
+        else return [0, 0];
+      })
+      .style('text-align', 'center')
+      .style('pointer-events', function(d){if(d==focus) return 'none';})
   svg.call(tip)
 
   root = d3.hierarchy(root)
@@ -199,9 +221,10 @@ d3.json("graph1.json", function(error, root) {
     .enter().append("circle")
       .attr("class", function(d) { return d.parent ? d.children ? "node" : "node node--leaf" : "node node--root"; })
       .style("fill", function(d) { return d.children ? color(d.depth) : null; })
+      //.style("stroke", function(d) { return d===focus ? } )
       .on("click", function(d) { if (focus !== d) zoom(d), d3.event.stopPropagation(); })
       .on('mouseover', tip.show)
-      .on('mouseout', tip.hide);
+      .on('mouseout', function(d) {if (d!=focus) tip.hide});
 
 
 
@@ -222,7 +245,7 @@ d3.json("graph1.json", function(error, root) {
 
   var optArray = [];
   for (var i = 0; i < nodes.length - 1; i++) { 
-    if (!nodes[i].children) optArray.push(nodes[i].data.name);
+    if (!nodes[i].children && optArray.indexOf(nodes[i].data.name)<0) optArray.push(nodes[i].data.name);
   }
 
   optArray = optArray.sort();
@@ -233,6 +256,7 @@ d3.json("graph1.json", function(error, root) {
   });
 
   var node = g.selectAll("circle,text");
+  var group_info;
 
   svg
       .style("background", color(-1))
@@ -241,7 +265,14 @@ d3.json("graph1.json", function(error, root) {
   var zoom = function(d) {
     var focus0 = focus; focus = d;
 
+    if (group_info != null) group_info.remove();
+    
+    if (!focus.children){
+      group_info = svg.append('g')
 
+      console.log(focus)
+
+    }
 
     var transition = d3.transition()
         .duration(750)
@@ -250,7 +281,7 @@ d3.json("graph1.json", function(error, root) {
           return function(t) { zoomTo(i(t)); };
         });
 
-    transition.selectAll("text")
+    transition.selectAll("text").filter('.label')
       .filter(function(d) { return d.parent === focus || this.style.display === "inline"; })
         .style("fill-opacity", function(d) { 
           if (d===focus) return 1;
@@ -269,21 +300,33 @@ d3.json("graph1.json", function(error, root) {
     circle.attr("r", function(d) { return d.r * k; });
   }
 
+  
+
   outer_zoom = zoom;
 
   zoomTo([root.x, root.y, root.r * 2 + margin]);
   
 });
 
+function zoomed() {
+    g.attr("transform", d3.event.transform);
+  }
+
 function searchNode() {
   
   var selectedVal = document.getElementById('search').value;
   for (var i=0; i<outer_nodes.length; i++){
     if (outer_nodes[i].data.name == selectedVal){
-      outer_zoom(outer_nodes[i].parent);
+      outer_zoom(outer_nodes[i]);
       return;
     }
   }
+}
+
+function computeTextLenght(s){
+  var c=document.getElementById("ruler");
+  c.HTML = s;
+  return c.clientWidth;
 }
 
 </script>

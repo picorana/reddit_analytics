@@ -8,6 +8,7 @@ from collections import defaultdict
 users_file = open("./partial/users.txt", 'r')
 subs_dict = json.load(open("./partial/inverted_subreddits.json", 'r'))
 defaults_list = json.load(open("./partial/defaults.json", 'r'))
+subscriber_data = json.load(open("./partial/subreddit_data.json", "r"))
 
 n_clusters_per_level = 50
 kmeans_cycles = 4
@@ -111,7 +112,7 @@ def fill_tree(last_node, this_subs_dict, depth):
 		
 		elif len(first_cluster[c]) < nodes_per_level:
 			for sub in first_cluster[c]:
-				cluster_dict['children'].append({ 'name' : sub, 'size' : len(subs_dict[sub]) })
+				cluster_dict['children'].append({ 'name' : sub, 'size' : len(subs_dict[sub]), 'num_subscribers':subscriber_data[sub]})
 
 		else:
 			new_subs_dict = {}
@@ -130,7 +131,7 @@ def fill_tree(last_node, this_subs_dict, depth):
 		if len(new_subs_dict)>5: fill_tree(last_node, new_subs_dict, depth+1)
 	else:
 		for sub in list_of_separated_nodes:
-			last_node['children'].append({ 'name' : sub, 'size' : len(subs_dict[sub]) })
+			last_node['children'].append({ 'name' : sub, 'size' : len(subs_dict[sub]), 'num_subscribers':subscriber_data[sub]})
 
 print "TOTAL NUMBER OF SUBS: " + str(len(subs_dict))
 subs_dict = retrieve_inverted_subreddits(subs_per_user_threshold)
@@ -143,7 +144,7 @@ tree['children'] = []
 this_subs_dict = {}
 
 for sub in subs_dict:
-	#if sub in defaults_list: continue
+	if sub in defaults_list: continue
 	if len(subs_dict[sub]) > users_threshold and len(subs_dict[sub])<3000: this_subs_dict[sub] = subs_dict[sub]
 	#if len(subs_dict[sub]) > 3000: print len(subs_dict[sub])
 
