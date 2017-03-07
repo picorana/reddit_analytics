@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+<meta charset="utf-8">
+
+<style>
+
+.links line {
+  stroke: #999;
+  stroke-opacity: 0.6;
+}
+
+.nodes circle {
+  stroke: #fff;
+  stroke-width: 1.5px;
+
+}
+
+.mytext text {
+  font: 9px helvetica;
+}
+
+h3 {
+    color: #1ABC9C;
+    text-align:center;  
+    font-style: italic;
+    font-size: 14px;
+    font-family: "Helvetica";
+}
+
+</style>
+
+
+
+
+<svg style='position: absolute; z-index: -1; left: 0; top:0' width="1320" height="620"></svg>
+<script src="https://d3js.org/d3.v4.min.js"></script>
+<script type='text/javascript' src="d3tip.js"> </script>
+
+<!--<link rel="stylesheet" href="//rawgithub.com/Caged/d3-tip/master/examples/example-styles.css">-->
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js"></script>
+
+<script type="application/json" id="mis" src="data.json"></script>
+<form>
+    <h3> Link threshold 0 <input type="range" id="thersholdSlider" name="points" value = 0 min="0" max="10" onchange="threshold(this.value)"> 10 </h3>
+</form>
+
+<script>
+
+var svg = d3.select("svg"),
+    width = +svg.attr("width"),
+    height = +svg.attr("height");
+
+var color = d3.scaleOrdinal(d3.schemeCategory20);
+
+var simulation = d3.forceSimulation()
+    .force("link", d3.forceLink().id(function(d) { return d.id; }))
+    .force("charge", d3.forceManyBody())
+    .force("center", d3.forceCenter(width / 2, height / 2));
+
+var optArray = [];
+
+
+d3.json("data.json", function(error, graph) {
+  if (error) throw error;
+
+  document.getElementById('page_title_div').innerHTML = graph.submission_title
+
+  var tip = d3.tip()
+    .attr('class', 'd3-tip')
+    .html(function(d) { return d.body; });
+  svg.call(tip)
+
+  var zoom = d3.zoom()
+    .scaleExtent([0.1, 100])
+    .translateExtent([[-300, -300], [width + 300, height + 300]])
+    .on("zoom", zoomed);
+
+  svg.call(zoom)
+
+  var link = svg.append("g")
+      .attr("class", "links")
+    .selectAll("line")
+    .data(graph.links)
+    .enter().append("line")
+      .attr("stroke-width", function(d) { return Math.sqrt(d.value); });
+
+  var node = svg.append("g")
+      .attr("class", "nodes")
+    .selectAll("circle")
+    .data(graph.nodes)
+    .enter().append("circle")
+      .attr("r", function(d) { return Math.max(d.size/500, 3)})
+      .attr("fill", function(d) { 
+        if (d.type == 'topic_node') return color(0,0,0);
+        else return color(d.group); })
+      .call(d3.drag()
+          .on("start", dragstarted)
+          .on("drag", dragged)
+          .on("end", dragended))
+    .on('mouseover', tip.show) //Added
+    .on('mouseout', tip.hide); //Added 
+
+  var label = svg
+      .selectAll('.mytext')
+      .data(graph.nodes)
+      .enter()
+      .append("text")
+      .text(function(d){ if (d.type=='topic_node') return d.body; else return null}) 
+      .style("font-size", 8);
+
+  node.append("title")
+      .text(function(d) { return d.id; });
+
+
+
+
+
+  for (var i = 0; i < graph.nodes.length - 1; i++) {
+      optArray.push(graph.nodes[i].id);
+  }
+  
+
+  simulation
+      .nodes(graph.nodes)
+      .on("tick", ticked);
+
+  simulation.force("link")
+      .links(graph.links);
+
+
+  function zoomed() {
+    node.attr("transform", d3.event.transform);
+    link.attr("transform", d3.event.transform);
+  }
+
+  function ticked() {
+    link
+        .attr("x1", function(d) { return d.source.x; })
+        .attr("y1", function(d) { return d.source.y; })
+        .attr("x2", function(d) { return d.target.x; })
+        .attr("y2", function(d) { return d.target.y; });
+
+    node
+        .attr("cx", function(d) { return d.x; })
+        .attr("cy", function(d) { return d.y; });
+
+    d3.selectAll("text").attr("x", function (d) {
+        return d.x;
+    })
+        .attr("y", function (d) {
+        return d.y;
+    });
+  }
+
+  function threshold(thresh) {
+    graph.links.splice(0, graph.links.length);
+
+    for (var i = 0; i < graphRec.links.length; i++) {
+      if (graph.links[i].value > thresh) {graph.links.push(graphRec.links[i]);}
+    }
+    restart();
+  }
+
+  function restart() {
+    
+    link = link.data(graph.links);
+    link.exit().remove();
+    link.enter().insert("line", ".node").attr("class", "link");
+    node = node.data(graph.nodes);
+    node.enter().insert("circle", ".cursor").attr("class", "node").attr("r", 5).call(d3.drag());
+    force.start();
+  }
+
+  
+  setInterval(function(){
+    console.log('simulation stopped')
+    simulation.stop()
+  }, 10000)
+
+
+
+});
+
+function dragstarted(d) {
+  if (!d3.event.active) simulation.alphaTarget(0.3).restart();
+  d.fx = d.x;
+  d.fy = d.y;
+}
+
+function dragged(d) {
+  d.fx = d3.event.x;
+  d.fy = d3.event.y;
+}
+
+function dragended(d) {
+  if (!d3.event.active) simulation.alphaTarget(0);
+  d.fx = null;
+  d.fy = null;
+
+  setInterval(function(){
+    console.log('simulation stopped')
+    simulation.stop()
+  }, 20000)
+}
+
+
+optArray = optArray.sort();
+$(function () {
+    $("#search").autocomplete({
+        source: optArray
+    });
+});
+
+function searchNode() {
+      //find the node
+      var selectedVal = document.getElementById('search').value;
+      var node = svg.selectAll(".node");
+      if (selectedVal == "none") {
+          node.style("stroke", "white").style("stroke-width", "1");
+          console.log('selected val none')
+      } else {
+        console.log('found')
+          var selected = node.filter(function (d, i) {
+              return d.id != selectedVal;
+          });
+          selected.style("opacity", "0");
+          selected.style("stroke", "red")
+          var link = svg.selectAll(".link")
+          link.style("opacity", "0");
+          d3.selectAll(".node, .link").transition()
+              .duration(5000)
+              .style("opacity", 1);
+      }
+  }
+
+
+
+
+
+</script>
+
+<div style='position: relative; z-index: 10'>
+  <div class="ui-widget" style="float: left; margin-right: 20px">
+     <input id="search">
+      <button type="button" onclick="searchNode()">Search</button>
+  </div> <p id='page_title_div' style='float: left;'>page title</p>
+</div>
