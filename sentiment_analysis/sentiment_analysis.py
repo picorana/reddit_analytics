@@ -17,6 +17,8 @@ from nltk.stem.wordnet import WordNetLemmatizer
 from nltk.sentiment.vader import SentimentIntensityAnalyzer
 import nltk
 
+import ontospy
+
 
 
 def clamp(n, minn, maxn):
@@ -31,6 +33,7 @@ def clamp(n, minn, maxn):
 		int: clamped variable
 	"""
 	return max(min(maxn, n), minn)
+
 
 def iter_comment_bodies(start_month, end_month, remove_links = True, base_input_path='../partial/worldnews_comments_'):
 	"""Read and return comments from files
@@ -51,13 +54,23 @@ def iter_comment_bodies(start_month, end_month, remove_links = True, base_input_
 			comment = json.loads(line)
 			
 			if remove_links:
-				yield re.sub(r"http\S+", '', comment['body'].encode('utf-8', errors='ignore'), flags=re.MULTILINE)
+				yield re.sub(r"http\S+", '', comment['body'].encode('utf-8', errors='ignore').decode("utf8", errors='ignore'), flags=re.MULTILINE)
 
 			else: yield comment['body']
+
 
 def sentiwordnet_analysis(start_month, end_month, base_input_path='../partial/worldnews_comments_'):
 
 	lemmatizer = WordNetLemmatizer()
+	model = ontospy.Ontospy("../NIL_ontoEmotion/emotions_v11.owl")
+
+	nouns_dict = defaultdict(int)
+	emotions_dict = {}
+
+	for emotion_class in model.classes:
+		emotions_dict[emotion_class.bestLabel().lower()] = []
+
+	sentence_counter = 0
 
 	for comment in iter_comment_bodies(start_month, end_month):	
 
@@ -79,20 +92,40 @@ def sentiwordnet_analysis(start_month, end_month, base_input_path='../partial/wo
 			n_of_lost_words= 0
 
 			for token in tags:
+				if token[1][0] == 'N':
+					noun = lemmatizer.lemmatize(token[0], 'n')
+					nouns_dict[noun] += 1
+
+					list_of_synsets = set([word.synset.name().split('.')[0] for word in list(swn.senti_synsets(noun))])
+					for s in list_of_synsets:
+						if s in emotions_dict:
+							emotions_dict[s].append(sentence)
+
+			"""
+			for token in tags:
 				try:
 					if token[1][0] == 'N':
-						print swn.senti_synset(lemmatizer.lemmatize(token[0], 'n') + '.n' + '.01')
-					if token[1][0] == 'V':
-						print swn.senti_synset(lemmatizer.lemmatize(token[0], 'v') + '.v' + '.01')
-					if token[1][0] == 'R':
-						print swn.senti_synset(lemmatizer.lemmatize(token[0], 'r') + '.r' + '.01')
-					if token[1][0] == 'J':
-						print swn.senti_synset(lemmatizer.lemmatize(token[0], 'a') + '.a' + '.01')
+						noun = lemmatizer.lemmatize(token[0], 'n')
+						nouns_dict[noun] += 1
+						print noun
+						print list(swn.senti_synset(noun + '.n' + '.01'))
+						print '*\n\n'
+					#if token[1][0] == 'V':
+						#print swn.senti_synset(lemmatizer.lemmatize(token[0], 'v') + '.v' + '.01')
+					#if token[1][0] == 'R':
+						#print swn.senti_synset(lemmatizer.lemmatize(token[0], 'r') + '.r' + '.01')
+					#if token[1][0] == 'J':
+						#print swn.senti_synset(lemmatizer.lemmatize(token[0], 'a') + '.a' + '.01')
 				except: 
 					print token[0]
 					n_of_lost_words += 1
+			"""
+			#print sentence
+			sentence_counter += 1
+			if sentence_counter % 100 == 0: print sentence_counter
 
-			print sentence
+	json.dump(nouns_dict, open('nouns.json', 'w'), indent=4)
+	json.dump(emotions_dict, open('emotions_dict.json', 'w'), indent=4)
 
 
 """
@@ -178,7 +211,7 @@ def vader_sentiment_analysis(start_month, end_month, granularity=7, base_input_p
 			str(-(negative_dict_by_day[entry]+positive_dict_by_day[entry]) / float(number_of_relevant_comments[entry]))+'\n')
 
 #vader_sentiment_analysis(12, 13)
-sentiwordnet_analysis(9, 10)
+sentiwordnet_analysis(1, 10)
 
 
 
