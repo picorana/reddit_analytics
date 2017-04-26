@@ -204,10 +204,17 @@ def sentiwordnet_analysis(start_month, end_month, base_input_path='../partial/wo
 	for word in emotions_dict: to_write += word + ','
 	to_write = to_write[:-1]
 	output_file.write(to_write + '\n')
+	
 	for date in sorted(date_with_emotions):
 		to_write = date.strftime('%d-%b-%y') + ','
+
+		val_normalize = 0
 		for emotion in emotions_dict:
-			to_write += str(date_with_emotions[date][emotion]) + ','
+			val_normalize += date_with_emotions[date][emotion]
+
+		for emotion in emotions_dict:
+
+			to_write += str(float(date_with_emotions[date][emotion])/float(val_normalize)) + ','
 		to_write = to_write[:-1]
 		output_file.write(to_write + '\n')
 
